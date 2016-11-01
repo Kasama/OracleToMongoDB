@@ -1,0 +1,2 @@
+class Mongo < Oracle
+end

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Oracle - @grad.icmc.usp.br" uuid="cb439bd0-4da2-4b04-9152-e7de8ed54fd3">
+    <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production&#xa;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+      <extra-name-characters>$#</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+  </data-source>
+</component>
