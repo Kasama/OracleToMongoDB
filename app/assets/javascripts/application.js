@@ -10,7 +10,18 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
+//= require jquery.min
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+//= require bootstrap.min
+
+$(document).ready(function(){
+	var selector = '#' + $("#page-name").data('page') + '-menu';
+	$(selector).addClass('active');
+
+    // add copy capabilities to all objects having 'copy-text' class
+    $('.copy-text').click(function () {
+        var text = '#' + $(this).data('id');
+        window.prompt('Pressione Ctrl+C para copiar, depois OK', $(text).text());
+    });
+});

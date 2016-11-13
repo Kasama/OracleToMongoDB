@@ -1,0 +1,6 @@
+use dblabbd_fred_roberto;
+
+db.createCollection("<%= @oracle[:table_name] %>");
+<% @oracle[:tuples].each do |tuple| %>
+  db.<%= @oracle[:table_name] %>.insert(<%= tuple.to_json %>);
+<% end %>

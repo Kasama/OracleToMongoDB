@@ -1,0 +1,7 @@
+<%= bootstrap_form_tag url: simple_table_for_path, method: :post do |f| %>
+
+    <%= f.select(:table, options_for_select(@options), label: 'Select a table to transform:') %>
+
+    <%= f.primary :transform %>
+
+<% end %>

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
-  get 'oracle/generate_mongo_doc/:table' => 'oracle#generate_mongo_doc'
+  post 'simple_table' => 'oracle#simple_table', as: :simple_table_for
+  get 'simple_table' => 'oracle#simple_menu', as: :simple_table
   get 'oracle/dump_script'
 
   root 'index#index'
