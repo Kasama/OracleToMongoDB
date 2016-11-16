@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb62f56-8e3b-4d34-9938-ac7117d7701e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/simple_table_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/double_table.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/oracle/_partial_mongo_document.html.erb" afterPath="$PROJECT_DIR$/app/views/simple_table/_partial_mongo_document.html.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/oracle/simple_menu.html.erb" afterPath="$PROJECT_DIR$/app/views/simple_table/simple_menu.html.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/oracle/simple_table.html.erb" afterPath="$PROJECT_DIR$/app/views/simple_table/simple_table.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index/index.html.erb" afterPath="$PROJECT_DIR$/app/views/index/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/oracle/_partial_mongo_document.html.erb" afterPath="$PROJECT_DIR$/app/views/oracle/_partial_mongo_document.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/oracle/simple_table.html.erb" afterPath="$PROJECT_DIR$/app/views/oracle/simple_table.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/oracle_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/oracle_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="oracle_to_mongo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/oracle_to_mongo@Development__oracle_to_mongo.coverage" NAME="Development: oracle_to_mongo Coverage Results" MODIFIED="1479319532488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="oracle_to_mongo" />
+    <SUITE FILE_PATH="coverage/oracle_to_mongo@Development__oracle_to_mongo.coverage" NAME="Development: oracle_to_mongo Coverage Results" MODIFIED="1479332803515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="oracle_to_mongo" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -46,25 +50,35 @@
       <file leaf-file-name="oracle_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/oracle_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple_menu.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/oracle/simple_menu.html.erb">
+      <file leaf-file-name="simple_table_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/simple_table_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple_table.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/oracle/simple_table.html.erb">
+      <file leaf-file-name="double_table.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/double_table.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_table.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/simple_table/simple_table.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -76,8 +90,8 @@
       <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,6 +128,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Ruby Class Template" />
       </list>
     </option>
   </component>
@@ -146,7 +161,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cb439bd0-4da2-4b04-9152-e7de8ed54fd3/console.sql" />
         <option value="$PROJECT_DIR$/app/models/oracle.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/copy_clipboard.js" />
@@ -158,7 +172,11 @@
         <option value="$PROJECT_DIR$/app/views/oracle/_partial_mongo_document.html.erb" />
         <option value="$PROJECT_DIR$/app/views/oracle/simple_table.html.erb" />
         <option value="$PROJECT_DIR$/app/views/index/index.html.erb" />
+        <option value="$PROJECT_DIR$/lib/oracle_simple_table.rb" />
         <option value="$PROJECT_DIR$/app/controllers/oracle_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/simple_table_controller.rb" />
+        <option value="$PROJECT_DIR$/config/double_table.rb" />
       </list>
     </option>
   </component>
@@ -302,6 +320,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="simple_table" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oracle_to_mongo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oracle_to_mongo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="oracle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -405,14 +445,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="/usr/bin/visualvm" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="scratch&#9;ACTION&#9;NewScratchBuffer&#10;index&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/views/index/index.html.erb&#10;gemfi&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/Gemfile&#10;route&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/config/routes.rb&#10;appli&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/views/layouts/application.html.erb&#10;orac&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/controllers/oracle_controller.rb&#10;controller&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/controllers/oracle_controller.rb&#10;applic&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/assets/stylesheets/application.css&#10;oracle&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/models/oracle.rb&#10;ora&#9;null&#9;null&#10;routes.rb&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/config/routes.rb&#10;mongo&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/config/routes.rb&#10;scratch&#9;ACTION&#9;NewScratchBuffer&#10;index&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/views/index/index.html.erb&#10;gemfi&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/Gemfile&#10;route&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/config/routes.rb&#10;appli&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/views/layouts/application.html.erb&#10;orac&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/controllers/oracle_controller.rb&#10;controller&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/controllers/oracle_controller.rb&#10;applic&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/assets/stylesheets/application.css&#10;oracle&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/app/models/oracle.rb&#10;ora&#9;null&#9;null&#10;routes.rb&#9;FILE&#9;file:///home/roberto/documents/USP/Programação/database/oracle_to_mongo/config/routes.rb&#10;mongo&#9;null&#9;null" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -421,6 +461,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/simple_table" />
       <recent name="$PROJECT_DIR$/vendor" />
     </key>
   </component>
@@ -983,6 +1024,25 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1360,7 +1420,7 @@
       <workItem from="1479065911167" duration="76000" />
       <workItem from="1479066052507" duration="12967000" />
       <workItem from="1479153677810" duration="1517000" />
-      <workItem from="1479318714353" duration="848000" />
+      <workItem from="1479318714353" duration="4832000" />
     </task>
     <task id="LOCAL-00001" summary="finished simple table convertion">
       <created>1479073001089</created>
@@ -1369,11 +1429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479073001089</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="corrected some things on simple table conversion">
+      <created>1479319796624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1479319796624</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39259000" />
+    <option name="totallyTimeSpent" value="43243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
@@ -1425,10 +1492,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished simple table convertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished simple table convertion" />
+    <MESSAGE value="corrected some things on simple table conversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected some things on simple table conversion" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1436,34 +1506,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/oracle_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/oracle.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding>
-            <marker date="1478633424354" expanded="true" signature="243:265" ph="..." />
-            <marker date="1478633424354" expanded="true" signature="534:740" ph="..." />
-            <marker date="1478633424354" expanded="true" signature="613:739" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb439bd0-4da2-4b04-9152-e7de8ed54fd3/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1760,22 +1802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/oracle/simple_menu.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1796,7 +1822,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/oracle/_partial_mongo_document.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/simple_table/_partial_mongo_document.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
@@ -1804,18 +1830,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/oracle_controller.rb">
+    <entry file="file://$PROJECT_DIR$/lib/oracle_simple_table.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/oracle/simple_table.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/oracle_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/simple_table/simple_table.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/double_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/simple_table/simple_menu.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/simple_table_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding />
         </state>
       </provider>

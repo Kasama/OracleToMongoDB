@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
 
-  post 'simple_table' => 'oracle#simple_table', as: :simple_table_for
-  get 'simple_table' => 'oracle#simple_menu', as: :simple_table
+  post 'simple_table' => 'simple_table#simple_table', as: :simple_table_for
+  get 'simple_table' => 'simple_table#simple_menu', as: :simple_table
+
+  get 'double_table' => 'double_table#double_menu', as: :double_table
+  post 'double_table' => 'double_table#double_table', as: :double_table_for
+
   get 'oracle/dump_script'
 
   root 'index#index'
