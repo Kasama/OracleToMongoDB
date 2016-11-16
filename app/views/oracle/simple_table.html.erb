@@ -1,9 +1,9 @@
 <%= link_to 'Voltar', simple_table_path, class: 'btn btn-md btn-primary' %>
-<%= link_to 'Copiar', '#', class: 'btn btn-md btn-default copy-text', data: {id: 'code'} %>
+<%= link_to 'Copiar', '#', class: 'btn btn-md btn-success copy-text', data: {id: 'code'} %>
+<br />
+<br />
 <br />
 
-<code class="container" id="code">
-  <pre>
-  <%= render :partial => 'partial_mongo_document' %>
-  </pre>
-</code>
+<pre id="code">
+<%= render :partial => 'partial_mongo_document' %>
+</pre>
