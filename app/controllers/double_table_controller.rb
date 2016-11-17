@@ -7,11 +7,20 @@ class DoubleTableController < ApplicationController
     attr2 = params[:attr2].upcase
 
     tup_arr_t1 = Mongo.represent_table(table1)
-    tup_arr_t2 = Mongo.represent_table(table2)
+    tup_arr_t2 = Mongo.represent_table(table2, false)
+
+    puts '--------------------'
+    puts tup_arr_t1
+    puts '--'
+    puts tup_arr_t2
+    puts '--------------------'
 
     tup_arr_t1.each do |tup|
+
+      look_for = tup[attr1].nil? ? tup['_id'][attr1] : tup[attr1]
+
       i = tup_arr_t2.find_index do |item|
-        item[attr2] == tup[attr1]
+        item[attr2] == look_for
       end
       if tup[attr1].nil?
         tup['_id'][attr1] = tup_arr_t2[i]
