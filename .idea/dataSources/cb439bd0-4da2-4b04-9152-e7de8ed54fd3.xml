@@ -1,0 +1,2859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Oracle - @grad.icmc.usp.br">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="2.6">
+    <schema id="1" name="A8936756">
+      <object-id>1029</object-id>
+      <created-timestamp>2016-08-23.15:57:46</created-timestamp>
+      <modified-timestamp>2016-10-17.10:48:07</modified-timestamp>
+      <visible>1</visible>
+      <introspection-timestamp>2016-11-13.17:42:44</introspection-timestamp>
+    </schema>
+    <schema id="2" name="PUBLIC">
+      <object-id>1</object-id>
+    </schema>
+    <schema id="3" name="SYS"/>
+    <schema id="4" name="SYSTEM">
+      <object-id>5</object-id>
+    </schema>
+    <schema id="5" name="OUTLN">
+      <object-id>9</object-id>
+    </schema>
+    <schema id="6" name="DIP">
+      <object-id>14</object-id>
+    </schema>
+    <schema id="7" name="ORACLE_OCM">
+      <object-id>21</object-id>
+    </schema>
+    <schema id="8" name="DBSNMP">
+      <object-id>30</object-id>
+    </schema>
+    <schema id="9" name="APPQOSSYS">
+      <object-id>31</object-id>
+    </schema>
+    <schema id="10" name="WMSYS">
+      <object-id>32</object-id>
+    </schema>
+    <schema id="11" name="EXFSYS">
+      <object-id>42</object-id>
+    </schema>
+    <schema id="12" name="CTXSYS">
+      <object-id>43</object-id>
+    </schema>
+    <schema id="13" name="XDB">
+      <object-id>45</object-id>
+    </schema>
+    <schema id="14" name="ANONYMOUS">
+      <object-id>46</object-id>
+    </schema>
+    <schema id="15" name="ORDSYS">
+      <object-id>53</object-id>
+    </schema>
+    <schema id="16" name="ORDDATA">
+      <object-id>54</object-id>
+    </schema>
+    <schema id="17" name="ORDPLUGINS">
+      <object-id>55</object-id>
+    </schema>
+    <schema id="18" name="SI_INFORMTN_SCHEMA">
+      <object-id>56</object-id>
+    </schema>
+    <schema id="19" name="MDSYS">
+      <object-id>57</object-id>
+    </schema>
+    <schema id="20" name="OLAPSYS">
+      <object-id>61</object-id>
+    </schema>
+    <schema id="21" name="MDDATA">
+      <object-id>65</object-id>
+    </schema>
+    <schema id="22" name="SPATIAL_WFS_ADMIN_USR">
+      <object-id>67</object-id>
+    </schema>
+    <schema id="23" name="SPATIAL_CSW_ADMIN_USR">
+      <object-id>70</object-id>
+    </schema>
+    <schema id="24" name="SYSMAN">
+      <object-id>72</object-id>
+    </schema>
+    <schema id="25" name="MGMT_VIEW">
+      <object-id>74</object-id>
+    </schema>
+    <schema id="26" name="FLOWS_FILES">
+      <object-id>75</object-id>
+    </schema>
+    <schema id="27" name="APEX_PUBLIC_USER">
+      <object-id>76</object-id>
+    </schema>
+    <schema id="28" name="APEX_030200">
+      <object-id>78</object-id>
+    </schema>
+    <schema id="29" name="OWBSYS">
+      <object-id>79</object-id>
+    </schema>
+    <schema id="30" name="OWBSYS_AUDIT">
+      <object-id>83</object-id>
+    </schema>
+    <schema id="31" name="SCOTT">
+      <object-id>84</object-id>
+    </schema>
+    <schema id="32" name="JUNIO">
+      <object-id>91</object-id>
+    </schema>
+    <schema id="33" name="453701">
+      <object-id>162</object-id>
+    </schema>
+    <schema id="34" name="4812924">
+      <object-id>163</object-id>
+    </schema>
+    <schema id="35" name="2373891">
+      <object-id>207</object-id>
+    </schema>
+    <schema id="36" name="4982960">
+      <object-id>273</object-id>
+    </schema>
+    <schema id="37" name="5357762">
+      <object-id>282</object-id>
+    </schema>
+    <schema id="38" name="4535481">
+      <object-id>606</object-id>
+    </schema>
+    <schema id="39" name="7986480">
+      <object-id>686</object-id>
+    </schema>
+    <schema id="40" name="7656616">
+      <object-id>687</object-id>
+    </schema>
+    <schema id="41" name="8599987">
+      <object-id>688</object-id>
+    </schema>
+    <schema id="42" name="7157488">
+      <object-id>689</object-id>
+    </schema>
+    <schema id="43" name="7656018">
+      <object-id>690</object-id>
+    </schema>
+    <schema id="44" name="8066530">
+      <object-id>691</object-id>
+    </schema>
+    <schema id="45" name="9039354">
+      <object-id>692</object-id>
+    </schema>
+    <schema id="46" name="8531852">
+      <object-id>693</object-id>
+    </schema>
+    <schema id="47" name="7563922">
+      <object-id>694</object-id>
+    </schema>
+    <schema id="48" name="7986538">
+      <object-id>695</object-id>
+    </schema>
+    <schema id="49" name="7143506">
+      <object-id>696</object-id>
+    </schema>
+    <schema id="50" name="8066551">
+      <object-id>697</object-id>
+    </schema>
+    <schema id="51" name="7987435">
+      <object-id>698</object-id>
+    </schema>
+    <schema id="52" name="8531949">
+      <object-id>699</object-id>
+    </schema>
+    <schema id="53" name="8531629">
+      <object-id>700</object-id>
+    </schema>
+    <schema id="54" name="7086472">
+      <object-id>701</object-id>
+    </schema>
+    <schema id="55" name="8936610">
+      <object-id>702</object-id>
+    </schema>
+    <schema id="56" name="7986667">
+      <object-id>703</object-id>
+    </schema>
+    <schema id="57" name="6908114">
+      <object-id>704</object-id>
+    </schema>
+    <schema id="58" name="8066652">
+      <object-id>705</object-id>
+    </schema>
+    <schema id="59" name="7986650">
+      <object-id>706</object-id>
+    </schema>
+    <schema id="60" name="8124267">
+      <object-id>707</object-id>
+    </schema>
+    <schema id="61" name="5399105">
+      <object-id>708</object-id>
+    </schema>
+    <schema id="62" name="8922326">
+      <object-id>709</object-id>
+    </schema>
+    <schema id="63" name="8936631">
+      <object-id>710</object-id>
+    </schema>
+    <schema id="64" name="7238940">
+      <object-id>711</object-id>
+    </schema>
+    <schema id="65" name="8504347">
+      <object-id>712</object-id>
+    </schema>
+    <schema id="66" name="7126816">
+      <object-id>713</object-id>
+    </schema>
+    <schema id="67" name="8082042">
+      <object-id>714</object-id>
+    </schema>
+    <schema id="68" name="5124310">
+      <object-id>715</object-id>
+    </schema>
+    <schema id="69" name="8531438">
+      <object-id>716</object-id>
+    </schema>
+    <schema id="70" name="7986611">
+      <object-id>717</object-id>
+    </schema>
+    <schema id="71" name="7572717">
+      <object-id>718</object-id>
+    </schema>
+    <schema id="72" name="7232947">
+      <object-id>719</object-id>
+    </schema>
+    <schema id="73" name="7563901">
+      <object-id>720</object-id>
+    </schema>
+    <schema id="74" name="6792109">
+      <object-id>721</object-id>
+    </schema>
+    <schema id="75" name="7984578">
+      <object-id>722</object-id>
+    </schema>
+    <schema id="76" name="7986879">
+      <object-id>723</object-id>
+    </schema>
+    <schema id="77" name="7547138">
+      <object-id>724</object-id>
+    </schema>
+    <schema id="78" name="7962006">
+      <object-id>725</object-id>
+    </schema>
+    <schema id="79" name="7572784">
+      <object-id>726</object-id>
+    </schema>
+    <schema id="80" name="8626191">
+      <object-id>727</object-id>
+    </schema>
+    <schema id="81" name="8531588">
+      <object-id>728</object-id>
+    </schema>
+    <schema id="82" name="7546742">
+      <object-id>729</object-id>
+    </schema>
+    <schema id="83" name="6907857">
+      <object-id>730</object-id>
+    </schema>
+    <schema id="84" name="7991635">
+      <object-id>731</object-id>
+    </schema>
+    <schema id="85" name="8066183">
+      <object-id>732</object-id>
+    </schema>
+    <schema id="86" name="7961005">
+      <object-id>733</object-id>
+    </schema>
+    <schema id="87" name="1945076">
+      <object-id>734</object-id>
+    </schema>
+    <schema id="88" name="8936669">
+      <object-id>735</object-id>
+    </schema>
+    <schema id="89" name="8531550">
+      <object-id>736</object-id>
+    </schema>
+    <schema id="90" name="8936499">
+      <object-id>737</object-id>
+    </schema>
+    <schema id="91" name="7960706">
+      <object-id>738</object-id>
+    </schema>
+    <schema id="92" name="7573490">
+      <object-id>739</object-id>
+    </schema>
+    <schema id="93" name="8606282">
+      <object-id>740</object-id>
+    </schema>
+    <schema id="94" name="8531511">
+      <object-id>741</object-id>
+    </schema>
+    <schema id="95" name="8551497">
+      <object-id>742</object-id>
+    </schema>
+    <schema id="96" name="7987400">
+      <object-id>743</object-id>
+    </schema>
+    <schema id="97" name="8504201">
+      <object-id>744</object-id>
+    </schema>
+    <schema id="98" name="7961965">
+      <object-id>745</object-id>
+    </schema>
+    <schema id="99" name="8641299">
+      <object-id>746</object-id>
+    </schema>
+    <schema id="100" name="7173754">
+      <object-id>747</object-id>
+    </schema>
+    <schema id="101" name="7126782">
+      <object-id>748</object-id>
+    </schema>
+    <schema id="102" name="8936565">
+      <object-id>749</object-id>
+    </schema>
+    <schema id="103" name="7961109">
+      <object-id>750</object-id>
+    </schema>
+    <schema id="104" name="8504368">
+      <object-id>751</object-id>
+    </schema>
+    <schema id="105" name="8622395">
+      <object-id>752</object-id>
+    </schema>
+    <schema id="106" name="7245552">
+      <object-id>753</object-id>
+    </schema>
+    <schema id="107" name="8551347">
+      <object-id>754</object-id>
+    </schema>
+    <schema id="108" name="8504351">
+      <object-id>755</object-id>
+    </schema>
+    <schema id="109" name="8551434">
+      <object-id>756</object-id>
+    </schema>
+    <schema id="110" name="7961089">
+      <object-id>757</object-id>
+    </schema>
+    <schema id="111" name="8622353">
+      <object-id>758</object-id>
+    </schema>
+    <schema id="112" name="7986890">
+      <object-id>759</object-id>
+    </schema>
+    <schema id="113" name="8006762">
+      <object-id>760</object-id>
+    </schema>
+    <schema id="114" name="7591671">
+      <object-id>761</object-id>
+    </schema>
+    <schema id="115" name="8504094">
+      <object-id>762</object-id>
+    </schema>
+    <schema id="116" name="7960939">
+      <object-id>763</object-id>
+    </schema>
+    <schema id="117" name="7962121">
+      <object-id>764</object-id>
+    </schema>
+    <schema id="118" name="8503990">
+      <object-id>765</object-id>
+    </schema>
+    <schema id="119" name="8084260">
+      <object-id>766</object-id>
+    </schema>
+    <schema id="120" name="8504218">
+      <object-id>767</object-id>
+    </schema>
+    <schema id="121" name="8503944">
+      <object-id>768</object-id>
+    </schema>
+    <schema id="122" name="8139750">
+      <object-id>769</object-id>
+    </schema>
+    <schema id="123" name="8124271">
+      <object-id>770</object-id>
+    </schema>
+    <schema id="124" name="8504006">
+      <object-id>771</object-id>
+    </schema>
+    <schema id="125" name="7960690">
+      <object-id>772</object-id>
+    </schema>
+    <schema id="126" name="8504181">
+      <object-id>773</object-id>
+    </schema>
+    <schema id="127" name="7173480">
+      <object-id>774</object-id>
+    </schema>
+    <schema id="128" name="7562337">
+      <object-id>775</object-id>
+    </schema>
+    <schema id="129" name="7400767">
+      <object-id>776</object-id>
+    </schema>
+    <schema id="130" name="7960731">
+      <object-id>777</object-id>
+    </schema>
+    <schema id="131" name="8936673">
+      <object-id>778</object-id>
+    </schema>
+    <schema id="132" name="7546892">
+      <object-id>779</object-id>
+    </schema>
+    <schema id="133" name="8531491">
+      <object-id>780</object-id>
+    </schema>
+    <schema id="134" name="8622381">
+      <object-id>781</object-id>
+    </schema>
+    <schema id="135" name="7961012">
+      <object-id>782</object-id>
+    </schema>
+    <schema id="136" name="8628220">
+      <object-id>783</object-id>
+    </schema>
+    <schema id="137" name="N9253173">
+      <object-id>786</object-id>
+    </schema>
+    <schema id="138" name="L8161471">
+      <object-id>787</object-id>
+    </schema>
+    <schema id="139" name="LOC">
+      <object-id>788</object-id>
+    </schema>
+    <schema id="140" name="CCB">
+      <object-id>789</object-id>
+    </schema>
+    <schema id="141" name="C5858588">
+      <object-id>790</object-id>
+    </schema>
+    <schema id="142" name="G8066652">
+      <object-id>854</object-id>
+    </schema>
+    <schema id="143" name="A7157488">
+      <object-id>855</object-id>
+    </schema>
+    <schema id="144" name="W1945076">
+      <object-id>856</object-id>
+    </schema>
+    <schema id="145" name="Y8936499">
+      <object-id>857</object-id>
+    </schema>
+    <schema id="146" name="C8531511">
+      <object-id>858</object-id>
+    </schema>
+    <schema id="147" name="T5912542">
+      <object-id>859</object-id>
+    </schema>
+    <schema id="148" name="C9039354">
+      <object-id>860</object-id>
+    </schema>
+    <schema id="149" name="F7086472">
+      <object-id>861</object-id>
+    </schema>
+    <schema id="150" name="S8936673">
+      <object-id>862</object-id>
+    </schema>
+    <schema id="151" name="D7563922">
+      <object-id>863</object-id>
+    </schema>
+    <schema id="152" name="R8626191">
+      <object-id>864</object-id>
+    </schema>
+    <schema id="153" name="S8531588">
+      <object-id>865</object-id>
+    </schema>
+    <schema id="154" name="G8936631">
+      <object-id>867</object-id>
+    </schema>
+    <schema id="155" name="K9019790">
+      <object-id>868</object-id>
+    </schema>
+    <schema id="156" name="E7986538">
+      <object-id>869</object-id>
+    </schema>
+    <schema id="157" name="R7962006">
+      <object-id>870</object-id>
+    </schema>
+    <schema id="158" name="A7656018">
+      <object-id>871</object-id>
+    </schema>
+    <schema id="159" name="B8479298">
+      <object-id>872</object-id>
+    </schema>
+    <schema id="160" name="L8628130">
+      <object-id>873</object-id>
+    </schema>
+    <schema id="161" name="V8066183">
+      <object-id>874</object-id>
+    </schema>
+    <schema id="162" name="L8531438">
+      <object-id>875</object-id>
+    </schema>
+    <schema id="163" name="G6908114">
+      <object-id>876</object-id>
+    </schema>
+    <schema id="164" name="W8936669">
+      <object-id>877</object-id>
+    </schema>
+    <schema id="165" name="M7984578">
+      <object-id>878</object-id>
+    </schema>
+    <schema id="166" name="T6907857">
+      <object-id>879</object-id>
+    </schema>
+    <schema id="167" name="V7991635">
+      <object-id>880</object-id>
+    </schema>
+    <schema id="168" name="T8531417">
+      <object-id>881</object-id>
+    </schema>
+    <schema id="169" name="D7277371">
+      <object-id>882</object-id>
+    </schema>
+    <schema id="170" name="P6513497">
+      <object-id>883</object-id>
+    </schema>
+    <schema id="171" name="L6793010">
+      <object-id>884</object-id>
+    </schema>
+    <schema id="172" name="G8936610">
+      <object-id>885</object-id>
+    </schema>
+    <schema id="173" name="MONICA">
+      <object-id>886</object-id>
+    </schema>
+    <schema id="174" name="A8922201">
+      <object-id>888</object-id>
+    </schema>
+    <schema id="175" name="A8922347">
+      <object-id>889</object-id>
+    </schema>
+    <schema id="176" name="A8532269">
+      <object-id>890</object-id>
+    </schema>
+    <schema id="177" name="A8937510">
+      <object-id>891</object-id>
+    </schema>
+    <schema id="178" name="C7573037">
+      <object-id>892</object-id>
+    </schema>
+    <schema id="179" name="C8530952">
+      <object-id>893</object-id>
+    </schema>
+    <schema id="180" name="D8790723">
+      <object-id>894</object-id>
+    </schema>
+    <schema id="181" name="D8802808">
+      <object-id>895</object-id>
+    </schema>
+    <schema id="182" name="E7656022">
+      <object-id>896</object-id>
+    </schema>
+    <schema id="183" name="E9013011">
+      <object-id>897</object-id>
+    </schema>
+    <schema id="184" name="F8066440">
+      <object-id>898</object-id>
+    </schema>
+    <schema id="185" name="F8531949">
+      <object-id>899</object-id>
+    </schema>
+    <schema id="186" name="G8937138">
+      <object-id>900</object-id>
+    </schema>
+    <schema id="187" name="G8936648">
+      <object-id>901</object-id>
+    </schema>
+    <schema id="188" name="G8531887">
+      <object-id>902</object-id>
+    </schema>
+    <schema id="189" name="G8937055">
+      <object-id>903</object-id>
+    </schema>
+    <schema id="190" name="G7656209">
+      <object-id>904</object-id>
+    </schema>
+    <schema id="191" name="G8532040">
+      <object-id>905</object-id>
+    </schema>
+    <schema id="192" name="H8937225">
+      <object-id>906</object-id>
+    </schema>
+    <schema id="193" name="H9066487">
+      <object-id>907</object-id>
+    </schema>
+    <schema id="194" name="J7961026">
+      <object-id>908</object-id>
+    </schema>
+    <schema id="195" name="J7563982">
+      <object-id>909</object-id>
+    </schema>
+    <schema id="196" name="J8956672">
+      <object-id>910</object-id>
+    </schema>
+    <schema id="197" name="J8936843">
+      <object-id>911</object-id>
+    </schema>
+    <schema id="198" name="J8517081">
+      <object-id>912</object-id>
+    </schema>
+    <schema id="199" name="L8922198">
+      <object-id>913</object-id>
+    </schema>
+    <schema id="200" name="L8531866">
+      <object-id>914</object-id>
+    </schema>
+    <schema id="201" name="L8532280">
+      <object-id>915</object-id>
+    </schema>
+    <schema id="202" name="L7982767">
+      <object-id>916</object-id>
+    </schema>
+    <schema id="203" name="L7696441">
+      <object-id>917</object-id>
+    </schema>
+    <schema id="204" name="L7987414">
+      <object-id>918</object-id>
+    </schema>
+    <schema id="205" name="L4165850">
+      <object-id>919</object-id>
+    </schema>
+    <schema id="206" name="M8922393">
+      <object-id>920</object-id>
+    </schema>
+    <schema id="207" name="M9005871">
+      <object-id>921</object-id>
+    </schema>
+    <schema id="208" name="M9066470">
+      <object-id>922</object-id>
+    </schema>
+    <schema id="209" name="M8937375">
+      <object-id>923</object-id>
+    </schema>
+    <schema id="210" name="M6792109">
+      <object-id>924</object-id>
+    </schema>
+    <schema id="211" name="O8936801">
+      <object-id>925</object-id>
+    </schema>
+    <schema id="212" name="P3555888">
+      <object-id>926</object-id>
+    </schema>
+    <schema id="213" name="R8937013">
+      <object-id>927</object-id>
+    </schema>
+    <schema id="214" name="R8061452">
+      <object-id>928</object-id>
+    </schema>
+    <schema id="215" name="S9066452">
+      <object-id>929</object-id>
+    </schema>
+    <schema id="216" name="V8531491">
+      <object-id>930</object-id>
+    </schema>
+    <schema id="217" name="W7656512">
+      <object-id>931</object-id>
+    </schema>
+    <schema id="218" name="A8532356">
+      <object-id>932</object-id>
+    </schema>
+    <schema id="219" name="A8937034">
+      <object-id>933</object-id>
+    </schema>
+    <schema id="220" name="A8937191">
+      <object-id>934</object-id>
+    </schema>
+    <schema id="221" name="A7986409">
+      <object-id>935</object-id>
+    </schema>
+    <schema id="222" name="B4309596">
+      <object-id>936</object-id>
+    </schema>
+    <schema id="223" name="B4154844">
+      <object-id>937</object-id>
+    </schema>
+    <schema id="224" name="C9167910">
+      <object-id>938</object-id>
+    </schema>
+    <schema id="225" name="D8937361">
+      <object-id>939</object-id>
+    </schema>
+    <schema id="226" name="E8122585">
+      <object-id>940</object-id>
+    </schema>
+    <schema id="227" name="E9778536">
+      <object-id>941</object-id>
+    </schema>
+    <schema id="228" name="F7987435">
+      <object-id>942</object-id>
+    </schema>
+    <schema id="229" name="F8936926">
+      <object-id>943</object-id>
+    </schema>
+    <schema id="230" name="F8922100">
+      <object-id>944</object-id>
+    </schema>
+    <schema id="231" name="F8921051">
+      <object-id>945</object-id>
+    </schema>
+    <schema id="232" name="G8936993">
+      <object-id>946</object-id>
+    </schema>
+    <schema id="233" name="G6608843">
+      <object-id>947</object-id>
+    </schema>
+    <schema id="234" name="G8937204">
+      <object-id>948</object-id>
+    </schema>
+    <schema id="235" name="G8778382">
+      <object-id>949</object-id>
+    </schema>
+    <schema id="236" name="G8910271">
+      <object-id>950</object-id>
+    </schema>
+    <schema id="237" name="G8936839">
+      <object-id>951</object-id>
+    </schema>
+    <schema id="238" name="G8937458">
+      <object-id>952</object-id>
+    </schema>
+    <schema id="239" name="G8936947">
+      <object-id>953</object-id>
+    </schema>
+    <schema id="240" name="G8937159">
+      <object-id>954</object-id>
+    </schema>
+    <schema id="241" name="G8936822">
+      <object-id>955</object-id>
+    </schema>
+    <schema id="242" name="G8937416">
+      <object-id>956</object-id>
+    </schema>
+    <schema id="243" name="H8532252">
+      <object-id>957</object-id>
+    </schema>
+    <schema id="244" name="J8937329">
+      <object-id>958</object-id>
+    </schema>
+    <schema id="245" name="L8937483">
+      <object-id>959</object-id>
+    </schema>
+    <schema id="246" name="L8937211">
+      <object-id>960</object-id>
+    </schema>
+    <schema id="247" name="L8624511">
+      <object-id>961</object-id>
+    </schema>
+    <schema id="248" name="L8937420">
+      <object-id>962</object-id>
+    </schema>
+    <schema id="249" name="L8937184">
+      <object-id>963</object-id>
+    </schema>
+    <schema id="250" name="L8937267">
+      <object-id>964</object-id>
+    </schema>
+    <schema id="251" name="L8937479">
+      <object-id>965</object-id>
+    </schema>
+    <schema id="252" name="L8937402">
+      <object-id>966</object-id>
+    </schema>
+    <schema id="253" name="L8937308">
+      <object-id>967</object-id>
+    </schema>
+    <schema id="254" name="L8937080">
+      <object-id>968</object-id>
+    </schema>
+    <schema id="255" name="M8937462">
+      <object-id>969</object-id>
+    </schema>
+    <schema id="256" name="M7563901">
+      <object-id>970</object-id>
+    </schema>
+    <schema id="257" name="M8532321">
+      <object-id>971</object-id>
+    </schema>
+    <schema id="258" name="M8123082">
+      <object-id>972</object-id>
+    </schema>
+    <schema id="259" name="N8937250">
+      <object-id>973</object-id>
+    </schema>
+    <schema id="260" name="O7986879">
+      <object-id>974</object-id>
+    </schema>
+    <schema id="261" name="P8531932">
+      <object-id>975</object-id>
+    </schema>
+    <schema id="262" name="R8937271">
+      <object-id>976</object-id>
+    </schema>
+    <schema id="263" name="R7573187">
+      <object-id>977</object-id>
+    </schema>
+    <schema id="264" name="R8937545">
+      <object-id>978</object-id>
+    </schema>
+    <schema id="265" name="R8517310">
+      <object-id>979</object-id>
+    </schema>
+    <schema id="266" name="R8936756">
+      <object-id>980</object-id>
+    </schema>
+    <schema id="267" name="R8066395">
+      <object-id>981</object-id>
+    </schema>
+    <schema id="268" name="R8937503">
+      <object-id>982</object-id>
+    </schema>
+    <schema id="269" name="R8061793">
+      <object-id>983</object-id>
+    </schema>
+    <schema id="270" name="T8922114">
+      <object-id>984</object-id>
+    </schema>
+    <schema id="271" name="T7595289">
+      <object-id>985</object-id>
+    </schema>
+    <schema id="272" name="V8937009">
+      <object-id>986</object-id>
+    </schema>
+    <schema id="273" name="V8937382">
+      <object-id>987</object-id>
+    </schema>
+    <schema id="274" name="W8922305">
+      <object-id>988</object-id>
+    </schema>
+    <schema id="275" name="C9600056">
+      <object-id>989</object-id>
+    </schema>
+    <schema id="276" name="A8066523">
+      <object-id>990</object-id>
+    </schema>
+    <schema id="277" name="A7987290">
+      <object-id>991</object-id>
+    </schema>
+    <schema id="278" name="A4309596">
+      <object-id>992</object-id>
+    </schema>
+    <schema id="279" name="A4154844">
+      <object-id>993</object-id>
+    </schema>
+    <schema id="280" name="A8790723">
+      <object-id>994</object-id>
+    </schema>
+    <schema id="281" name="A8936926">
+      <object-id>995</object-id>
+    </schema>
+    <schema id="282" name="A8124138">
+      <object-id>996</object-id>
+    </schema>
+    <schema id="283" name="A8937138">
+      <object-id>997</object-id>
+    </schema>
+    <schema id="284" name="A8936993">
+      <object-id>998</object-id>
+    </schema>
+    <schema id="285" name="A8937204">
+      <object-id>999</object-id>
+    </schema>
+    <schema id="286" name="A8531887">
+      <object-id>1000</object-id>
+    </schema>
+    <schema id="287" name="A8937055">
+      <object-id>1001</object-id>
+    </schema>
+    <schema id="288" name="A8936839">
+      <object-id>1002</object-id>
+    </schema>
+    <schema id="289" name="A8937458">
+      <object-id>1003</object-id>
+    </schema>
+    <schema id="290" name="A8937159">
+      <object-id>1004</object-id>
+    </schema>
+    <schema id="291" name="A8936822">
+      <object-id>1005</object-id>
+    </schema>
+    <schema id="292" name="A8937416">
+      <object-id>1006</object-id>
+    </schema>
+    <schema id="293" name="A8532252">
+      <object-id>1007</object-id>
+    </schema>
+    <schema id="294" name="A9066487">
+      <object-id>1008</object-id>
+    </schema>
+    <schema id="295" name="A8937329">
+      <object-id>1009</object-id>
+    </schema>
+    <schema id="296" name="A4589724">
+      <object-id>1010</object-id>
+    </schema>
+    <schema id="297" name="A8628130">
+      <object-id>1011</object-id>
+    </schema>
+    <schema id="298" name="A8624511">
+      <object-id>1012</object-id>
+    </schema>
+    <schema id="299" name="A8937267">
+      <object-id>1013</object-id>
+    </schema>
+    <schema id="300" name="A7987414">
+      <object-id>1014</object-id>
+    </schema>
+    <schema id="301" name="A8937308">
+      <object-id>1015</object-id>
+    </schema>
+    <schema id="302" name="A8937462">
+      <object-id>1016</object-id>
+    </schema>
+    <schema id="303" name="A8922393">
+      <object-id>1017</object-id>
+    </schema>
+    <schema id="304" name="A9066470">
+      <object-id>1018</object-id>
+    </schema>
+    <schema id="305" name="A8937375">
+      <object-id>1019</object-id>
+    </schema>
+    <schema id="306" name="A8532321">
+      <object-id>1020</object-id>
+    </schema>
+    <schema id="307" name="A8066349">
+      <object-id>1021</object-id>
+    </schema>
+    <schema id="308" name="A8937250">
+      <object-id>1023</object-id>
+    </schema>
+    <schema id="309" name="A7986879">
+      <object-id>1024</object-id>
+    </schema>
+    <schema id="310" name="A7987178">
+      <object-id>1025</object-id>
+    </schema>
+    <schema id="311" name="A8937545">
+      <object-id>1027</object-id>
+    </schema>
+    <schema id="312" name="A8061452">
+      <object-id>1028</object-id>
+    </schema>
+    <schema id="313" name="A8066395">
+      <object-id>1030</object-id>
+    </schema>
+    <schema id="314" name="A9066452">
+      <object-id>1031</object-id>
+    </schema>
+    <schema id="315" name="A8124382">
+      <object-id>1032</object-id>
+    </schema>
+    <schema id="316" name="A8937009">
+      <object-id>1033</object-id>
+    </schema>
+    <schema id="317" name="A8937382">
+      <object-id>1034</object-id>
+    </schema>
+    <schema id="318" name="A8066374">
+      <object-id>1035</object-id>
+    </schema>
+    <schema id="319" name="MURILO">
+      <object-id>1036</object-id>
+    </schema>
+    <schema id="320" name="ANTONIO">
+      <object-id>1037</object-id>
+    </schema>
+    <schema id="321" name="A7153362">
+      <object-id>1038</object-id>
+    </schema>
+    <schema id="322" name="A7143506">
+      <object-id>1039</object-id>
+    </schema>
+    <schema id="323" name="A8936843">
+      <object-id>1040</object-id>
+    </schema>
+    <schema id="324" name="A7987435">
+      <object-id>1041</object-id>
+    </schema>
+    <schema id="325" name="A7563982">
+      <object-id>1042</object-id>
+    </schema>
+    <schema id="326" name="A6520554">
+      <object-id>1043</object-id>
+    </schema>
+    <schema id="327" name="A8066530">
+      <object-id>1044</object-id>
+    </schema>
+    <schema id="328" name="A6793347">
+      <object-id>1045</object-id>
+    </schema>
+    <schema id="329" name="A7591671">
+      <object-id>1046</object-id>
+    </schema>
+    <schema id="330" name="A7986841">
+      <object-id>1047</object-id>
+    </schema>
+    <schema id="331" name="A8937271">
+      <object-id>1048</object-id>
+    </schema>
+    <schema id="332" name="A5909086">
+      <object-id>1049</object-id>
+    </schema>
+    <schema id="333" name="A7903250">
+      <object-id>1050</object-id>
+    </schema>
+    <schema id="334" name="A8479298">
+      <object-id>1051</object-id>
+    </schema>
+    <schema id="335" name="A8937361">
+      <object-id>1052</object-id>
+    </schema>
+    <schema id="336" name="A9778536">
+      <object-id>1053</object-id>
+    </schema>
+    <schema id="337" name="A8066440">
+      <object-id>1054</object-id>
+    </schema>
+    <schema id="338" name="A8921051">
+      <object-id>1055</object-id>
+    </schema>
+    <schema id="339" name="A8936947">
+      <object-id>1056</object-id>
+    </schema>
+    <schema id="340" name="A8956672">
+      <object-id>1057</object-id>
+    </schema>
+    <schema id="341" name="A9715192">
+      <object-id>1058</object-id>
+    </schema>
+    <schema id="342" name="A9715188">
+      <object-id>1059</object-id>
+    </schema>
+    <schema id="343" name="A8922198">
+      <object-id>1060</object-id>
+    </schema>
+    <schema id="344" name="A7982767">
+      <object-id>1061</object-id>
+    </schema>
+    <schema id="345" name="A8937420">
+      <object-id>1062</object-id>
+    </schema>
+    <schema id="346" name="A8937184">
+      <object-id>1063</object-id>
+    </schema>
+    <schema id="347" name="A8937479">
+      <object-id>1064</object-id>
+    </schema>
+    <schema id="348" name="A8937080">
+      <object-id>1065</object-id>
+    </schema>
+    <schema id="349" name="A8936801">
+      <object-id>1066</object-id>
+    </schema>
+    <schema id="350" name="A8937013">
+      <object-id>1067</object-id>
+    </schema>
+    <schema id="351" name="A8937503">
+      <object-id>1068</object-id>
+    </schema>
+    <schema id="352" name="A8922114">
+      <object-id>1069</object-id>
+    </schema>
+    <schema id="353" name="A7595289">
+      <object-id>1070</object-id>
+    </schema>
+    <schema id="354" name="A8922305">
+      <object-id>1071</object-id>
+    </schema>
+    <schema id="355" name="A8530952">
+      <object-id>1072</object-id>
+    </schema>
+    <schema id="356" name="A8922100">
+      <object-id>1073</object-id>
+    </schema>
+    <schema id="357" name="A7962121">
+      <object-id>1074</object-id>
+    </schema>
+    <schema id="358" name="A7563901">
+      <object-id>1075</object-id>
+    </schema>
+    <schema id="359" name="A8780298">
+      <object-id>1076</object-id>
+    </schema>
+    <schema id="360" name="A7143527">
+      <object-id>1077</object-id>
+    </schema>
+    <schema id="361" name="A8531932">
+      <object-id>1078</object-id>
+    </schema>
+    <schema id="362" name="A8532443">
+      <object-id>1079</object-id>
+    </schema>
+    <schema id="363" name="A8061793">
+      <object-id>1080</object-id>
+    </schema>
+    <schema id="364" name="A7276877">
+      <object-id>1082</object-id>
+    </schema>
+    <schema id="365" name="A3555888">
+      <object-id>1083</object-id>
+    </schema>
+    <schema id="366" name="A8124204">
+      <object-id>1084</object-id>
+    </schema>
+    <schema id="367" name="A8531949">
+      <object-id>1085</object-id>
+    </schema>
+    <schema id="368" name="A8517182">
+      <object-id>1088</object-id>
+    </schema>
+    <schema id="369" name="A8937211">
+      <object-id>1089</object-id>
+    </schema>
+    <schema id="370" name="TESTE">
+      <object-id>1090</object-id>
+    </schema>
+    <schema id="371" name="TESTELABBDROBSON">
+      <object-id>1092</object-id>
+    </schema>
+    <schema id="372" name="8910347">
+      <object-id>1093</object-id>
+    </schema>
+    <schema id="373" name="6418705">
+      <object-id>1094</object-id>
+    </schema>
+    <schema id="374" name="7288950">
+      <object-id>1095</object-id>
+    </schema>
+    <schema id="375" name="8910156">
+      <object-id>1096</object-id>
+    </schema>
+    <schema id="376" name="8530952">
+      <object-id>1097</object-id>
+    </schema>
+    <schema id="377" name="7547142">
+      <object-id>1098</object-id>
+    </schema>
+    <schema id="378" name="8910542">
+      <object-id>1099</object-id>
+    </schema>
+    <schema id="379" name="8910372">
+      <object-id>1100</object-id>
+    </schema>
+    <schema id="380" name="8922100">
+      <object-id>1101</object-id>
+    </schema>
+    <schema id="381" name="7961030">
+      <object-id>1102</object-id>
+    </schema>
+    <schema id="382" name="8910441">
+      <object-id>1103</object-id>
+    </schema>
+    <schema id="383" name="7150306">
+      <object-id>1104</object-id>
+    </schema>
+    <schema id="384" name="9012966">
+      <object-id>1105</object-id>
+    </schema>
+    <schema id="385" name="8910243">
+      <object-id>1106</object-id>
+    </schema>
+    <schema id="386" name="8910142">
+      <object-id>1107</object-id>
+    </schema>
+    <schema id="387" name="9012945">
+      <object-id>1108</object-id>
+    </schema>
+    <schema id="388" name="7960710">
+      <object-id>1109</object-id>
+    </schema>
+    <schema id="389" name="8504198">
+      <object-id>1111</object-id>
+    </schema>
+    <schema id="390" name="8504271">
+      <object-id>1112</object-id>
+    </schema>
+    <schema id="391" name="8910434">
+      <object-id>1113</object-id>
+    </schema>
+    <schema id="392" name="8124184">
+      <object-id>1114</object-id>
+    </schema>
+    <schema id="393" name="8782557">
+      <object-id>1115</object-id>
+    </schema>
+    <schema id="394" name="8910420">
+      <object-id>1116</object-id>
+    </schema>
+    <schema id="395" name="8910591">
+      <object-id>1117</object-id>
+    </schema>
+    <schema id="396" name="8910389">
+      <object-id>1118</object-id>
+    </schema>
+    <schema id="397" name="8058718">
+      <object-id>1119</object-id>
+    </schema>
+    <schema id="398" name="8910559">
+      <object-id>1120</object-id>
+    </schema>
+    <schema id="399" name="7991893">
+      <object-id>1121</object-id>
+    </schema>
+    <schema id="400" name="8910285">
+      <object-id>1122</object-id>
+    </schema>
+    <schema id="401" name="8957242">
+      <object-id>1123</object-id>
+    </schema>
+    <schema id="402" name="8006522">
+      <object-id>1124</object-id>
+    </schema>
+    <schema id="403" name="8670041">
+      <object-id>1125</object-id>
+    </schema>
+    <schema id="404" name="7572996">
+      <object-id>1126</object-id>
+    </schema>
+    <schema id="405" name="7149711">
+      <object-id>1127</object-id>
+    </schema>
+    <schema id="406" name="8531417">
+      <object-id>1128</object-id>
+    </schema>
+    <schema id="407" name="8622401">
+      <object-id>1129</object-id>
+    </schema>
+    <schema id="408" name="10081786">
+      <object-id>1130</object-id>
+    </schema>
+    <schema id="409" name="7563853">
+      <object-id>1131</object-id>
+    </schema>
+    <schema id="410" name="9075205">
+      <object-id>1132</object-id>
+    </schema>
+    <schema id="411" name="9292816">
+      <object-id>1133</object-id>
+    </schema>
+    <schema id="412" name="9378996">
+      <object-id>1134</object-id>
+    </schema>
+    <schema id="413" name="7656533">
+      <object-id>1135</object-id>
+    </schema>
+    <schema id="414" name="7563770">
+      <object-id>1136</object-id>
+    </schema>
+    <schema id="415" name="8062877">
+      <object-id>1137</object-id>
+    </schema>
+    <schema id="416" name="7573037">
+      <object-id>1138</object-id>
+    </schema>
+    <schema id="417" name="8936864">
+      <object-id>1139</object-id>
+    </schema>
+    <schema id="418" name="8531737">
+      <object-id>1140</object-id>
+    </schema>
+    <schema id="419" name="7238999">
+      <object-id>1141</object-id>
+    </schema>
+    <schema id="420" name="7143621">
+      <object-id>1142</object-id>
+    </schema>
+    <schema id="421" name="9292708">
+      <object-id>1143</object-id>
+    </schema>
+    <schema id="422" name="8921026">
+      <object-id>1144</object-id>
+    </schema>
+    <schema id="423" name="8066461">
+      <object-id>1145</object-id>
+    </schema>
+    <schema id="424" name="8936523">
+      <object-id>1146</object-id>
+    </schema>
+    <schema id="425" name="9292761">
+      <object-id>1147</object-id>
+    </schema>
+    <schema id="426" name="9292862">
+      <object-id>1148</object-id>
+    </schema>
+    <schema id="427" name="6783818">
+      <object-id>1149</object-id>
+    </schema>
+    <schema id="428" name="6608843">
+      <object-id>1150</object-id>
+    </schema>
+    <schema id="429" name="9292740">
+      <object-id>1151</object-id>
+    </schema>
+    <schema id="430" name="8910409">
+      <object-id>1152</object-id>
+    </schema>
+    <schema id="431" name="6878661">
+      <object-id>1153</object-id>
+    </schema>
+    <schema id="432" name="8532040">
+      <object-id>1154</object-id>
+    </schema>
+    <schema id="433" name="7987421">
+      <object-id>1155</object-id>
+    </schema>
+    <schema id="434" name="8522880">
+      <object-id>1156</object-id>
+    </schema>
+    <schema id="435" name="8532401">
+      <object-id>1157</object-id>
+    </schema>
+    <schema id="436" name="8936551">
+      <object-id>1158</object-id>
+    </schema>
+    <schema id="437" name="8532001">
+      <object-id>1159</object-id>
+    </schema>
+    <schema id="438" name="8139677">
+      <object-id>1160</object-id>
+    </schema>
+    <schema id="439" name="7546798">
+      <object-id>1161</object-id>
+    </schema>
+    <schema id="440" name="8532280">
+      <object-id>1162</object-id>
+    </schema>
+    <schema id="441" name="7696441">
+      <object-id>1163</object-id>
+    </schema>
+    <schema id="442" name="8626228">
+      <object-id>1164</object-id>
+    </schema>
+    <schema id="443" name="8531532">
+      <object-id>1165</object-id>
+    </schema>
+    <schema id="444" name="9064342">
+      <object-id>1166</object-id>
+    </schema>
+    <schema id="445" name="8517327">
+      <object-id>1167</object-id>
+    </schema>
+    <schema id="446" name="6791727">
+      <object-id>1168</object-id>
+    </schema>
+    <schema id="447" name="8922393">
+      <object-id>1169</object-id>
+    </schema>
+    <schema id="448" name="8066381">
+      <object-id>1170</object-id>
+    </schema>
+    <schema id="449" name="8531567">
+      <object-id>1171</object-id>
+    </schema>
+    <schema id="450" name="8531459">
+      <object-id>1172</object-id>
+    </schema>
+    <schema id="451" name="7961047">
+      <object-id>1173</object-id>
+    </schema>
+    <schema id="452" name="8936781">
+      <object-id>1174</object-id>
+    </schema>
+    <schema id="453" name="6608332">
+      <object-id>1175</object-id>
+    </schema>
+    <schema id="454" name="7572700">
+      <object-id>1176</object-id>
+    </schema>
+    <schema id="455" name="8532443">
+      <object-id>1177</object-id>
+    </schema>
+    <schema id="456" name="8061793">
+      <object-id>1178</object-id>
+    </schema>
+    <schema id="457" name="7151482">
+      <object-id>1179</object-id>
+    </schema>
+    <schema id="458" name="8084214">
+      <object-id>1180</object-id>
+    </schema>
+    <schema id="459" name="7656512">
+      <object-id>1181</object-id>
+    </schema>
+    <schema id="460" name="8077925">
+      <object-id>1182</object-id>
+    </schema>
+    <schema id="461" name="7572811">
+      <object-id>1183</object-id>
+    </schema>
+    <schema id="462" name="8956690">
+      <object-id>1184</object-id>
+    </schema>
+    <schema id="463" name="XS$NULL">
+      <object-id>2147483638</object-id>
+    </schema>
+    <table id="464" parent="1" name="DDLLOG">
+      <object-id>452250</object-id>
+      <created-timestamp>2016-10-10.16:04:38</created-timestamp>
+      <modified-timestamp>2016-10-10.16:04:38</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="465" parent="1" name="LE01ESTADO">
+      <object-id>398794</object-id>
+      <created-timestamp>2016-08-23.15:57:46</created-timestamp>
+      <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="466" parent="1" name="LE02CIDADE">
+      <object-id>398797</object-id>
+      <created-timestamp>2016-08-23.15:57:47</created-timestamp>
+      <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="467" parent="1" name="LE03ZONA">
+      <object-id>398799</object-id>
+      <created-timestamp>2016-08-23.15:57:48</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="468" parent="1" name="LE04BAIRRO">
+      <object-id>398801</object-id>
+      <created-timestamp>2016-08-23.15:57:48</created-timestamp>
+      <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="469" parent="1" name="LE05URNA">
+      <object-id>398804</object-id>
+      <created-timestamp>2016-08-23.15:57:48</created-timestamp>
+      <modified-timestamp>2016-10-10.14:18:01</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="470" parent="1" name="LE06SESSAO">
+      <object-id>398806</object-id>
+      <created-timestamp>2016-08-23.15:57:49</created-timestamp>
+      <modified-timestamp>2016-10-10.14:18:42</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="471" parent="1" name="LE07PARTIDO">
+      <object-id>398808</object-id>
+      <created-timestamp>2016-08-23.15:57:49</created-timestamp>
+      <modified-timestamp>2016-10-10.14:27:48</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="472" parent="1" name="LE08CANDIDATO">
+      <object-id>398811</object-id>
+      <created-timestamp>2016-08-23.15:57:49</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="473" parent="1" name="LE09CARGO">
+      <object-id>398814</object-id>
+      <created-timestamp>2016-08-23.15:57:50</created-timestamp>
+      <modified-timestamp>2016-10-17.10:48:07</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="474" parent="1" name="LE10CANDIDATURA">
+      <object-id>398817</object-id>
+      <created-timestamp>2016-08-23.15:57:50</created-timestamp>
+      <modified-timestamp>2016-10-10.14:57:12</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="475" parent="1" name="LE11PLEITO">
+      <object-id>398820</object-id>
+      <created-timestamp>2016-08-23.15:57:50</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="476" parent="1" name="LE12PESQUISA">
+      <object-id>398822</object-id>
+      <created-timestamp>2016-08-23.15:57:50</created-timestamp>
+      <modified-timestamp>2016-08-23.17:19:58</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="477" parent="1" name="LE13INTENCAODEVOTO">
+      <object-id>398824</object-id>
+      <created-timestamp>2016-08-23.15:57:51</created-timestamp>
+      <modified-timestamp>2016-08-23.17:19:35</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="478" parent="1" name="MLOG$_LE01ESTADO">
+      <object-id>407657</object-id>
+      <comment>snapshot log for master table A8936756.LE01ESTADO</comment>
+      <created-timestamp>2016-09-05.12:06:31</created-timestamp>
+      <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="479" parent="1" name="MLOG$_LE02CIDADE">
+      <object-id>407656</object-id>
+      <comment>snapshot log for master table A8936756.LE02CIDADE</comment>
+      <created-timestamp>2016-09-05.12:06:31</created-timestamp>
+      <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="480" parent="1" name="MLOG$_LE04BAIRRO">
+      <object-id>407655</object-id>
+      <comment>snapshot log for master table A8936756.LE04BAIRRO</comment>
+      <created-timestamp>2016-09-05.12:06:31</created-timestamp>
+      <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="481" parent="1" name="MLOG$_LE05URNA">
+      <object-id>407658</object-id>
+      <comment>snapshot log for master table A8936756.LE05URNA</comment>
+      <created-timestamp>2016-09-05.12:06:31</created-timestamp>
+      <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="482" parent="1" name="MLOG$_LE06SESSAO">
+      <object-id>407654</object-id>
+      <comment>snapshot log for master table A8936756.LE06SESSAO</comment>
+      <created-timestamp>2016-09-05.12:05:59</created-timestamp>
+      <modified-timestamp>2016-09-05.12:05:59</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <view id="483" parent="1" name="VOTOS_CANDIDATURA">
+      <object-id>445395</object-id>
+      <created-timestamp>2016-10-02.21:37:42</created-timestamp>
+      <modified-timestamp>2016-10-04.17:22:45</modified-timestamp>
+      <modifiable>1</modifiable>
+    </view>
+    <view id="484" parent="1" name="VIEW_QTD_CANDIDATURAS">
+      <object-id>403035</object-id>
+      <created-timestamp>2016-08-30.15:10:03</created-timestamp>
+      <modified-timestamp>2016-08-30.15:10:03</modified-timestamp>
+      <modifiable>1</modifiable>
+    </view>
+    <view id="485" parent="1" name="TOTALIZACAO">
+      <object-id>444387</object-id>
+      <created-timestamp>2016-10-01.16:26:24</created-timestamp>
+      <modified-timestamp>2016-10-01.16:26:24</modified-timestamp>
+      <modifiable>1</modifiable>
+    </view>
+    <routine id="486" parent="1" name="CALCULA_MEDIA_P_INTENCOES">
+      <object-id>447514</object-id>
+      <created-timestamp>2016-10-04.16:31:51</created-timestamp>
+      <modified-timestamp>2016-10-04.16:31:56</modified-timestamp>
+      <routine-kind>FUNCTION</routine-kind>
+    </routine>
+    <routine id="487" parent="1" name="CALCULA_MEDIA_P_VOTOS">
+      <object-id>447506</object-id>
+      <created-timestamp>2016-10-04.16:28:31</created-timestamp>
+      <modified-timestamp>2016-10-04.16:57:44</modified-timestamp>
+      <routine-kind>FUNCTION</routine-kind>
+    </routine>
+    <routine id="488" parent="1" name="CALCULA_PORCENTAGEM_INTENCOES">
+      <object-id>447513</object-id>
+      <created-timestamp>2016-10-04.16:31:36</created-timestamp>
+      <modified-timestamp>2016-10-04.16:31:36</modified-timestamp>
+      <routine-kind>FUNCTION</routine-kind>
+    </routine>
+    <routine id="489" parent="1" name="CALCULA_PORCENTAGEM_VOTOS">
+      <object-id>447504</object-id>
+      <created-timestamp>2016-10-04.16:49:47</created-timestamp>
+      <modified-timestamp>2016-10-04.16:50:24</modified-timestamp>
+      <routine-kind>FUNCTION</routine-kind>
+    </routine>
+    <routine id="490" parent="1" name="COVARIANCE">
+      <object-id>447517</object-id>
+      <created-timestamp>2016-10-04.16:33:57</created-timestamp>
+      <modified-timestamp>2016-10-04.17:13:40</modified-timestamp>
+      <routine-kind>FUNCTION</routine-kind>
+    </routine>
+    <routine id="491" parent="1" name="MAIS_VOTADO">
+      <object-id>444388</object-id>
+      <created-timestamp>2016-10-01.16:26:43</created-timestamp>
+      <modified-timestamp>2016-10-01.16:26:43</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="492" parent="1" name="VARIANCIA_INTENCAO">
+      <object-id>447515</object-id>
+      <created-timestamp>2016-10-04.16:32:06</created-timestamp>
+      <modified-timestamp>2016-10-04.16:32:09</modified-timestamp>
+      <routine-kind>FUNCTION</routine-kind>
+    </routine>
+    <routine id="493" parent="1" name="VARIANCIA_VOTOS">
+      <object-id>447512</object-id>
+      <created-timestamp>2016-10-04.16:31:03</created-timestamp>
+      <modified-timestamp>2016-10-04.16:57:48</modified-timestamp>
+      <routine-kind>FUNCTION</routine-kind>
+    </routine>
+    <routine id="494" parent="1" name="VERIFICA_CANDIDATOS">
+      <object-id>446681</object-id>
+      <created-timestamp>2016-10-03.20:56:26</created-timestamp>
+      <modified-timestamp>2016-10-03.23:01:00</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="495" parent="1" name="VERIFICA_RESULTADOS">
+      <object-id>445413</object-id>
+      <created-timestamp>2016-10-02.22:43:41</created-timestamp>
+      <modified-timestamp>2016-10-02.23:51:41</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <collection-type id="496" parent="1" name="CANDIDATOS_TABLE">
+      <object-id>444384</object-id>
+      <created-timestamp>2016-10-01.16:13:25</created-timestamp>
+      <modified-timestamp>2016-10-01.16:13:25</modified-timestamp>
+      <element-type>NUMBER(9)|0</element-type>
+    </collection-type>
+    <collection-type id="497" parent="1" name="VALUES_ARRAY">
+      <object-id>452464</object-id>
+      <created-timestamp>2016-10-11.17:36:15</created-timestamp>
+      <modified-timestamp>2016-10-11.17:36:15</modified-timestamp>
+      <element-type>VARCHAR2(64)|0</element-type>
+      <upper-bound>50</upper-bound>
+      <array>1</array>
+    </collection-type>
+    <package id="498" parent="1" name="PRATICA08">
+      <object-id>452427</object-id>
+    </package>
+    <package id="499" parent="1" name="PRATICA08">
+      <object-id>452429</object-id>
+      <created-timestamp>2016-10-11.15:26:52</created-timestamp>
+      <modified-timestamp>2016-10-11.17:36:55</modified-timestamp>
+    </package>
+    <synonym id="500" parent="1" name="LE13">
+      <object-id>396878</object-id>
+      <created-timestamp>2016-08-23.15:57:51</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
+      <origin>LE13INTENCAODEVOTO</origin>
+    </synonym>
+    <synonym id="501" parent="1" name="LE12">
+      <object-id>396879</object-id>
+      <created-timestamp>2016-08-23.15:57:51</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
+      <origin>LE12PESQUISA</origin>
+    </synonym>
+    <synonym id="502" parent="1" name="LE11">
+      <object-id>396880</object-id>
+      <created-timestamp>2016-08-23.15:57:51</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
+      <origin>LE11PLEITO</origin>
+    </synonym>
+    <synonym id="503" parent="1" name="LE10">
+      <object-id>396881</object-id>
+      <created-timestamp>2016-08-23.15:57:51</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
+      <origin>LE10CANDIDATURA</origin>
+    </synonym>
+    <synonym id="504" parent="1" name="LE09">
+      <object-id>396882</object-id>
+      <created-timestamp>2016-08-23.15:57:52</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:52</modified-timestamp>
+      <origin>LE09CARGO</origin>
+    </synonym>
+    <synonym id="505" parent="1" name="LE08">
+      <object-id>396883</object-id>
+      <created-timestamp>2016-08-23.15:57:52</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:52</modified-timestamp>
+      <origin>LE08CANDIDATO</origin>
+    </synonym>
+    <synonym id="506" parent="1" name="LE07">
+      <object-id>396884</object-id>
+      <created-timestamp>2016-08-23.15:57:52</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:52</modified-timestamp>
+      <origin>LE07PARTIDO</origin>
+    </synonym>
+    <synonym id="507" parent="1" name="LE06">
+      <object-id>396885</object-id>
+      <created-timestamp>2016-08-23.15:57:52</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:52</modified-timestamp>
+      <origin>LE06SESSAO</origin>
+    </synonym>
+    <synonym id="508" parent="1" name="LE05">
+      <object-id>396886</object-id>
+      <created-timestamp>2016-08-23.15:57:53</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:53</modified-timestamp>
+      <origin>LE05URNA</origin>
+    </synonym>
+    <synonym id="509" parent="1" name="LE04">
+      <object-id>396887</object-id>
+      <created-timestamp>2016-08-23.15:57:53</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:53</modified-timestamp>
+      <origin>LE04BAIRRO</origin>
+    </synonym>
+    <synonym id="510" parent="1" name="LE03">
+      <object-id>396888</object-id>
+      <created-timestamp>2016-08-23.15:57:53</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:53</modified-timestamp>
+      <origin>LE03ZONA</origin>
+    </synonym>
+    <synonym id="511" parent="1" name="LE02">
+      <object-id>396889</object-id>
+      <created-timestamp>2016-08-23.15:57:54</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:54</modified-timestamp>
+      <origin>LE02CIDADE</origin>
+    </synonym>
+    <synonym id="512" parent="1" name="LE01">
+      <object-id>396890</object-id>
+      <created-timestamp>2016-08-23.15:57:54</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:54</modified-timestamp>
+      <origin>LE01ESTADO</origin>
+    </synonym>
+    <synonym id="513" parent="1" name="INTENCAODEVOTO">
+      <object-id>396891</object-id>
+      <created-timestamp>2016-08-23.15:57:55</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:55</modified-timestamp>
+      <origin>LE13INTENCAODEVOTO</origin>
+    </synonym>
+    <synonym id="514" parent="1" name="PESQUISA">
+      <object-id>396892</object-id>
+      <created-timestamp>2016-08-23.15:57:55</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:55</modified-timestamp>
+      <origin>LE12PESQUISA</origin>
+    </synonym>
+    <synonym id="515" parent="1" name="PLEITO">
+      <object-id>398826</object-id>
+      <created-timestamp>2016-08-23.15:57:55</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:55</modified-timestamp>
+      <origin>LE11PLEITO</origin>
+    </synonym>
+    <synonym id="516" parent="1" name="CANDIDATURA">
+      <object-id>398827</object-id>
+      <created-timestamp>2016-08-23.15:57:56</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:56</modified-timestamp>
+      <origin>LE10CANDIDATURA</origin>
+    </synonym>
+    <synonym id="517" parent="1" name="CARGO">
+      <object-id>398828</object-id>
+      <created-timestamp>2016-08-23.15:57:56</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:56</modified-timestamp>
+      <origin>LE09CARGO</origin>
+    </synonym>
+    <synonym id="518" parent="1" name="CANDIDATO">
+      <object-id>398829</object-id>
+      <created-timestamp>2016-08-23.15:57:56</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:56</modified-timestamp>
+      <origin>LE08CANDIDATO</origin>
+    </synonym>
+    <synonym id="519" parent="1" name="PARTIDO">
+      <object-id>398830</object-id>
+      <created-timestamp>2016-08-23.15:57:56</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:56</modified-timestamp>
+      <origin>LE07PARTIDO</origin>
+    </synonym>
+    <synonym id="520" parent="1" name="SESSAO">
+      <object-id>398831</object-id>
+      <created-timestamp>2016-08-23.15:57:57</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:57</modified-timestamp>
+      <origin>LE06SESSAO</origin>
+    </synonym>
+    <synonym id="521" parent="1" name="URNA">
+      <object-id>398832</object-id>
+      <created-timestamp>2016-08-23.15:57:57</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:57</modified-timestamp>
+      <origin>LE05URNA</origin>
+    </synonym>
+    <synonym id="522" parent="1" name="BAIRRO">
+      <object-id>398833</object-id>
+      <created-timestamp>2016-08-23.15:57:57</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:57</modified-timestamp>
+      <origin>LE04BAIRRO</origin>
+    </synonym>
+    <synonym id="523" parent="1" name="ZONA">
+      <object-id>398834</object-id>
+      <created-timestamp>2016-08-23.15:57:57</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:57</modified-timestamp>
+      <origin>LE03ZONA</origin>
+    </synonym>
+    <synonym id="524" parent="1" name="CIDADE">
+      <object-id>398835</object-id>
+      <created-timestamp>2016-08-23.15:57:57</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:57</modified-timestamp>
+      <origin>LE02CIDADE</origin>
+    </synonym>
+    <synonym id="525" parent="1" name="ESTADO">
+      <object-id>398836</object-id>
+      <created-timestamp>2016-08-23.15:57:58</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:58</modified-timestamp>
+      <origin>LE01ESTADO</origin>
+    </synonym>
+    <column id="526" parent="464" name="user">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(120)|0</data-type>
+    </column>
+    <column id="527" parent="464" name="date">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="528" parent="464" name="operation">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="529" parent="464" name="ObjType">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="530" parent="464" name="ObjName">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(120)|0</data-type>
+    </column>
+    <index id="531" parent="464" name="PKDDLLOG">
+      <object-id>452251</object-id>
+      <created-timestamp>2016-10-10.16:04:38</created-timestamp>
+      <modified-timestamp>2016-10-10.16:04:38</modified-timestamp>
+      <columns>user
+date
+operation
+ObjType
+ObjName</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="532" parent="464" name="PKDDLLOG">
+      <modified-timestamp>2016-10-10.16:04:38</modified-timestamp>
+      <columns>user
+date
+operation
+ObjType
+ObjName</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKDDLLOG</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="533" parent="465" name="SIGLA">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <column id="534" parent="465" name="NOME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <index id="535" parent="465" name="PKESTADO">
+      <object-id>398795</object-id>
+      <created-timestamp>2016-08-23.15:57:46</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:46</modified-timestamp>
+      <columns>SIGLA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <index id="536" parent="465" name="UNNOMEESTADO">
+      <object-id>398796</object-id>
+      <created-timestamp>2016-08-23.15:57:46</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:46</modified-timestamp>
+      <columns>NOME</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="537" parent="465" name="PKESTADO">
+      <modified-timestamp>2016-08-23.15:57:46</modified-timestamp>
+      <columns>SIGLA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKESTADO</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="538" parent="465" name="UNNOMEESTADO">
+      <modified-timestamp>2016-08-23.15:57:46</modified-timestamp>
+      <columns>NOME</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>UNNOMEESTADO</underlying-index>
+    </key>
+    <column id="539" parent="466" name="NOME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="540" parent="466" name="SIGLAESTADO">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <column id="541" parent="466" name="POPULACAO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <index id="542" parent="466" name="PKCIDADE">
+      <object-id>398798</object-id>
+      <created-timestamp>2016-08-23.15:57:47</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:47</modified-timestamp>
+      <columns>NOME
+SIGLAESTADO</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="543" parent="466" name="PKCIDADE">
+      <modified-timestamp>2016-08-23.15:57:47</modified-timestamp>
+      <columns>NOME
+SIGLAESTADO</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKCIDADE</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="544" parent="466" name="FKESTADOCIDADE">
+      <modified-timestamp>2016-08-23.15:57:47</modified-timestamp>
+      <columns>SIGLAESTADO</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE01ESTADO.PKESTADO</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>delete</cascade-delete-rule>
+    </foreign-key>
+    <check id="545" parent="466" name="CKPOPULACAOCIDADE">
+      <modified-timestamp>2016-08-23.15:57:47</modified-timestamp>
+      <columns>POPULACAO</columns>
+      <predicate>Populacao &gt;= 0</predicate>
+    </check>
+    <column id="546" parent="467" name="NROZONA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <column id="547" parent="467" name="NRODEURNASRESERVAS">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(2)|0</data-type>
+    </column>
+    <index id="548" parent="467" name="PKZONA">
+      <object-id>398800</object-id>
+      <created-timestamp>2016-08-23.15:57:48</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>NROZONA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="549" parent="467" name="PKZONA">
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>NROZONA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKZONA</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="550" parent="468" name="NOME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="551" parent="468" name="NOMECIDADE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="552" parent="468" name="SIGLAESTADO">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <column id="553" parent="468" name="CEP">
+      <data-type>NUMBER(8)|0</data-type>
+    </column>
+    <column id="554" parent="468" name="NROZONA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <index id="555" parent="468" name="PKBAIRRO">
+      <object-id>398802</object-id>
+      <created-timestamp>2016-08-23.15:57:48</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>NOME
+NOMECIDADE
+SIGLAESTADO</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <index id="556" parent="468" name="UNCEPBAIRRO">
+      <object-id>398803</object-id>
+      <created-timestamp>2016-08-23.15:57:48</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>CEP</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="557" parent="468" name="PKBAIRRO">
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>NOME
+NOMECIDADE
+SIGLAESTADO</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKBAIRRO</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="558" parent="468" name="UNCEPBAIRRO">
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>CEP</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>UNCEPBAIRRO</underlying-index>
+    </key>
+    <foreign-key id="559" parent="468" name="FKCIDADEBAIRRO">
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>NOMECIDADE
+SIGLAESTADO</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE02CIDADE.PKCIDADE</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>delete</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="560" parent="468" name="FKZONABAIRRO">
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>NROZONA</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE03ZONA.PKZONA</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="561" parent="469" name="NSERIAL">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <column id="562" parent="469" name="ESTADO">
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="563" parent="469" name="NROZONA">
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <index id="564" parent="469" name="PKURNA">
+      <object-id>398805</object-id>
+      <created-timestamp>2016-08-23.15:57:48</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>NSERIAL</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="565" parent="469" name="PKURNA">
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>NSERIAL</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKURNA</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="566" parent="469" name="FKZONAURNA">
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>NROZONA</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE03ZONA.PKZONA</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <check id="567" parent="469" name="CKESTADO">
+      <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
+      <columns>ESTADO</columns>
+      <predicate>Estado IN (&apos;funcional&apos;,&apos;manutencao&apos;)</predicate>
+    </check>
+    <trigger id="568" parent="469" name="T_URNA">
+      <object-id>452175</object-id>
+      <created-timestamp>2016-10-10.14:18:01</created-timestamp>
+      <modified-timestamp>2016-10-10.14:18:01</modified-timestamp>
+      <trig-events>IU</trig-events>
+      <trig-turn>BEFORE_ROW</trig-turn>
+    </trigger>
+    <column id="569" parent="470" name="NROSESSAO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(5)|0</data-type>
+    </column>
+    <column id="570" parent="470" name="NROZONA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <column id="571" parent="470" name="NSERIAL">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <index id="572" parent="470" name="PKSESSAO">
+      <object-id>398807</object-id>
+      <created-timestamp>2016-08-23.15:57:49</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>NROSESSAO
+NROZONA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="573" parent="470" name="PKSESSAO">
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>NROSESSAO
+NROZONA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKSESSAO</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="574" parent="470" name="FKZONASESSAO">
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>NROZONA</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE03ZONA.PKZONA</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>delete</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="575" parent="470" name="FKURNASESSAO">
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>NSERIAL</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE05URNA.PKURNA</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <trigger id="576" parent="470" name="T_SESSAO">
+      <object-id>452176</object-id>
+      <created-timestamp>2016-10-10.14:18:42</created-timestamp>
+      <modified-timestamp>2016-10-10.14:18:42</modified-timestamp>
+      <trig-events>IU</trig-events>
+      <trig-turn>BEFORE_ROW</trig-turn>
+    </trigger>
+    <column id="577" parent="471" name="SIGLA">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(5)|0</data-type>
+    </column>
+    <column id="578" parent="471" name="NOME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <index id="579" parent="471" name="PKPARTIDO">
+      <object-id>398809</object-id>
+      <created-timestamp>2016-08-23.15:57:49</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>SIGLA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <index id="580" parent="471" name="UNNOMEPARTIDO">
+      <object-id>398810</object-id>
+      <created-timestamp>2016-08-23.15:57:49</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>NOME</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="581" parent="471" name="PKPARTIDO">
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>SIGLA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKPARTIDO</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="582" parent="471" name="UNNOMEPARTIDO">
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>NOME</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>UNNOMEPARTIDO</underlying-index>
+    </key>
+    <trigger id="583" parent="471" name="UPDATE_CASCADE_LE07">
+      <object-id>452178</object-id>
+      <created-timestamp>2016-10-10.14:27:48</created-timestamp>
+      <modified-timestamp>2016-10-10.14:27:48</modified-timestamp>
+      <trig-events>U</trig-events>
+      <trig-turn>BEFORE_ROW</trig-turn>
+    </trigger>
+    <column id="584" parent="472" name="NROCAND">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <column id="585" parent="472" name="TIPO">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(8)|0</data-type>
+    </column>
+    <column id="586" parent="472" name="CPF">
+      <data-type>NUMBER(11)|0</data-type>
+    </column>
+    <column id="587" parent="472" name="NOME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="588" parent="472" name="IDADE">
+      <data-type>NUMBER(3)|0</data-type>
+    </column>
+    <column id="589" parent="472" name="APELIDO">
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="590" parent="472" name="SIGLAPARTIDO">
+      <data-type>CHAR(5)|0</data-type>
+    </column>
+    <index id="591" parent="472" name="PKCANDIDATO">
+      <object-id>398812</object-id>
+      <created-timestamp>2016-08-23.15:57:49</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>NROCAND</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <index id="592" parent="472" name="UNCPF">
+      <object-id>398813</object-id>
+      <created-timestamp>2016-08-23.15:57:49</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>CPF</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="593" parent="472" name="PKCANDIDATO">
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>NROCAND</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKCANDIDATO</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="594" parent="472" name="UNCPF">
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>CPF</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>UNCPF</underlying-index>
+    </key>
+    <foreign-key id="595" parent="472" name="FKPARTIDOCANDIDATO">
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>SIGLAPARTIDO</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE07PARTIDO.PKPARTIDO</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <check id="596" parent="472" name="CKCANDIDATO">
+      <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
+      <columns>APELIDO
+CPF
+IDADE
+SIGLAPARTIDO
+TIPO</columns>
+      <predicate>
+     Tipo = &apos;politico&apos; AND SiglaPartido IS NOT NULL AND CPF IS NOT NULL
+     OR
+     Tipo = &apos;especial&apos; AND SiglaPartido IS NULL AND CPF IS NULL AND Idade IS NULL AND Apelido IS NULL</predicate>
+    </check>
+    <column id="597" parent="473" name="CODCARGO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <column id="598" parent="473" name="POSSUIVICE">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+    </column>
+    <column id="599" parent="473" name="ANOBASE">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <column id="600" parent="473" name="ANOSMANDATO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+      <default-expression>4</default-expression>
+    </column>
+    <column id="601" parent="473" name="NOMEDESCRITIVO">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="602" parent="473" name="NRODECADEIRAS">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(3)|0</data-type>
+    </column>
+    <column id="603" parent="473" name="ESFERA">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(9)|0</data-type>
+    </column>
+    <column id="604" parent="473" name="NOMECIDADE">
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="605" parent="473" name="SIGLAESTADO">
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <column id="606" parent="473" name="SALARIO">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <index id="607" parent="473" name="PKCARGO">
+      <object-id>398815</object-id>
+      <created-timestamp>2016-08-23.15:57:50</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>CODCARGO</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <index id="608" parent="473" name="UNNOMECARGO">
+      <object-id>398816</object-id>
+      <created-timestamp>2016-08-23.15:57:50</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>NOMEDESCRITIVO
+NOMECIDADE
+SIGLAESTADO</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="609" parent="473" name="PKCARGO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>CODCARGO</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKCARGO</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="610" parent="473" name="UNNOMECARGO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>NOMEDESCRITIVO
+NOMECIDADE
+SIGLAESTADO</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>UNNOMECARGO</underlying-index>
+    </key>
+    <foreign-key id="611" parent="473" name="FKCIDADECARGO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>NOMECIDADE
+SIGLAESTADO</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE02CIDADE.PKCIDADE</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="612" parent="473" name="FKESTADOCARGO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>SIGLAESTADO</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE01ESTADO.PKESTADO</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <check id="613" parent="473" name="CKPOSSUIVICE">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>POSSUIVICE</columns>
+      <predicate>PossuiVice IN (0,1)</predicate>
+    </check>
+    <check id="614" parent="473" name="CKANOBASECARGO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>ANOBASE</columns>
+      <predicate>AnoBase BETWEEN 1985 AND 2100</predicate>
+    </check>
+    <check id="615" parent="473" name="CKANOSMANDATOCARGO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>ANOSMANDATO</columns>
+      <predicate>AnosMandato &gt; 0</predicate>
+    </check>
+    <check id="616" parent="473" name="CKCADEIRASCARGO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>NRODECADEIRAS</columns>
+      <predicate>NroDeCadeiras &gt; 0</predicate>
+    </check>
+    <check id="617" parent="473" name="CKATRIBUTOSESFERACARGO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>ESFERA
+NOMECIDADE
+SIGLAESTADO</columns>
+      <predicate>
+     (Esfera = &apos;F&apos;
+        AND NomeCidade  IS NULL
+        AND SiglaEstado IS NULL)
+     OR
+     (Esfera = &apos;E&apos;
+        AND NomeCidade  IS NULL
+        AND SiglaEstado IS NOT NULL)
+     OR
+     (Esfera = &apos;M&apos;
+        AND NomeCidade  IS NOT NULL
+        AND SiglaEstado IS NOT NULL)
+</predicate>
+    </check>
+    <check id="618" parent="473" name="CKESFERACARGO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>ESFERA</columns>
+      <predicate>Esfera IN (&apos;F&apos;,&apos;E&apos;,&apos;M&apos;)</predicate>
+    </check>
+    <trigger id="619" parent="473" name="INSERIR_SALARIO">
+      <object-id>452444</object-id>
+      <created-timestamp>2016-10-11.16:05:57</created-timestamp>
+      <modified-timestamp>2016-10-17.10:48:07</modified-timestamp>
+      <trig-events>IU</trig-events>
+      <trig-turn>BEFORE_ROW</trig-turn>
+    </trigger>
+    <trigger id="620" parent="473" name="CAND_ESPECIAIS">
+      <object-id>452179</object-id>
+      <created-timestamp>2016-10-10.14:28:54</created-timestamp>
+      <modified-timestamp>2016-10-10.14:34:05</modified-timestamp>
+      <trig-events>U</trig-events>
+      <trig-turn>BEFORE_ROW</trig-turn>
+    </trigger>
+    <column id="621" parent="474" name="REG">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(3)|0</data-type>
+    </column>
+    <column id="622" parent="474" name="CODCARGO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <column id="623" parent="474" name="ANO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <column id="624" parent="474" name="NROCAND">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(11)|0</data-type>
+    </column>
+    <column id="625" parent="474" name="NROVICE">
+      <data-type>NUMBER(11)|0</data-type>
+    </column>
+    <index id="626" parent="474" name="PKREGCANDIDATURA">
+      <object-id>398818</object-id>
+      <created-timestamp>2016-08-23.15:57:50</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>REG</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <index id="627" parent="474" name="UNCANDIDAT">
+      <object-id>398819</object-id>
+      <created-timestamp>2016-08-23.15:57:50</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>CODCARGO
+ANO
+NROCAND</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="628" parent="474" name="PKREGCANDIDATURA">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>REG</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKREGCANDIDATURA</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="629" parent="474" name="UNCANDIDAT">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>CODCARGO
+ANO
+NROCAND</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>UNCANDIDAT</underlying-index>
+    </key>
+    <foreign-key id="630" parent="474" name="FKCARGOCANDIDATURA">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>CODCARGO</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE09CARGO.PKCARGO</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="631" parent="474" name="FKCANDIDATOCANDIDATURA">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>NROCAND</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE08CANDIDATO.PKCANDIDATO</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="632" parent="474" name="FKVICECANDIDATO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>NROVICE</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE08CANDIDATO.PKCANDIDATO</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <check id="633" parent="474" name="CKANOCANDIDATURA">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>ANO</columns>
+      <predicate>Ano BETWEEN 1985 AND 2100</predicate>
+    </check>
+    <trigger id="634" parent="474" name="T_VICE">
+      <object-id>452177</object-id>
+      <created-timestamp>2016-10-10.14:27:08</created-timestamp>
+      <modified-timestamp>2016-10-10.14:57:12</modified-timestamp>
+      <trig-events>IU</trig-events>
+      <trig-turn>BEFORE_ROW</trig-turn>
+      <invalid>1</invalid>
+    </trigger>
+    <column id="635" parent="475" name="NROSESSAO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(5)|0</data-type>
+    </column>
+    <column id="636" parent="475" name="NROZONA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <column id="637" parent="475" name="CODCARGO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <column id="638" parent="475" name="ANO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <column id="639" parent="475" name="NROCAND">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(11)|0</data-type>
+    </column>
+    <column id="640" parent="475" name="TOTAL">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <index id="641" parent="475" name="PKCOMPUTAVOTOS">
+      <object-id>398821</object-id>
+      <created-timestamp>2016-08-23.15:57:50</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>NROSESSAO
+NROZONA
+CODCARGO
+ANO
+NROCAND</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="642" parent="475" name="PKCOMPUTAVOTOS">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>NROSESSAO
+NROZONA
+CODCARGO
+ANO
+NROCAND</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKCOMPUTAVOTOS</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="643" parent="475" name="FKSESSAOCANDIDATURA">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>NROSESSAO
+NROZONA</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE06SESSAO.PKSESSAO</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="644" parent="475" name="FKCANDIDATURASESSAO">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>CODCARGO
+ANO
+NROCAND</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE10CANDIDATURA.UNCANDIDAT</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="645" parent="476" name="REGPESQUISA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <column id="646" parent="476" name="PERIODOINICIO">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="647" parent="476" name="PERIODOFIM">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="648" parent="476" name="ORGAOPESQUISA">
+      <data-type>VARCHAR2(100)|0</data-type>
+      <default-expression>&apos;IBOPE&apos;</default-expression>
+    </column>
+    <index id="649" parent="476" name="PKPESQUISA">
+      <object-id>398823</object-id>
+      <created-timestamp>2016-08-23.15:57:50</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>REGPESQUISA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="650" parent="476" name="PKPESQUISA">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>REGPESQUISA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKPESQUISA</underlying-index>
+      <primary>1</primary>
+    </key>
+    <check id="651" parent="476" name="CKPERIODOPESQUISA">
+      <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
+      <columns>PERIODOFIM
+PERIODOINICIO</columns>
+      <predicate>PeriodoFim &gt; PeriodoInicio</predicate>
+    </check>
+    <column id="652" parent="477" name="REGPESQUISA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <column id="653" parent="477" name="REGCANDID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(3)|0</data-type>
+    </column>
+    <column id="654" parent="477" name="TOTAL">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+      <default-expression>0</default-expression>
+    </column>
+    <index id="655" parent="477" name="PKCOMPINTENC">
+      <object-id>398825</object-id>
+      <created-timestamp>2016-08-23.15:57:51</created-timestamp>
+      <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
+      <columns>REGPESQUISA
+REGCANDID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>USERS</tablespace-name>
+    </index>
+    <key id="656" parent="477" name="PKCOMPINTENC">
+      <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
+      <columns>REGPESQUISA
+REGCANDID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>PKCOMPINTENC</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="657" parent="477" name="FKPESQUISACANDIDATURA">
+      <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
+      <columns>REGPESQUISA</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE12PESQUISA.PKPESQUISA</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="658" parent="477" name="FKCANDIDATURAPESQUISA">
+      <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
+      <columns>REGCANDID</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.LE10CANDIDATURA.PKREGCANDIDATURA</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="659" parent="478" name="M_ROW$$">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="660" parent="478" name="SNAPTIME$$">
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="661" parent="478" name="DMLTYPE$$">
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="662" parent="478" name="OLD_NEW$$">
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="663" parent="478" name="CHANGE_VECTOR$$">
+      <data-type>RAW(255)|0</data-type>
+    </column>
+    <column id="664" parent="478" name="XID$$">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="665" parent="479" name="M_ROW$$">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="666" parent="479" name="SNAPTIME$$">
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="667" parent="479" name="DMLTYPE$$">
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="668" parent="479" name="OLD_NEW$$">
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="669" parent="479" name="CHANGE_VECTOR$$">
+      <data-type>RAW(255)|0</data-type>
+    </column>
+    <column id="670" parent="479" name="XID$$">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="671" parent="480" name="M_ROW$$">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="672" parent="480" name="SNAPTIME$$">
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="673" parent="480" name="DMLTYPE$$">
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="674" parent="480" name="OLD_NEW$$">
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="675" parent="480" name="CHANGE_VECTOR$$">
+      <data-type>RAW(255)|0</data-type>
+    </column>
+    <column id="676" parent="480" name="XID$$">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="677" parent="481" name="M_ROW$$">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="678" parent="481" name="SNAPTIME$$">
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="679" parent="481" name="DMLTYPE$$">
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="680" parent="481" name="OLD_NEW$$">
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="681" parent="481" name="CHANGE_VECTOR$$">
+      <data-type>RAW(255)|0</data-type>
+    </column>
+    <column id="682" parent="481" name="XID$$">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="683" parent="482" name="M_ROW$$">
+      <data-type>VARCHAR2(255)|0</data-type>
+    </column>
+    <column id="684" parent="482" name="SNAPTIME$$">
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="685" parent="482" name="DMLTYPE$$">
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="686" parent="482" name="OLD_NEW$$">
+      <data-type>VARCHAR2(1)|0</data-type>
+    </column>
+    <column id="687" parent="482" name="CHANGE_VECTOR$$">
+      <data-type>RAW(255)|0</data-type>
+    </column>
+    <column id="688" parent="482" name="XID$$">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="689" parent="483" name="CODCARGO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <column id="690" parent="483" name="ANO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <column id="691" parent="483" name="NROCAND">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <column id="692" parent="483" name="VOTOS">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="693" parent="484" name="NOME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="694" parent="484" name="CPF">
+      <data-type>NUMBER(11)|0</data-type>
+    </column>
+    <column id="695" parent="484" name="APELIDO">
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="696" parent="484" name="ANOS">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="697" parent="485" name="CODCARGO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(9)|0</data-type>
+    </column>
+    <column id="698" parent="485" name="ANO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <column id="699" parent="485" name="NROCAND">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(11)|0</data-type>
+    </column>
+    <column id="700" parent="485" name="TOTAL">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <argument id="701" parent="486">
+      <direction>RETURN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="702" parent="486" name="V_CAND_NUM">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="703" parent="487">
+      <direction>RETURN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="704" parent="487" name="V_CAND_NUM">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="705" parent="488">
+      <direction>RETURN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="706" parent="488" name="V_CAND_NUM">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="707" parent="488" name="V_ANO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="708" parent="488" name="V_CARGO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="709" parent="489">
+      <direction>RETURN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="710" parent="489" name="V_CAND_NUM">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="711" parent="489" name="V_ANO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="712" parent="489" name="V_CARGO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="713" parent="490">
+      <direction>RETURN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="714" parent="490" name="NRO_CAND">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="715" parent="491" name="PANO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="716" parent="491" name="PCODC">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="717" parent="492">
+      <direction>RETURN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="718" parent="492" name="V_CAND_NUM">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="719" parent="493">
+      <direction>RETURN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="720" parent="493" name="V_CAND_NUM">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <body id="721" parent="498" name="PRATICA08">
+      <object-id>452427</object-id>
+      <created-timestamp>2016-10-11.15:24:50</created-timestamp>
+      <modified-timestamp>2016-10-17.10:47:56</modified-timestamp>
+    </body>
+    <routine id="722" parent="498" name="SALARIO">
+      <routine-kind>FUNCTION</routine-kind>
+    </routine>
+    <routine id="723" parent="498" name="TYPE_OF">
+      <routine-kind>FUNCTION</routine-kind>
+    </routine>
+    <routine id="724" parent="498" name="INSERT_INTO">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <argument id="725" parent="722">
+      <direction>RETURN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="726" parent="722" name="CARGO">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="727" parent="723">
+      <direction>RETURN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="728" parent="723" name="NOMETABELA">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="729" parent="723" name="ATRIBUTO">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="730" parent="724" name="TABELA">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="731" parent="724" name="VALUEZ">
+      <direction>IN</direction>
+      <data-type>VALUES_ARRAY|0</data-type>
+    </argument>
+  </database-model>
+</dataSource>
