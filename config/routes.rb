@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'create_find' => 'find_wrapper#show', as: :find_wrapper
+  post 'submit_find' => 'find_wrapper#submit', as: :find_wrapper_submit
+
+
   post 'simple_table' => 'simple_table#simple_table', as: :simple_table_for
   get 'simple_table' => 'simple_table#simple_menu', as: :simple_table
 
