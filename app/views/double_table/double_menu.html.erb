@@ -1,0 +1,43 @@
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function () {
+    $('#table_one_selector').change(function () {
+      getAttrs($(this), '#attr_one_selector');
+    });
+    $('#table_two_selector').change(function () {
+      getAttrs($(this), '#attr_two_selector');
+    });
+    function getAttrs(t, attr_id) {
+      $.ajax({
+        url: "<%= oracle_attrs_path %>",
+        type: "GET",
+        dataType: "json",
+        data: {table: t.find('option:selected').text()},
+        complete: function () {
+        },
+        success: function (data, test_staus, xhr) {
+          var attrs = data.response;
+          var options = '';
+          for (var i = 0; i < attrs.length; i++) {
+            options += '<option value="' + attrs[i] + '">' + attrs[i] + '</option>';
+          }
+          var attr_selector = $(attr_id);
+          attr_selector.empty();
+          attr_selector.append(options);
+        }
+      })
+    }
+  })
+</script>
+<%= bootstrap_form_tag url: double_table_for_path, method: :post do |f| %>
+
+
+    <%= f.select(:table1, options_for_select(@optionsTable), { label: 'Select a table to embed FROM:' }, { id: 'table_one_selector' }) %>
+    <%= f.select(:attr1, options_for_select([]), { label: 'Select an attribute to embed' }, { id: 'attr_one_selector' }) %>
+
+    <%= f.select(:table2, options_for_select(@optionsTable), { label: 'Select a table to embed TO:' }, { id: 'table_two_selector' }) %>
+    <%= f.select(:attr2, options_for_select([]), { label: 'Select an attribute to embed' }, { id: 'attr_two_selector' }) %>
+    <%= f.primary :select %>
+
+
+
+<% end %>
