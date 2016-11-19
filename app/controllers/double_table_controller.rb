@@ -6,14 +6,8 @@ class DoubleTableController < ApplicationController
     table2 = params[:table2].upcase
     attr2 = params[:attr2].upcase
 
-    tup_arr_t1 = Mongo.represent_table(table1)
-    tup_arr_t2 = Mongo.represent_table(table2, false)
-
-    puts '--------------------'
-    puts tup_arr_t1
-    puts '--'
-    puts tup_arr_t2
-    puts '--------------------'
+    tup_arr_t1 = MongoModel.represent_table(table1)
+    tup_arr_t2 = MongoModel.represent_table(table2, false)
 
     tup_arr_t1.each do |tup|
 

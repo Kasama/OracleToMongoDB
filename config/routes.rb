@@ -3,13 +3,16 @@ Rails.application.routes.draw do
   get 'create_find' => 'find_wrapper#show', as: :find_wrapper
   post 'submit_find' => 'find_wrapper#submit', as: :find_wrapper_submit
 
-
-  post 'simple_table' => 'simple_table#simple_table', as: :simple_table_for
   get 'simple_table' => 'simple_table#simple_menu', as: :simple_table
+  post 'simple_table' => 'simple_table#simple_table', as: :simple_table_for
 
   get 'double_table' => 'double_table#double_menu', as: :double_table
   get  'attrs_for_table' => 'oracle#get_attrs', as: :oracle_attrs
   post 'double_table' => 'double_table#double_table', as: :double_table_for
+
+  get 'benchmark' => 'benchmark#index', as: :benchmark
+
+  get 'validator' => 'validator#select_table', as: :pre_validator
 
   get 'oracle/dump_script'
 

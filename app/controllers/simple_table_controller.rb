@@ -6,7 +6,7 @@ class SimpleTableController < ApplicationController
     table = params[:table].upcase # normalize table name to upper case
     # get all pks of current table
 
-    tup_arr = Mongo.represent_table(table)
+    tup_arr = MongoModel.represent_table(table)
 
     @oracle = {table_name: table, tuples: tup_arr}
 

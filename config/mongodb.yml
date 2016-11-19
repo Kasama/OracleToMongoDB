@@ -1,0 +1,16 @@
+default: &default
+  adapter: MongoDB
+  host: localhost
+  port: 27017
+  pool_size: 5
+  timeout: 5
+  database: dblabbd_fred_roberto
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default

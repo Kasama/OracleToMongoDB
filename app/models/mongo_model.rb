@@ -1,4 +1,4 @@
-class Mongo
+class MongoModel
   def self.represent_table(table, fill_id = true)
     pks = Oracle.get_pks(table)
 

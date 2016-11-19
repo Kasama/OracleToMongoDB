@@ -6,6 +6,10 @@ gem 'rails', '4.2.4'
 # Use oracle as the database for Active Record
 gem 'ruby-oci8'
 gem 'activerecord-oracle_enhanced-adapter'
+# Use mongo wrapper as model base for mongo connection
+gem 'mongo_mapper'
+#gem 'bson'
+# Use bootstrap on forms
 gem 'bootstrap_form'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
