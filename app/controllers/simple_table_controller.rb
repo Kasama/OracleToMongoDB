@@ -10,6 +10,8 @@ class SimpleTableController < ApplicationController
 
     @oracle = {table_name: table, tuples: tup_arr}
 
+    render 'oracle/mongo_script'
+
   end
 
   # GET simple_table
