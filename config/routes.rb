@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   get 'double_table' => 'double_table#double_menu', as: :double_table
   get  'attrs_for_table' => 'oracle#get_attrs', as: :oracle_attrs
-  post 'double_table' => 'double_table#double_table', as: :double_table_for
+  post 'double_table' => 'double_table#function_selector', as: :selector_table
 
   get 'benchmark' => 'benchmark#index', as: :benchmark
 

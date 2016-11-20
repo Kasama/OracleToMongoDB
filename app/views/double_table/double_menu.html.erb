@@ -28,15 +28,27 @@
     }
   })
 </script>
-<%= bootstrap_form_tag url: double_table_for_path, method: :post do |f| %>
+<%= bootstrap_form_tag url: selector_table_path, method: :post do |f| %>
 
 
-    <%= f.select(:table1, options_for_select(@options_table), {label: 'Select a table to embed FROM:' }, {id: 'table_one_selector' }) %>
-    <%= f.select(:attr1, options_for_select([]), { label: 'Select an attribute to embed' }, { id: 'attr_one_selector' }) %>
+    <%= f.select(:table1, options_for_select(@options_table), {label: 'Select the main table:' }, {id: 'table_one_selector' }) %>
+    <%= f.select(:attr1, options_for_select([]), { label: 'Select the main table\'s attribute' }, { id: 'attr_one_selector' }) %>
 
-    <%= f.select(:table2, options_for_select(@options_table), {label: 'Select a table to embed TO:' }, {id: 'table_two_selector' }) %>
-    <%= f.select(:attr2, options_for_select([]), { label: 'Select an attribute to embed' }, { id: 'attr_two_selector' }) %>
-    <%= f.primary :select %>
+    <%= f.select(:table2, options_for_select(@options_table), {label: 'Select the referenced table:' }, {id: 'table_two_selector' }) %>
+    <%= f.select(:attr2, options_for_select([]), { label: 'Select the referenced attribute' }, { id: 'attr_two_selector' }) %>
+
+    <%= f.form_group :embed do %>
+        <%= f.label :embed_0 do %>
+            Reference
+            <%= radio_button_tag :embed, 0, text: 'Reference table', checked: true %>
+        <% end %>
+        <%= label_tag :embed_1 do %>
+            Embed
+        <%= radio_button_tag :embed, 1, text: 'Embed table' %>
+        <% end %>
+    <% end %>
+
+    <%= f.primary 'Generate MongoDB script' %>
 
 
 

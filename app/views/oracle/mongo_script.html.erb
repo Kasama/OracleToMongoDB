@@ -1,9 +1,9 @@
-<%= link_to 'Voltar', simple_table_path, class: 'btn btn-md btn-primary' %>
+<%= link_to 'Voltar', @oracle[:back_path], class: 'btn btn-md btn-primary' %>
 <%= link_to 'Copiar', '#', class: 'btn btn-md btn-success copy-text', data: {id: 'code'} %>
 <br />
 <br />
 <br />
 
 <pre id="code">
-<%= render :partial => 'partial_mongo_document' %>
+<%= render :partial => 'oracle/partial_mongo_document' %>
 </pre>
