@@ -25,4 +25,13 @@ class MongoModel
     end
     tup_arr
   end
+
+  def self.database
+    MongoMapper.connection['dblabbd_fred_roberto']
+  end
+
+  def self.collection(name)
+    db = self.database.collection[name]
+    db.collection[name]
+  end
 end

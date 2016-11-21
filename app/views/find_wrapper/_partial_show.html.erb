@@ -2,10 +2,14 @@
   <div class="col-md-4">
     <%= f.select(:table_attr_, options_for_select([]), { label: 'Selecione um atributo:' }, { class: 'attrs_selector' }) %>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
     <%= f.select(:table_operator_, options_for_select(@operators), { label: 'Selecione um operador' }, { class: 'attrs_operator'}) %>
   </div>
   <div class="col-md-4">
     <%= f.text_field(:table_operand_, label: 'Digite o operando', class: 'attrs_operand') %>
+  </div>
+  <div class="col-md-1">
+    <%= f.label 'remover' %>
+    <%= link_to 'X', '#', class: 'btn btn-md, btn-danger' %>
   </div>
 </div>

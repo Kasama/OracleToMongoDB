@@ -24,15 +24,23 @@ class Oracle
     end
   end
 
-  def self.get_pks(table)
+  def self.get_constraint(table, type)
     sql = "SELECT column_name FROM all_cons_columns WHERE constraint_name = (
             SELECT constraint_name FROM user_constraints
-            WHERE UPPER(table_name) = UPPER('#{table}') AND CONSTRAINT_TYPE = 'P')"
-    pks = []
+            WHERE UPPER(table_name) = UPPER('#{table}') AND CONSTRAINT_TYPE = '#{type}')"
+    constraints = []
     Oracle.each_row_sql(sql) do |entry|
-      pks.append entry['COLUMN_NAME'].upcase
+      constraints.append entry['COLUMN_NAME'].upcase
     end
 
-    pks
+    constraints
+  end
+
+  def self.get_pks(table)
+    self.get_constraint table, 'P'
+  end
+
+  def self.get_uniques(table)
+    self.get_constraint table, 'U'
   end
 end

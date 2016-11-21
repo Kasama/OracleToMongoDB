@@ -28,7 +28,7 @@ class FindWrapperController < ApplicationController
     table_name = params['table'].upcase
     mux = params[:mux] == '1' ? 'and' : 'or'
 
-    args = params.select do |k,v|
+    args = params.select do |k, _v|
       /table_(attr|operator|operand)_\d+/ =~ k
     end
 
@@ -40,8 +40,7 @@ class FindWrapperController < ApplicationController
       find_string.append(str)
     end
     @query_string = "db.#{table_name}.find($#{mux}:#{find_string.to_s})"
-    db = MongoMapper.connection['dblabbd_fred_roberto']
-    collection = db.collection[table_name]
+    collection = MongoModel.collection table_name
     cursor = collection.find(query_string)
     cursor.each do |k,v|
       tuple = "#{k} => #{v}"

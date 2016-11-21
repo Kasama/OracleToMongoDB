@@ -45,7 +45,7 @@
     <%= f.select(:table, options_for_select(@options), { label: 'Selecione a tabela para busca:' }, { id: 'table_selector' }) %>
     <div id="partial_anchor"></div>
     <%= link_to 'Adicionar campo de busca','#', id: 'add_partial',class: 'btn btn-md btn-primary', data: {counter: 0 }%>
-    <%= f.primary :submit %>
+    <%= f.submit :buscar, class: 'btn btn-md btn-success' %>
     <%= f.form_group :mux do %>
         <%= f.label :mux_0 do %>
             AND

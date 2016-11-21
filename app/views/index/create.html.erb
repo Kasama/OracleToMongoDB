@@ -1,0 +1,18 @@
+<%= link_to 'Voltar', @oracle[:back_path], class: 'btn btn-md btn-primary' %>
+<%= link_to 'Copiar', '#', class: 'btn btn-md btn-success copy-text', data: {id: 'code'} %>
+<br />
+<br />
+<br />
+
+<% if @oracle[:uniques].empty? %>
+    <p id="code">
+      Não é necessário criar índice para essa tabela,
+      pois não existem constraints de 'unique' e o MongoDB já cria índices para o '_id'
+    </p>
+<% else %>
+<pre id="code">
+use dblabbd_fred_roberto;
+
+  db.<%= @oracle[:table] %>.createIndex({<%= @oracle[:uniques] %>});
+</pre>
+<% end %>

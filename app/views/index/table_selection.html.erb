@@ -1,0 +1,7 @@
+<%= bootstrap_form_tag url: index_for_path, method: :post do |f| %>
+
+    <%= f.select(:table, options_for_select(@options), label: 'Selecione uma tabela do Oracle') %>
+
+    <%= f.primary 'criar índice' %>
+
+<% end %>

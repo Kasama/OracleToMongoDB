@@ -4,7 +4,6 @@ class SimpleTableController < ApplicationController
     return redirect_to root_url, alert: 'failed to understand table' unless params[:table]
 
     table = params[:table].upcase # normalize table name to upper case
-    # get all pks of current table
 
     tup_arr = MongoModel.represent_table(table)
 

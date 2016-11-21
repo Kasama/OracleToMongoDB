@@ -13,4 +13,7 @@ class OracleController < ApplicationController
     end
    render json:{ :response => attrs }
   end
+
+  def index
+  end
 end

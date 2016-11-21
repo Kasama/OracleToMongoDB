@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'index#index'
+  root 'oracle#index'
 
   # First Exercise
   get 'first_exercise' => 'first_exercise#index', as: :first_ex
@@ -10,6 +10,10 @@ Rails.application.routes.draw do
   # Double table (both referencing and embedding)
     get 'double_table' => 'double_table#double_menu', as: :double_table
     post 'double_table' => 'double_table#function_selector', as: :selector_table
+
+  # Second Exercise
+  get 'index' => 'index#table_selection', as: :index_table
+  post 'index' => 'index#create', as: :index_for
 
   # Third Exercise
   get 'validation' => 'validation#validation', as: :validation
