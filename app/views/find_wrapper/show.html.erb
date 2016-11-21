@@ -42,18 +42,18 @@
 </script>
 
 <%= bootstrap_form_tag url: find_wrapper_submit_path, method: :post do |f| %>
-    <%= f.select(:table, options_for_select(@options), { label: 'Select where to find:' }, { id: 'table_selector' }) %>
+    <%= f.select(:table, options_for_select(@options), { label: 'Selecione a tabela para busca:' }, { id: 'table_selector' }) %>
     <div id="partial_anchor"></div>
-    <%= link_to 'add','#', id: 'add_partial',class: 'btn btn-md btn-primary', data: {counter: 0 }%>
+    <%= link_to 'Adicionar campo de busca','#', id: 'add_partial',class: 'btn btn-md btn-primary', data: {counter: 0 }%>
     <%= f.primary :submit %>
-    <%= f.form_group :mux %>
+    <%= f.form_group :mux do %>
         <%= f.label :mux_0 do %>
             AND
-            <%= radio_button_tag :mux, 0, text: 'AND', checked: true %>
+            <%= radio_button_tag :mux, 0, text: 'usar $and', checked: true %>
         <% end %>
         <%= label_tag :mux_1 do %>
             OR
-            <%= radio_button_tag :mux, 1, text: 'OR' %>
+            <%= radio_button_tag :mux, 1, text: 'usar $or' %>
         <% end %>
     <% end %>
     <div class="hide" id="batata">

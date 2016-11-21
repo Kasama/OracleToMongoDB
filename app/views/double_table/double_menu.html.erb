@@ -31,24 +31,24 @@
 <%= bootstrap_form_tag url: selector_table_path, method: :post do |f| %>
 
 
-    <%= f.select(:table1, options_for_select(@options_table), {label: 'Select the main table:' }, {id: 'table_one_selector' }) %>
-    <%= f.select(:attr1, options_for_select([]), { label: 'Select the main table\'s attribute' }, { id: 'attr_one_selector' }) %>
+    <%= f.select(:table1, options_for_select(@options_table), {label: 'Selecione a tabela principal' }, {id: 'table_one_selector' }) %>
+    <%= f.select(:attr1, options_for_select([]), { label: 'Selecione o atributo a ser unido' }, { id: 'attr_one_selector' }) %>
 
-    <%= f.select(:table2, options_for_select(@options_table), {label: 'Select the referenced table:' }, {id: 'table_two_selector' }) %>
-    <%= f.select(:attr2, options_for_select([]), { label: 'Select the referenced attribute' }, { id: 'attr_two_selector' }) %>
+    <%= f.select(:table2, options_for_select(@options_table), {label: 'Selecione a tabela estrangeira' }, {id: 'table_two_selector' }) %>
+    <%= f.select(:attr2, options_for_select([]), { label: 'Selecione o atributo referenciado' }, { id: 'attr_two_selector' }) %>
 
     <%= f.form_group :embed do %>
         <%= f.label :embed_0 do %>
-            Reference
-            <%= radio_button_tag :embed, 0, text: 'Reference table', checked: true %>
+            Usar Referencia
+            <%= radio_button_tag :embed, 0, checked: true %>
         <% end %>
         <%= label_tag :embed_1 do %>
-            Embed
-        <%= radio_button_tag :embed, 1, text: 'Embed table' %>
+            Usar 'Embedding'
+        <%= radio_button_tag :embed, 1 %>
         <% end %>
     <% end %>
 
-    <%= f.primary 'Generate MongoDB script' %>
+    <%= f.primary 'Gerar script MongoDB' %>
 
 
 

@@ -9,6 +9,7 @@
 
 # Ignore all logfiles and tempfiles.
 .idea/*
+*.iml
 /log/*
 !/log/.keep
 /tmp

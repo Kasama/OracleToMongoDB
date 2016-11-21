@@ -22,11 +22,16 @@
 						<span class="icon-bar"></span>
 					</button>
 					<%= link_to root_url, class: 'navbar-brand' do
-						'Oracle to MongoModel'
+						'Trabalho Oracle para Mongo'
 					end %>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav text-right text-capitalize">
+          <li><%= link_to 'Primeiro Exercício', first_ex_path %></li>
+          <li><%= link_to 'Segundo Exercício', root_url %></li>
+          <li><%= link_to 'Terceiro Exercício', validation_path %></li>
+          <li><%= link_to 'Quarto Exercício', find_wrapper_path %></li>
+          <li><%= link_to 'Quinto Exercício', benchmark_path %></li>
 				</ul>
 			</div>
 			<!--/.navbar-collapse -->
@@ -36,7 +41,7 @@
 		<div class="container">
 			<% flash.each do |name, msg| %>
 				<div class="alert alert-info alert-dismissable fade in">
-					<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+					<a href="#" class="close" data-dismiss="alert" aria-label="fechar">&times;</a>
 					<%= content_tag :div, msg, :id => "flash-#{name}" %>
 				</div>
 			<% end %>

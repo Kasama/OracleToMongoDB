@@ -1,24 +1,27 @@
 Rails.application.routes.draw do
 
+  root 'index#index'
+
+  # First Exercise
+  get 'first_exercise' => 'first_exercise#index', as: :first_ex
+  # Single table simple part
+    get 'simple_table' => 'simple_table#simple_menu', as: :simple_table
+    post 'simple_table' => 'simple_table#simple_table', as: :simple_table_for
+  # Double table (both referencing and embedding)
+    get 'double_table' => 'double_table#double_menu', as: :double_table
+    post 'double_table' => 'double_table#function_selector', as: :selector_table
+
+  # Third Exercise
   get 'validation' => 'validation#validation', as: :validation
 
+  # Fourth Exercise
   get 'create_find' => 'find_wrapper#show', as: :find_wrapper
   post 'submit_find' => 'find_wrapper#submit', as: :find_wrapper_submit
 
-  get 'simple_table' => 'simple_table#simple_menu', as: :simple_table
-  post 'simple_table' => 'simple_table#simple_table', as: :simple_table_for
-
-  get 'double_table' => 'double_table#double_menu', as: :double_table
-  get  'attrs_for_table' => 'oracle#get_attrs', as: :oracle_attrs
-  post 'double_table' => 'double_table#function_selector', as: :selector_table
-
+  # Fifth Exercise
   get 'benchmark' => 'benchmark#index', as: :benchmark
 
-  get 'validator' => 'validator#select_table', as: :pre_validator
-
-  get 'oracle/dump_script'
-
-  root 'index#index'
+  get  'attrs_for_table' => 'oracle#get_attrs', as: :oracle_attrs
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
