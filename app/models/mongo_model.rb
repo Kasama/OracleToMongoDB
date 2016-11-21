@@ -34,4 +34,13 @@ class MongoModel
     db = self.database.collection[name]
     db.collection[name]
   end
+
+  def self.insert_many(collection, arr)
+    col = self.collection collection
+
+    arr.each do |el|
+      col.insert(el)
+    end
+
+  end
 end
