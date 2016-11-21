@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'validation' => 'validation#validation', as: :validation
+
   get 'create_find' => 'find_wrapper#show', as: :find_wrapper
   post 'submit_find' => 'find_wrapper#submit', as: :find_wrapper_submit
 

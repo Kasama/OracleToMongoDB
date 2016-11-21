@@ -1,4 +1,4 @@
-// LE01ESTADO
+/* LE01ESTADO */
 db.runCommand({
 	colmod: "LE01ESTADO",
 	validator: {
@@ -8,28 +8,28 @@ db.runCommand({
 		]
 	}
 });
-// LE02CIDADE
+/* LE02CIDADE */
 db.runCommand({
 	colmod: "LE02CIDADE",
 	validator: {
 		$and: [
 		{ NOME: { $exists: true, $type: "string" } },
 		{ SIGLAESTADO: { $exists: true, $type: "string" } },
-		{ POPULACAO: { $exists: true, $gte: 0 } }
+		{ POPULACAO: { $exists: true, $gte: 0, $type: "double" } }
 		]
 	}
 });
-// LE03ZONA
+/* LE03ZONA */
 db.runCommand({
 	colmod: "LE03ZONA",
 	validator: {
 		$and: [
 		{ NROZONA: { $exists: true, $gte: 0 } },
-		{ NRODEURNASRESERVA: { $exists: true, $gte: 0 }}
+		{ NRODEURNASRESERVA: { $exists: true }}
 		]
 		}
 	});
-// LE04BAIRRO
+/* LE04BAIRRO */
 db.runCommand({
 	colmod: "LE04BAIRRO",
 	validator: {
@@ -37,33 +37,31 @@ db.runCommand({
 		{ NOME: { $exists: true, $type: "string" } },
 		{ NOMECIDADE: { $exists: true, $type: "string" } },
 		{ SIGLAESTADO: { $exists: true, $type: "string" } },
-		{ NROZONA: { $exists: true, $gte: 0 } }
+		{ NROZONA: { $exists: true } }
 		]
 	}
 });
-// LE05URNA
+/* LE05URNA */
 db.runCommand({
 	colmod: "LE05URNA",
 	validator: {
 		$and: [
-		{ NSERIAL: { $exists: true, $gte: 0 } },
+		{ NSERIAL: { $exists: true } },
 		{ ESTADO: { $type: "string", $in: ["funcional", "manutencao"] } },
-		{ NROZONA: { $gte: 0 } }
 		]
 	}
 });
-// LE06SESSAO
+/* LE06SESSAO */
 db.runCommand({
 	colmod: "LE06SESSAO",
 	validator: {
 		$and: [
-		{ NROSESSAO: { $exists: true, $gte: 0 } },
-		{ NROZONA: { $exists: true, $gte: 0 } },
-		{ NSERIAL: { $exists: true, $gte: 0 } }
+		{ NROSESSAO: { $exists: true } },
+		{ NSERIAL: { $exists: true } }
 		]
 	}
 });
-// LE07PARTIDO
+/* LE07PARTIDO */
 db.runCommand({
 	colmod: "LE07PARTIDO",
 	validator: {
@@ -73,21 +71,19 @@ db.runCommand({
 		]
 	}
 });
-// LE08CANDIDATO
+/* LE08CANDIDATO */
 db.runCommand({
 	colmod: "LE08CANDIDATO",
 	validator: {
 		$and: [
-		{ NROCAND: { $exists: true, $gte: 0 } },
-		{ TIPO: { $exists: true, $in: ["politico", "especial"] } },
-		{ CPF: { $gte: 0 } },
+		{ NROCAND: { $exists: true } },
 		{ NOME: { $exists: true, $type: "string" } },
-		{ IDADE: { $gte: 0 } },
 		{ APELIDO: { $type: "string" } },
 		{ SIGLAPARTIDO: { $type: "string" } },
 		{ $or: [
 				{ $and: [
 					{ TIPO: { $eq: "politico" }},
+					{ SIGLAPARTIDO: { $exists: true } },
 					{ CPF: { $exists: true }}
 				]},
 				{ $and: [
@@ -102,70 +98,85 @@ db.runCommand({
 		]
 	}
 });
-// LE09CARGO
+/* LE09CARGO */
 db.runCommand({
 	colmod: "LE09CARGO",
 	validator: {
 		$and: [
-		{ CODCARGO: { $exists: true, $gte: 0 } },
+		{ CODCARGO: { $exists: true } },
 		{ POSSUIVICE: { $exists: true, $in: [0, 1] } },
 		{ ANOBASE: { $exists: true } },
-		{ ANOSMANDATO: { $exists: true, $gte: 0 } },
+		{ ANOSMANDATO: { $exists: true } },
 		{ NOMEDESCRITIVO: { $exists: true, $type: "string" } },
 		{ ESFERA: { $exists: true, $in: ['E', 'F', 'M'] } },
-		{ NOMECIDADE: { $exists: true, $type: "string" } },
-		{ SIGLAESTADO: { $exists: true, $type: "string" } },
-		{ SALARIO: { $exists: true, $gte: 0 } }
+		{ NOMECIDADE: { $type: "string" } },
+		{ SIGLAESTADO: { $type: "string" } },
+		{ $or: [
+			{ $and: [
+				{ ESFERA: { $eq: 'F' }},
+				{ NOMECIDADE: { $exists: false }},
+				{ SIGLAESTADO: { $exists: false }},
+			]},
+			{ $and: [
+				{ ESFERA: { $eq: 'E' }},
+				{ NOMECIDADE: { $exists: false }},
+				{ SIGLAESTADO: { $exists: true }},
+			]},
+			{ $and: [
+				{ ESFERA: { $eq: 'M' }},
+				{ NOMECIDADE: { $exists: true }},
+				{ SIGLAESTADO: { $exists: true }},
+			]}
+		]}
 		]
 	}
 });
-// LE10CANDIDATURA
+/* LE10CANDIDATURA */
 db.runCommand({
 	colmod: "LE10CANDIDATURA",
 	validator: {
 		$and: [
-		{ REG: { $exists: true, $gte: 0 } },
-		{ CODCARGO: { $exists: true, $gte: 0 } },
+		{ REG: { $exists: true } },
+		{ CODCARGO: { $exists: true } },
 		{ ANO: { $exists: true, $gte: 1985, $lte: 2100 } },
 		{ NROCAND: { $exists: true, $gte: 0 } },
-		{ NROVICE: { $gte: 0 } }
 		]
 	}
 });
-// LE11PLEITO
+/* LE11PLEITO */
 db.runCommand({
 	colmod: "LE11PLEITO",
 	validator: {
 		$and: [
-		{ NROSESSAO: { $exists: true, $gte: 0 } },
-		{ NROZONA: { $exists: true, $gte: 0 } },
-		{ CODCARGO: { $exists: true, $gte: 0 } },
-		{ ANO: { $exists: true, $gte: 1985, $lte: 2100 } },
-		{ NROCAND: { $exists: true, $gte: 0 } },
-		{ TOTAL: { $exists: true, $gte: 0 } }
+		{ NROSESSAO: { $exists: true } },
+		{ NROZONA: { $exists: true } },
+		{ CODCARGO: { $exists: true } },
+		{ ANO: { $exists: true } },
+		{ NROCAND: { $exists: true } },
+		{ TOTAL: { $exists: true } }
 		]
 	}
 });
-// LE12PESQUISA
+/* LE12PESQUISA */
 db.runCommand({
 	colmod: "LE12PESQUISA",
 	validator: {
 		$and: [
-		{ REGPESQUISA: { $exists: true, $gte: 0 } },
-		{ PERIODOINICIO: { $exists: true } },
-		{ PERIODOFIM: { $exists: true } },
+		{ REGPESQUISA: { $exists: true } },
+		{ PERIODOINICIO: { $exists: true, $type: "date" } },
+		{ PERIODOFIM: { $exists: true, $type: "date" } },
 		{ ORGAOPESQUISA: { $exists: true, $type: "string" } }
 		]
 	}
 });
-// LE13INTENCAODEVOTO
+/* LE13INTENCAODEVOTO */
 db.runCommand({
 	colmod: "LE13INTENCAODEVOTO",
 	validator: {
 		$and: [
-		{ REGPESQUISA: { $exists: true, $gte: 0 } },
-		{ REGCANDID: { $exists: true, $gte: 0 } },
-		{ TOTAL: { $exists: true, $gte: 0 } }
+		{ REGPESQUISA: { $exists: true } },
+		{ REGCANDID: { $exists: true } },
+		{ TOTAL: { $exists: true } }
 		]
 	}
 });
