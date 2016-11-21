@@ -15,22 +15,39 @@ class FindWrapperController < ApplicationController
       i = i + 1
     end
 
+
     # list all operators
-    @operators = %w($eq $gt $gte $lt $lte $ne $in $nin $or $and $not $nor $exists $type)
+    @operators = %w($eq $gt $gte $lt $lte $ne $in $nin $not $nor $exists $type)
   end
 
   # post
   def submit
     find_string = []
     separator = ', '
-    args = params[:argv]
-    args.each do |arg|
-      attr = arg[:attr]
-      operator = arg[:operator]
-      value = arg[:value]
-      str = "{#{attr}: {#{operator}: #{value}}}"
+    query = []
+    table_name = params['table'].upcase
+    mux = params[:mux] == '1' ? 'and' : 'or'
+
+    args = params.select do |k,v|
+      /table_(attr|operator|operand)_\d+/ =~ k
+    end
+
+    (0..args.length/3).each do |i|
+      attr = args["table_attr_#{i}"]
+      operator = args["table_operator_#{i}"]
+      operand = args["table_operand_#{i}"]
+      str = "{#{attr}: {#{operator}: #{operand}}}"
       find_string.append(str)
     end
-    @query = find_string.join(separator)
+    @query_string = "db.#{table_name}.find($#{mux}:#{find_string.to_s})"
+    db = MongoMapper.connection['dblabbd_fred_roberto']
+    collection = db.collection[table_name]
+    cursor = collection.find(query_string)
+    cursor.each do |k,v|
+      tuple = "#{k} => #{v}"
+      puts tuple
+      query.append(tuple)
+    end
+    @query = query
   end
 end

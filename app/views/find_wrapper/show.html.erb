@@ -1,8 +1,11 @@
 <script type="text/javascript" charset="utf-8">
   var attr_selector;
   $(document).ready(function () {
-    $('#table_selector').change(getAttrs());
+    getAttrs();
+    $('#table_selector').change(getAttrs);
     function getAttrs() {
+      $('#add_partial').attr('data-counter', '0');
+      $('#partial_anchor').empty();
       $.ajax({
         url: "<%= oracle_attrs_path %>",
         type: "GET",
@@ -17,16 +20,44 @@
             options += '<option value="' + attrs[i] + '">' + attrs[i] + '</option>';
           }
           attr_selector = options;
+          var attrs_selector = $('.attrs_selector');
+          attrs_selector.empty();
+          attrs_selector.append(attr_selector);
         }
       })
     }
+
+    $('#add_partial').click(function () {
+      var partial = $('#batata').html();
+      var i = $(this).attr('data-counter');
+      var new_partial = partial.replace(new RegExp('table_attr_', 'g'), 'table_attr_'+i);
+      new_partial = new_partial.replace(new RegExp('table_operator_', 'g'), 'table_operator_'+i);
+      new_partial = new_partial.replace(new RegExp('table_operand_', 'g'), 'table_operand_'+i);
+
+      $(this).attr('data-counter', parseInt(i, 10) + 1);
+      $('#partial_anchor').append(new_partial);
+
+    })
   })
 </script>
 
-<%= bootstrap_form_tag url: find_wrapper_path, method: :post do |f| %>
-
+<%= bootstrap_form_tag url: find_wrapper_submit_path, method: :post do |f| %>
     <%= f.select(:table, options_for_select(@options), { label: 'Select where to find:' }, { id: 'table_selector' }) %>
-      <%= link_to 'add','#', class: 'btn btn-md btn-primary', data: {batata: render(partial: 'partial_show')}%>
+    <div id="partial_anchor"></div>
+    <%= link_to 'add','#', id: 'add_partial',class: 'btn btn-md btn-primary', data: {counter: 0 }%>
     <%= f.primary :submit %>
-
+    <%= f.form_group :mux %>
+        <%= f.label :mux_0 do %>
+            AND
+            <%= radio_button_tag :mux, 0, text: 'AND', checked: true %>
+        <% end %>
+        <%= label_tag :mux_1 do %>
+            OR
+            <%= radio_button_tag :mux, 1, text: 'OR' %>
+        <% end %>
+    <% end %>
+    <div class="hide" id="batata">
+      <%= render(partial: 'partial_show', locals: {f: f}) %>
+    </div>
 <% end %>
+
