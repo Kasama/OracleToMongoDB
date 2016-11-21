@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb62f56-8e3b-4d34-9938-ac7117d7701e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/validation_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/validation/validation.html.erb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mongo_document_validation.js" afterPath="$PROJECT_DIR$/app/views/validation/_mongo_document_validation.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/validation_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index/index.html.erb" afterPath="$PROJECT_DIR$/app/views/index/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="oracle_to_mongo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,8 +50,8 @@
       <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -1492,7 +1488,7 @@
       <workItem from="1479388207668" duration="7818000" />
       <workItem from="1479580172290" duration="21825000" />
       <workItem from="1479667725890" duration="17791000" />
-      <workItem from="1479733249891" duration="35000" />
+      <workItem from="1479733249891" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="finished simple table convertion">
       <created>1479073001089</created>
@@ -1550,11 +1546,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479685603204</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finished document validation">
+      <created>1479733323847</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1479733323847</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105894000" />
+    <option name="totallyTimeSpent" value="105937000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1623,7 +1626,8 @@
     <MESSAGE value="started benchmark" />
     <MESSAGE value="finished embedding and referencing" />
     <MESSAGE value="added document validation, still missing CARGO" />
-    <option name="LAST_COMMIT_MESSAGE" value="added document validation, still missing CARGO" />
+    <MESSAGE value="finished document validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished document validation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1938,8 +1942,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
           <folding />
         </state>
       </provider>
