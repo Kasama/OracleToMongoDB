@@ -24,6 +24,8 @@ Rails.application.routes.draw do
 
   # Fifth Exercise
   get 'benchmark' => 'benchmark#index', as: :benchmark
+  post 'insert_into' => 'benchmark#insert_into', as: :insert_into
+  post 'select_from' => 'benchmark#select_from', as: :select_from
 
   get  'attrs_for_table' => 'oracle#get_attrs', as: :oracle_attrs
 

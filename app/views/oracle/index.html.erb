@@ -2,6 +2,39 @@
 <p>No primeiro exercício o programa permite transformar tabelas do Oracle em um script de criação de coleção em MongoDB</p>
 <p>Esse exercício foi dividido em duas partes, uma para transformação de tabelas sem considerar referencias estrangeiras e outra considerando-as</p>
 <%= link_to :acessar, first_ex_path, class: 'btn btn-bg btn-primary' %>
+
 <h2>Segundo Exercício</h2>
 <p>No segundo exercício o programa permite a geração de índice para a tabela selecionada</p>
-<p>O índice</p>
+
+<h2>Quinto Exercício</h2>
+<p>Resultados das inserções de Oracle contra MongoDB</p>
+<table class="table table-bordered">
+  <tr>
+    <th></th>
+    <th>1000 Com I</th>
+    <th>10000 Com I</th>
+    <th>100000 Com I</th>
+    <th>1000 Sem I</th>
+    <th>10000 Sem I</th>
+    <th>100000 Sem I</th>
+  </tr>
+  <tr>
+    <td>Oracle</td>
+    <td>64.28s</td>
+    <td>75.62s</td>
+    <td>875.15s</td>
+    <td>35.62s</td>
+    <td>282.26s</td>
+    <td>4041.83s</td>
+  </tr>
+  <tr>
+    <td>MongoDB</td>
+    <td>0.01s</td>
+    <td>0.16s</td>
+    <td>1.61s</td>
+    <td>0.01s</td>
+    <td>0.13s</td>
+    <td>1.77s</td>
+  </tr>
+</table>
+

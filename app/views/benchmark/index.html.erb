@@ -1,1 +1,90 @@
-<h1>hello</h1>
+<script type="text/javascript" charset="utf-8">
+
+  $(document).ready(function () {
+    $("#insert_into").click(function () {
+      $("#loader")[0].style.display = 'block';
+      $.ajax({
+        url: <%= insert_into_path %>,
+        type: 'POST',
+        dataType: 'json',
+        data: {number: $('#number').val()},
+        complete: function () { },
+        success: function (data, test_status, xhr) {
+          $("#loader")[0].style.display = 'none';
+          window.append(data.number);
+
+        }
+      })
+    });
+  });
+
+</script>
+<style>
+  /* Center the loader */
+  #loader {
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*z-index: 1;*/
+    width: 15px;
+    height: 15px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 12px;
+    height: 12px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 }
+    to { bottom:0px; opacity:1 }
+  }
+
+  @keyframes animatebottom {
+    from{ bottom:-100px; opacity:0 }
+    to{ bottom:0; opacity:1 }
+  }
+
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
+</style>
+
+<h2>Realizar Inserções</h2>
+<%= bootstrap_form_tag url: insert_into_path, method: :post do |f| %>
+    <%= f.text_field :number, label: 'Número de vezes' %>
+    <%= link_to 'insert into', '#', id: 'insert_into', class: 'btn btn-md btn-primary' %>
+    <%= f.submit 'Insert into' %>
+<% end %>
+
+<h2>Realizar Buscas</h2>
+<%= bootstrap_form_tag url: select_from_path, method: :post do |f| %>
+    <%= f.text_field :number, label: 'Número de vezes' %>
+    <%= f.text_field :rand, label: 'Max random' %>
+    <%= f.submit 'Select from' %>
+<% end %>
+
+<div id="loader" style="display: none"></div>
