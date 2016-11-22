@@ -19,7 +19,7 @@ class MongoModel
       end
       # remove every 'null' field
       tup.delete_if do |_, v|
-        v.nil? || ( v.kind_of?(Hash) && v.empty? )
+        v.nil? || (v.is_a?(Hash) && v.empty?)
       end
       tup_arr.append tup
     end
@@ -31,16 +31,33 @@ class MongoModel
   end
 
   def self.collection(name)
-    db = self.database
+    db = database
     db.collection(name)
+  end
+
+  def self.benchmark_insert(inserts, index = false)
+    table = 'insert_test'
+    table + '_index' if index
+
+    drop table
+    collection = self.collection table
+    collection.create_index(name1: 'text') if index
+
+    bulk = collection.initialize_unordered_bulk_op
+    inserts.each do |i|
+      bulk.insert i
+    end
+
+    time = Benchmark.realtime do
+      bulk.execute
+    end
+    time
   end
 
   def self.insert_many(collection, arr)
     col = self.collection collection
 
-    arr.each do |el|
-      col.insert(el)
-    end
+    col.bulk_write arr
   end
 
   def self.drop(collection)

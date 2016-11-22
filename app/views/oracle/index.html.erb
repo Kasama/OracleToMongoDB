@@ -1,40 +1,70 @@
 <h2>Primeiro Exercício</h2>
-<p>No primeiro exercício o programa permite transformar tabelas do Oracle em um script de criação de coleção em MongoDB</p>
+<p>No primeiro exercício o programa permite transformar tabelas do Oracle em um script para criação de uma coleção em MongoDB</p>
 <p>Esse exercício foi dividido em duas partes, uma para transformação de tabelas sem considerar referencias estrangeiras e outra considerando-as</p>
+<p>Obs: Não criamos o método para transformação de relações N:N</p>
 <%= link_to :acessar, first_ex_path, class: 'btn btn-bg btn-primary' %>
 
 <h2>Segundo Exercício</h2>
 <p>No segundo exercício o programa permite a geração de índice para a tabela selecionada</p>
+<%= link_to :acessar, index_table_path, class: 'btn btn-bg btn-primary' %>
+
+<h2>Terceiro Exercício</h2>
+<p>O terceiro exercício é um script escrito manualmente para realizar as verificações 'CHECK' existentes no Oracle, em forma de validação MongoDB</p>
+<%= link_to :acessar, validation_path, class: 'btn btn-bg btn-primary' %>
+
+<h2>Quarto Exercício</h2>
+<p>O quarto exercício permite a criação e execução de buscas montadas pelo usuário</p>
+<p>O programa retorna o script MongoDB para a realização da busca e também os resultados dela</p>
+<%= link_to :acessar, find_wrapper_path, class: 'btn btn-bg btn-primary' %>
 
 <h2>Quinto Exercício</h2>
+<p>O quinto exercício permite a inserção ou busca de tuplas no formato:</p>
+<pre>{_id: numero, name1: "String de 2000 chars", name2: "String de 2000 chars", ..., name10: "String de 2000 chars}</pre>
+<p>São criadas duas collections 'insert_test' e 'insert_test_index' a primeira sem índice e a segunda com índice em 'name1'</p>
+<p>São realizadas várias operações e o tempo de execução é retornado</p>
+
+<%= link_to :acessar, benchmark_path, class: 'btn btn-bg btn-primary' %>
+
+<h4>Resultados</h4>
+<p>Comparamos os resultados obtidos na Pratica 9 (Oracle) com as operações equivalentes em MongoDB</p>
 <p>Resultados das inserções de Oracle contra MongoDB</p>
 <table class="table table-bordered">
   <tr>
-    <th></th>
-    <th>1000 Com I</th>
-    <th>10000 Com I</th>
-    <th>100000 Com I</th>
-    <th>1000 Sem I</th>
-    <th>10000 Sem I</th>
-    <th>100000 Sem I</th>
+    <th>Banco</th>
+    <th>1.000 tuplas</th> <th>10.000 tuplas</th> <th>100.000 tuplas</th>
   </tr>
   <tr>
-    <td>Oracle</td>
-    <td>64.28s</td>
-    <td>75.62s</td>
-    <td>875.15s</td>
-    <td>35.62s</td>
-    <td>282.26s</td>
-    <td>4041.83s</td>
+    <td>Oracle Com Índice</td>
+    <td>64.28s</td> <td>75.62s</td> <td>875.15s</td>
   </tr>
   <tr>
-    <td>MongoDB</td>
-    <td>0.01s</td>
-    <td>0.16s</td>
-    <td>1.61s</td>
-    <td>0.01s</td>
-    <td>0.13s</td>
-    <td>1.77s</td>
+    <td>Oracle Sem Índice</td>
+    <td>35.62s</td> <td>282.26s</td> <td>4041.83s</td>
+  </tr>
+  <tr>
+    <td>MongoDB Com Índice</td>
+    <td>0.90s</td> <td>8.93s</td> <td>231.20s</td>
+  </tr>
+  <tr>
+    <td>MongoDB Sem Índice</td>
+    <td>0.93s</td> <td>8.55s</td> <td>469.76s</td>
   </tr>
 </table>
+<p>Resultados das buscas de MongoDB</p>
+<table class="table table-bordered">
+  <tr>
+    <th>Banco</th>
+    <th>1.000 tuplas</th> <th>10.000 tuplas</th> <th>100.000 tuplas</th>
+  </tr>
+  <tr>
+    <td>MongoDB Com Índice</td>
+    <td>0.01s</td> <td>0.16s</td> <td>1.61s</td>
+  </tr>
+  <tr>
+    <td>MongoDB Sem Índice</td>
+    <td>0.01s</td> <td>0.13s</td> <td>1.77s</td>
+  </tr>
+</table>
+<p>Obs: Não foi possível comparar as buscar com o Oracle, pois houveram problemas na execução da Prática 9</p>
 
+<p>Pudemos observar que sendo muito mais robusto, o banco de dados Oracle é muito mais lento para operações de inserção. Não pudemos comparar os resultados das buscas por problemas na execução do Oracle, mas os resultados com MongoDB foram bastante satisfatórios, com tempos muito próximos com ou sem índice, o que sugere que o banco crie índices temporários para busca em tabelas de muito acesso</p>
