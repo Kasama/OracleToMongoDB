@@ -31,8 +31,8 @@ class MongoModel
   end
 
   def self.collection(name)
-    db = self.database.collection[name]
-    db.collection[name]
+    db = self.database
+    db.collection(name)
   end
 
   def self.insert_many(collection, arr)
@@ -41,6 +41,5 @@ class MongoModel
     arr.each do |el|
       col.insert(el)
     end
-
   end
 end

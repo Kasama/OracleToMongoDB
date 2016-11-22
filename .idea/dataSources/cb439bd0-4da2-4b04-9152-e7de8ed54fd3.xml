@@ -1386,216 +1386,222 @@
     <schema id="461" name="7572811">
       <object-id>1183</object-id>
     </schema>
-    <schema id="462" name="8956690">
-      <object-id>1184</object-id>
-    </schema>
-    <schema id="463" name="XS$NULL">
+    <schema id="462" name="XS$NULL">
       <object-id>2147483638</object-id>
     </schema>
-    <table id="464" parent="1" name="DDLLOG">
+    <schema id="463" name="8956690">
+      <object-id>1185</object-id>
+    </schema>
+    <schema id="464" name="EXEMPLO01">
+      <object-id>1186</object-id>
+    </schema>
+    <schema id="465" name="EXEMPLO02">
+      <object-id>1187</object-id>
+    </schema>
+    <table id="466" parent="1" name="DDLLOG">
       <object-id>452250</object-id>
       <created-timestamp>2016-10-10.16:04:38</created-timestamp>
       <modified-timestamp>2016-10-10.16:04:38</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="465" parent="1" name="LE01ESTADO">
+    <table id="467" parent="1" name="LE01ESTADO">
       <object-id>398794</object-id>
       <created-timestamp>2016-08-23.15:57:46</created-timestamp>
       <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="466" parent="1" name="LE02CIDADE">
+    <table id="468" parent="1" name="LE02CIDADE">
       <object-id>398797</object-id>
       <created-timestamp>2016-08-23.15:57:47</created-timestamp>
       <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="467" parent="1" name="LE03ZONA">
+    <table id="469" parent="1" name="LE03ZONA">
       <object-id>398799</object-id>
       <created-timestamp>2016-08-23.15:57:48</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="468" parent="1" name="LE04BAIRRO">
+    <table id="470" parent="1" name="LE04BAIRRO">
       <object-id>398801</object-id>
       <created-timestamp>2016-08-23.15:57:48</created-timestamp>
       <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="469" parent="1" name="LE05URNA">
+    <table id="471" parent="1" name="LE05URNA">
       <object-id>398804</object-id>
       <created-timestamp>2016-08-23.15:57:48</created-timestamp>
       <modified-timestamp>2016-10-10.14:18:01</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="470" parent="1" name="LE06SESSAO">
+    <table id="472" parent="1" name="LE06SESSAO">
       <object-id>398806</object-id>
       <created-timestamp>2016-08-23.15:57:49</created-timestamp>
       <modified-timestamp>2016-10-10.14:18:42</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="471" parent="1" name="LE07PARTIDO">
+    <table id="473" parent="1" name="LE07PARTIDO">
       <object-id>398808</object-id>
       <created-timestamp>2016-08-23.15:57:49</created-timestamp>
       <modified-timestamp>2016-10-10.14:27:48</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="472" parent="1" name="LE08CANDIDATO">
+    <table id="474" parent="1" name="LE08CANDIDATO">
       <object-id>398811</object-id>
       <created-timestamp>2016-08-23.15:57:49</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="473" parent="1" name="LE09CARGO">
+    <table id="475" parent="1" name="LE09CARGO">
       <object-id>398814</object-id>
       <created-timestamp>2016-08-23.15:57:50</created-timestamp>
       <modified-timestamp>2016-10-17.10:48:07</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="474" parent="1" name="LE10CANDIDATURA">
+    <table id="476" parent="1" name="LE10CANDIDATURA">
       <object-id>398817</object-id>
       <created-timestamp>2016-08-23.15:57:50</created-timestamp>
       <modified-timestamp>2016-10-10.14:57:12</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="475" parent="1" name="LE11PLEITO">
+    <table id="477" parent="1" name="LE11PLEITO">
       <object-id>398820</object-id>
       <created-timestamp>2016-08-23.15:57:50</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="476" parent="1" name="LE12PESQUISA">
+    <table id="478" parent="1" name="LE12PESQUISA">
       <object-id>398822</object-id>
       <created-timestamp>2016-08-23.15:57:50</created-timestamp>
       <modified-timestamp>2016-08-23.17:19:58</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="477" parent="1" name="LE13INTENCAODEVOTO">
+    <table id="479" parent="1" name="LE13INTENCAODEVOTO">
       <object-id>398824</object-id>
       <created-timestamp>2016-08-23.15:57:51</created-timestamp>
       <modified-timestamp>2016-08-23.17:19:35</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="478" parent="1" name="MLOG$_LE01ESTADO">
+    <table id="480" parent="1" name="MLOG$_LE01ESTADO">
       <object-id>407657</object-id>
       <comment>snapshot log for master table A8936756.LE01ESTADO</comment>
       <created-timestamp>2016-09-05.12:06:31</created-timestamp>
       <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="479" parent="1" name="MLOG$_LE02CIDADE">
+    <table id="481" parent="1" name="MLOG$_LE02CIDADE">
       <object-id>407656</object-id>
       <comment>snapshot log for master table A8936756.LE02CIDADE</comment>
       <created-timestamp>2016-09-05.12:06:31</created-timestamp>
       <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="480" parent="1" name="MLOG$_LE04BAIRRO">
+    <table id="482" parent="1" name="MLOG$_LE04BAIRRO">
       <object-id>407655</object-id>
       <comment>snapshot log for master table A8936756.LE04BAIRRO</comment>
       <created-timestamp>2016-09-05.12:06:31</created-timestamp>
       <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="481" parent="1" name="MLOG$_LE05URNA">
+    <table id="483" parent="1" name="MLOG$_LE05URNA">
       <object-id>407658</object-id>
       <comment>snapshot log for master table A8936756.LE05URNA</comment>
       <created-timestamp>2016-09-05.12:06:31</created-timestamp>
       <modified-timestamp>2016-09-05.12:06:31</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <table id="482" parent="1" name="MLOG$_LE06SESSAO">
+    <table id="484" parent="1" name="MLOG$_LE06SESSAO">
       <object-id>407654</object-id>
       <comment>snapshot log for master table A8936756.LE06SESSAO</comment>
       <created-timestamp>2016-09-05.12:05:59</created-timestamp>
       <modified-timestamp>2016-09-05.12:05:59</modified-timestamp>
       <organization>HEAP</organization>
     </table>
-    <view id="483" parent="1" name="VOTOS_CANDIDATURA">
+    <view id="485" parent="1" name="VOTOS_CANDIDATURA">
       <object-id>445395</object-id>
       <created-timestamp>2016-10-02.21:37:42</created-timestamp>
       <modified-timestamp>2016-10-04.17:22:45</modified-timestamp>
       <modifiable>1</modifiable>
     </view>
-    <view id="484" parent="1" name="VIEW_QTD_CANDIDATURAS">
+    <view id="486" parent="1" name="VIEW_QTD_CANDIDATURAS">
       <object-id>403035</object-id>
       <created-timestamp>2016-08-30.15:10:03</created-timestamp>
       <modified-timestamp>2016-08-30.15:10:03</modified-timestamp>
       <modifiable>1</modifiable>
     </view>
-    <view id="485" parent="1" name="TOTALIZACAO">
+    <view id="487" parent="1" name="TOTALIZACAO">
       <object-id>444387</object-id>
       <created-timestamp>2016-10-01.16:26:24</created-timestamp>
       <modified-timestamp>2016-10-01.16:26:24</modified-timestamp>
       <modifiable>1</modifiable>
     </view>
-    <routine id="486" parent="1" name="CALCULA_MEDIA_P_INTENCOES">
+    <routine id="488" parent="1" name="CALCULA_MEDIA_P_INTENCOES">
       <object-id>447514</object-id>
       <created-timestamp>2016-10-04.16:31:51</created-timestamp>
       <modified-timestamp>2016-10-04.16:31:56</modified-timestamp>
       <routine-kind>FUNCTION</routine-kind>
     </routine>
-    <routine id="487" parent="1" name="CALCULA_MEDIA_P_VOTOS">
+    <routine id="489" parent="1" name="CALCULA_MEDIA_P_VOTOS">
       <object-id>447506</object-id>
       <created-timestamp>2016-10-04.16:28:31</created-timestamp>
       <modified-timestamp>2016-10-04.16:57:44</modified-timestamp>
       <routine-kind>FUNCTION</routine-kind>
     </routine>
-    <routine id="488" parent="1" name="CALCULA_PORCENTAGEM_INTENCOES">
+    <routine id="490" parent="1" name="CALCULA_PORCENTAGEM_INTENCOES">
       <object-id>447513</object-id>
       <created-timestamp>2016-10-04.16:31:36</created-timestamp>
       <modified-timestamp>2016-10-04.16:31:36</modified-timestamp>
       <routine-kind>FUNCTION</routine-kind>
     </routine>
-    <routine id="489" parent="1" name="CALCULA_PORCENTAGEM_VOTOS">
+    <routine id="491" parent="1" name="CALCULA_PORCENTAGEM_VOTOS">
       <object-id>447504</object-id>
       <created-timestamp>2016-10-04.16:49:47</created-timestamp>
       <modified-timestamp>2016-10-04.16:50:24</modified-timestamp>
       <routine-kind>FUNCTION</routine-kind>
     </routine>
-    <routine id="490" parent="1" name="COVARIANCE">
+    <routine id="492" parent="1" name="COVARIANCE">
       <object-id>447517</object-id>
       <created-timestamp>2016-10-04.16:33:57</created-timestamp>
       <modified-timestamp>2016-10-04.17:13:40</modified-timestamp>
       <routine-kind>FUNCTION</routine-kind>
     </routine>
-    <routine id="491" parent="1" name="MAIS_VOTADO">
+    <routine id="493" parent="1" name="MAIS_VOTADO">
       <object-id>444388</object-id>
       <created-timestamp>2016-10-01.16:26:43</created-timestamp>
       <modified-timestamp>2016-10-01.16:26:43</modified-timestamp>
       <routine-kind>PROCEDURE</routine-kind>
     </routine>
-    <routine id="492" parent="1" name="VARIANCIA_INTENCAO">
+    <routine id="494" parent="1" name="VARIANCIA_INTENCAO">
       <object-id>447515</object-id>
       <created-timestamp>2016-10-04.16:32:06</created-timestamp>
       <modified-timestamp>2016-10-04.16:32:09</modified-timestamp>
       <routine-kind>FUNCTION</routine-kind>
     </routine>
-    <routine id="493" parent="1" name="VARIANCIA_VOTOS">
+    <routine id="495" parent="1" name="VARIANCIA_VOTOS">
       <object-id>447512</object-id>
       <created-timestamp>2016-10-04.16:31:03</created-timestamp>
       <modified-timestamp>2016-10-04.16:57:48</modified-timestamp>
       <routine-kind>FUNCTION</routine-kind>
     </routine>
-    <routine id="494" parent="1" name="VERIFICA_CANDIDATOS">
+    <routine id="496" parent="1" name="VERIFICA_CANDIDATOS">
       <object-id>446681</object-id>
       <created-timestamp>2016-10-03.20:56:26</created-timestamp>
       <modified-timestamp>2016-10-03.23:01:00</modified-timestamp>
       <routine-kind>PROCEDURE</routine-kind>
     </routine>
-    <routine id="495" parent="1" name="VERIFICA_RESULTADOS">
+    <routine id="497" parent="1" name="VERIFICA_RESULTADOS">
       <object-id>445413</object-id>
       <created-timestamp>2016-10-02.22:43:41</created-timestamp>
       <modified-timestamp>2016-10-02.23:51:41</modified-timestamp>
       <routine-kind>PROCEDURE</routine-kind>
     </routine>
-    <collection-type id="496" parent="1" name="CANDIDATOS_TABLE">
+    <collection-type id="498" parent="1" name="CANDIDATOS_TABLE">
       <object-id>444384</object-id>
       <created-timestamp>2016-10-01.16:13:25</created-timestamp>
       <modified-timestamp>2016-10-01.16:13:25</modified-timestamp>
       <element-type>NUMBER(9)|0</element-type>
     </collection-type>
-    <collection-type id="497" parent="1" name="VALUES_ARRAY">
+    <collection-type id="499" parent="1" name="VALUES_ARRAY">
       <object-id>452464</object-id>
       <created-timestamp>2016-10-11.17:36:15</created-timestamp>
       <modified-timestamp>2016-10-11.17:36:15</modified-timestamp>
@@ -1603,191 +1609,191 @@
       <upper-bound>50</upper-bound>
       <array>1</array>
     </collection-type>
-    <package id="498" parent="1" name="PRATICA08">
+    <package id="500" parent="1" name="PRATICA08">
       <object-id>452427</object-id>
     </package>
-    <package id="499" parent="1" name="PRATICA08">
+    <package id="501" parent="1" name="PRATICA08">
       <object-id>452429</object-id>
       <created-timestamp>2016-10-11.15:26:52</created-timestamp>
       <modified-timestamp>2016-10-11.17:36:55</modified-timestamp>
     </package>
-    <synonym id="500" parent="1" name="LE13">
+    <synonym id="502" parent="1" name="LE13">
       <object-id>396878</object-id>
       <created-timestamp>2016-08-23.15:57:51</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
       <origin>LE13INTENCAODEVOTO</origin>
     </synonym>
-    <synonym id="501" parent="1" name="LE12">
+    <synonym id="503" parent="1" name="LE12">
       <object-id>396879</object-id>
       <created-timestamp>2016-08-23.15:57:51</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
       <origin>LE12PESQUISA</origin>
     </synonym>
-    <synonym id="502" parent="1" name="LE11">
+    <synonym id="504" parent="1" name="LE11">
       <object-id>396880</object-id>
       <created-timestamp>2016-08-23.15:57:51</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
       <origin>LE11PLEITO</origin>
     </synonym>
-    <synonym id="503" parent="1" name="LE10">
+    <synonym id="505" parent="1" name="LE10">
       <object-id>396881</object-id>
       <created-timestamp>2016-08-23.15:57:51</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
       <origin>LE10CANDIDATURA</origin>
     </synonym>
-    <synonym id="504" parent="1" name="LE09">
+    <synonym id="506" parent="1" name="LE09">
       <object-id>396882</object-id>
       <created-timestamp>2016-08-23.15:57:52</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:52</modified-timestamp>
       <origin>LE09CARGO</origin>
     </synonym>
-    <synonym id="505" parent="1" name="LE08">
+    <synonym id="507" parent="1" name="LE08">
       <object-id>396883</object-id>
       <created-timestamp>2016-08-23.15:57:52</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:52</modified-timestamp>
       <origin>LE08CANDIDATO</origin>
     </synonym>
-    <synonym id="506" parent="1" name="LE07">
+    <synonym id="508" parent="1" name="LE07">
       <object-id>396884</object-id>
       <created-timestamp>2016-08-23.15:57:52</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:52</modified-timestamp>
       <origin>LE07PARTIDO</origin>
     </synonym>
-    <synonym id="507" parent="1" name="LE06">
+    <synonym id="509" parent="1" name="LE06">
       <object-id>396885</object-id>
       <created-timestamp>2016-08-23.15:57:52</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:52</modified-timestamp>
       <origin>LE06SESSAO</origin>
     </synonym>
-    <synonym id="508" parent="1" name="LE05">
+    <synonym id="510" parent="1" name="LE05">
       <object-id>396886</object-id>
       <created-timestamp>2016-08-23.15:57:53</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:53</modified-timestamp>
       <origin>LE05URNA</origin>
     </synonym>
-    <synonym id="509" parent="1" name="LE04">
+    <synonym id="511" parent="1" name="LE04">
       <object-id>396887</object-id>
       <created-timestamp>2016-08-23.15:57:53</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:53</modified-timestamp>
       <origin>LE04BAIRRO</origin>
     </synonym>
-    <synonym id="510" parent="1" name="LE03">
+    <synonym id="512" parent="1" name="LE03">
       <object-id>396888</object-id>
       <created-timestamp>2016-08-23.15:57:53</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:53</modified-timestamp>
       <origin>LE03ZONA</origin>
     </synonym>
-    <synonym id="511" parent="1" name="LE02">
+    <synonym id="513" parent="1" name="LE02">
       <object-id>396889</object-id>
       <created-timestamp>2016-08-23.15:57:54</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:54</modified-timestamp>
       <origin>LE02CIDADE</origin>
     </synonym>
-    <synonym id="512" parent="1" name="LE01">
+    <synonym id="514" parent="1" name="LE01">
       <object-id>396890</object-id>
       <created-timestamp>2016-08-23.15:57:54</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:54</modified-timestamp>
       <origin>LE01ESTADO</origin>
     </synonym>
-    <synonym id="513" parent="1" name="INTENCAODEVOTO">
+    <synonym id="515" parent="1" name="INTENCAODEVOTO">
       <object-id>396891</object-id>
       <created-timestamp>2016-08-23.15:57:55</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:55</modified-timestamp>
       <origin>LE13INTENCAODEVOTO</origin>
     </synonym>
-    <synonym id="514" parent="1" name="PESQUISA">
+    <synonym id="516" parent="1" name="PESQUISA">
       <object-id>396892</object-id>
       <created-timestamp>2016-08-23.15:57:55</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:55</modified-timestamp>
       <origin>LE12PESQUISA</origin>
     </synonym>
-    <synonym id="515" parent="1" name="PLEITO">
+    <synonym id="517" parent="1" name="PLEITO">
       <object-id>398826</object-id>
       <created-timestamp>2016-08-23.15:57:55</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:55</modified-timestamp>
       <origin>LE11PLEITO</origin>
     </synonym>
-    <synonym id="516" parent="1" name="CANDIDATURA">
+    <synonym id="518" parent="1" name="CANDIDATURA">
       <object-id>398827</object-id>
       <created-timestamp>2016-08-23.15:57:56</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:56</modified-timestamp>
       <origin>LE10CANDIDATURA</origin>
     </synonym>
-    <synonym id="517" parent="1" name="CARGO">
+    <synonym id="519" parent="1" name="CARGO">
       <object-id>398828</object-id>
       <created-timestamp>2016-08-23.15:57:56</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:56</modified-timestamp>
       <origin>LE09CARGO</origin>
     </synonym>
-    <synonym id="518" parent="1" name="CANDIDATO">
+    <synonym id="520" parent="1" name="CANDIDATO">
       <object-id>398829</object-id>
       <created-timestamp>2016-08-23.15:57:56</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:56</modified-timestamp>
       <origin>LE08CANDIDATO</origin>
     </synonym>
-    <synonym id="519" parent="1" name="PARTIDO">
+    <synonym id="521" parent="1" name="PARTIDO">
       <object-id>398830</object-id>
       <created-timestamp>2016-08-23.15:57:56</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:56</modified-timestamp>
       <origin>LE07PARTIDO</origin>
     </synonym>
-    <synonym id="520" parent="1" name="SESSAO">
+    <synonym id="522" parent="1" name="SESSAO">
       <object-id>398831</object-id>
       <created-timestamp>2016-08-23.15:57:57</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:57</modified-timestamp>
       <origin>LE06SESSAO</origin>
     </synonym>
-    <synonym id="521" parent="1" name="URNA">
+    <synonym id="523" parent="1" name="URNA">
       <object-id>398832</object-id>
       <created-timestamp>2016-08-23.15:57:57</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:57</modified-timestamp>
       <origin>LE05URNA</origin>
     </synonym>
-    <synonym id="522" parent="1" name="BAIRRO">
+    <synonym id="524" parent="1" name="BAIRRO">
       <object-id>398833</object-id>
       <created-timestamp>2016-08-23.15:57:57</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:57</modified-timestamp>
       <origin>LE04BAIRRO</origin>
     </synonym>
-    <synonym id="523" parent="1" name="ZONA">
+    <synonym id="525" parent="1" name="ZONA">
       <object-id>398834</object-id>
       <created-timestamp>2016-08-23.15:57:57</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:57</modified-timestamp>
       <origin>LE03ZONA</origin>
     </synonym>
-    <synonym id="524" parent="1" name="CIDADE">
+    <synonym id="526" parent="1" name="CIDADE">
       <object-id>398835</object-id>
       <created-timestamp>2016-08-23.15:57:57</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:57</modified-timestamp>
       <origin>LE02CIDADE</origin>
     </synonym>
-    <synonym id="525" parent="1" name="ESTADO">
+    <synonym id="527" parent="1" name="ESTADO">
       <object-id>398836</object-id>
       <created-timestamp>2016-08-23.15:57:58</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:58</modified-timestamp>
       <origin>LE01ESTADO</origin>
     </synonym>
-    <column id="526" parent="464" name="user">
+    <column id="528" parent="466" name="user">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(120)|0</data-type>
     </column>
-    <column id="527" parent="464" name="date">
+    <column id="529" parent="466" name="date">
       <mandatory>1</mandatory>
       <data-type>DATE|0</data-type>
     </column>
-    <column id="528" parent="464" name="operation">
+    <column id="530" parent="466" name="operation">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(30)|0</data-type>
     </column>
-    <column id="529" parent="464" name="ObjType">
+    <column id="531" parent="466" name="ObjType">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(30)|0</data-type>
     </column>
-    <column id="530" parent="464" name="ObjName">
+    <column id="532" parent="466" name="ObjName">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(120)|0</data-type>
     </column>
-    <index id="531" parent="464" name="PKDDLLOG">
+    <index id="533" parent="466" name="PKDDLLOG">
       <object-id>452251</object-id>
       <created-timestamp>2016-10-10.16:04:38</created-timestamp>
       <modified-timestamp>2016-10-10.16:04:38</modified-timestamp>
@@ -1800,7 +1806,7 @@ ObjName</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="532" parent="464" name="PKDDLLOG">
+    <key id="534" parent="466" name="PKDDLLOG">
       <modified-timestamp>2016-10-10.16:04:38</modified-timestamp>
       <columns>user
 date
@@ -1811,15 +1817,15 @@ ObjName</columns>
       <underlying-index>PKDDLLOG</underlying-index>
       <primary>1</primary>
     </key>
-    <column id="533" parent="465" name="SIGLA">
+    <column id="535" parent="467" name="SIGLA">
       <mandatory>1</mandatory>
       <data-type>CHAR(2)|0</data-type>
     </column>
-    <column id="534" parent="465" name="NOME">
+    <column id="536" parent="467" name="NOME">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <index id="535" parent="465" name="PKESTADO">
+    <index id="537" parent="467" name="PKESTADO">
       <object-id>398795</object-id>
       <created-timestamp>2016-08-23.15:57:46</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:46</modified-timestamp>
@@ -1828,7 +1834,7 @@ ObjName</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <index id="536" parent="465" name="UNNOMEESTADO">
+    <index id="538" parent="467" name="UNNOMEESTADO">
       <object-id>398796</object-id>
       <created-timestamp>2016-08-23.15:57:46</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:46</modified-timestamp>
@@ -1837,32 +1843,32 @@ ObjName</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="537" parent="465" name="PKESTADO">
+    <key id="539" parent="467" name="PKESTADO">
       <modified-timestamp>2016-08-23.15:57:46</modified-timestamp>
       <columns>SIGLA</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>PKESTADO</underlying-index>
       <primary>1</primary>
     </key>
-    <key id="538" parent="465" name="UNNOMEESTADO">
+    <key id="540" parent="467" name="UNNOMEESTADO">
       <modified-timestamp>2016-08-23.15:57:46</modified-timestamp>
       <columns>NOME</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>UNNOMEESTADO</underlying-index>
     </key>
-    <column id="539" parent="466" name="NOME">
+    <column id="541" parent="468" name="NOME">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <column id="540" parent="466" name="SIGLAESTADO">
+    <column id="542" parent="468" name="SIGLAESTADO">
       <mandatory>1</mandatory>
       <data-type>CHAR(2)|0</data-type>
     </column>
-    <column id="541" parent="466" name="POPULACAO">
+    <column id="543" parent="468" name="POPULACAO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <index id="542" parent="466" name="PKCIDADE">
+    <index id="544" parent="468" name="PKCIDADE">
       <object-id>398798</object-id>
       <created-timestamp>2016-08-23.15:57:47</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:47</modified-timestamp>
@@ -1872,7 +1878,7 @@ SIGLAESTADO</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="543" parent="466" name="PKCIDADE">
+    <key id="545" parent="468" name="PKCIDADE">
       <modified-timestamp>2016-08-23.15:57:47</modified-timestamp>
       <columns>NOME
 SIGLAESTADO</columns>
@@ -1880,7 +1886,7 @@ SIGLAESTADO</columns>
       <underlying-index>PKCIDADE</underlying-index>
       <primary>1</primary>
     </key>
-    <foreign-key id="544" parent="466" name="FKESTADOCIDADE">
+    <foreign-key id="546" parent="468" name="FKESTADOCIDADE">
       <modified-timestamp>2016-08-23.15:57:47</modified-timestamp>
       <columns>SIGLAESTADO</columns>
       <initially-deferred>1</initially-deferred>
@@ -1888,20 +1894,20 @@ SIGLAESTADO</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>delete</cascade-delete-rule>
     </foreign-key>
-    <check id="545" parent="466" name="CKPOPULACAOCIDADE">
+    <check id="547" parent="468" name="CKPOPULACAOCIDADE">
       <modified-timestamp>2016-08-23.15:57:47</modified-timestamp>
       <columns>POPULACAO</columns>
       <predicate>Populacao &gt;= 0</predicate>
     </check>
-    <column id="546" parent="467" name="NROZONA">
+    <column id="548" parent="469" name="NROZONA">
       <mandatory>1</mandatory>
       <data-type>NUMBER(6)|0</data-type>
     </column>
-    <column id="547" parent="467" name="NRODEURNASRESERVAS">
+    <column id="549" parent="469" name="NRODEURNASRESERVAS">
       <mandatory>1</mandatory>
       <data-type>NUMBER(2)|0</data-type>
     </column>
-    <index id="548" parent="467" name="PKZONA">
+    <index id="550" parent="469" name="PKZONA">
       <object-id>398800</object-id>
       <created-timestamp>2016-08-23.15:57:48</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
@@ -1910,33 +1916,33 @@ SIGLAESTADO</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="549" parent="467" name="PKZONA">
+    <key id="551" parent="469" name="PKZONA">
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
       <columns>NROZONA</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>PKZONA</underlying-index>
       <primary>1</primary>
     </key>
-    <column id="550" parent="468" name="NOME">
+    <column id="552" parent="470" name="NOME">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <column id="551" parent="468" name="NOMECIDADE">
+    <column id="553" parent="470" name="NOMECIDADE">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <column id="552" parent="468" name="SIGLAESTADO">
+    <column id="554" parent="470" name="SIGLAESTADO">
       <mandatory>1</mandatory>
       <data-type>CHAR(2)|0</data-type>
     </column>
-    <column id="553" parent="468" name="CEP">
+    <column id="555" parent="470" name="CEP">
       <data-type>NUMBER(8)|0</data-type>
     </column>
-    <column id="554" parent="468" name="NROZONA">
+    <column id="556" parent="470" name="NROZONA">
       <mandatory>1</mandatory>
       <data-type>NUMBER(6)|0</data-type>
     </column>
-    <index id="555" parent="468" name="PKBAIRRO">
+    <index id="557" parent="470" name="PKBAIRRO">
       <object-id>398802</object-id>
       <created-timestamp>2016-08-23.15:57:48</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
@@ -1947,7 +1953,7 @@ SIGLAESTADO</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <index id="556" parent="468" name="UNCEPBAIRRO">
+    <index id="558" parent="470" name="UNCEPBAIRRO">
       <object-id>398803</object-id>
       <created-timestamp>2016-08-23.15:57:48</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
@@ -1956,7 +1962,7 @@ SIGLAESTADO</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="557" parent="468" name="PKBAIRRO">
+    <key id="559" parent="470" name="PKBAIRRO">
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
       <columns>NOME
 NOMECIDADE
@@ -1965,13 +1971,13 @@ SIGLAESTADO</columns>
       <underlying-index>PKBAIRRO</underlying-index>
       <primary>1</primary>
     </key>
-    <key id="558" parent="468" name="UNCEPBAIRRO">
+    <key id="560" parent="470" name="UNCEPBAIRRO">
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
       <columns>CEP</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>UNCEPBAIRRO</underlying-index>
     </key>
-    <foreign-key id="559" parent="468" name="FKCIDADEBAIRRO">
+    <foreign-key id="561" parent="470" name="FKCIDADEBAIRRO">
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
       <columns>NOMECIDADE
 SIGLAESTADO</columns>
@@ -1980,7 +1986,7 @@ SIGLAESTADO</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>delete</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="560" parent="468" name="FKZONABAIRRO">
+    <foreign-key id="562" parent="470" name="FKZONABAIRRO">
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
       <columns>NROZONA</columns>
       <initially-deferred>1</initially-deferred>
@@ -1988,17 +1994,17 @@ SIGLAESTADO</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <column id="561" parent="469" name="NSERIAL">
+    <column id="563" parent="471" name="NSERIAL">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <column id="562" parent="469" name="ESTADO">
+    <column id="564" parent="471" name="ESTADO">
       <data-type>VARCHAR2(10)|0</data-type>
     </column>
-    <column id="563" parent="469" name="NROZONA">
+    <column id="565" parent="471" name="NROZONA">
       <data-type>NUMBER(6)|0</data-type>
     </column>
-    <index id="564" parent="469" name="PKURNA">
+    <index id="566" parent="471" name="PKURNA">
       <object-id>398805</object-id>
       <created-timestamp>2016-08-23.15:57:48</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
@@ -2007,14 +2013,14 @@ SIGLAESTADO</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="565" parent="469" name="PKURNA">
+    <key id="567" parent="471" name="PKURNA">
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
       <columns>NSERIAL</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>PKURNA</underlying-index>
       <primary>1</primary>
     </key>
-    <foreign-key id="566" parent="469" name="FKZONAURNA">
+    <foreign-key id="568" parent="471" name="FKZONAURNA">
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
       <columns>NROZONA</columns>
       <initially-deferred>1</initially-deferred>
@@ -2022,31 +2028,31 @@ SIGLAESTADO</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <check id="567" parent="469" name="CKESTADO">
+    <check id="569" parent="471" name="CKESTADO">
       <modified-timestamp>2016-08-23.15:57:48</modified-timestamp>
       <columns>ESTADO</columns>
       <predicate>Estado IN (&apos;funcional&apos;,&apos;manutencao&apos;)</predicate>
     </check>
-    <trigger id="568" parent="469" name="T_URNA">
+    <trigger id="570" parent="471" name="T_URNA">
       <object-id>452175</object-id>
       <created-timestamp>2016-10-10.14:18:01</created-timestamp>
       <modified-timestamp>2016-10-10.14:18:01</modified-timestamp>
       <trig-events>IU</trig-events>
       <trig-turn>BEFORE_ROW</trig-turn>
     </trigger>
-    <column id="569" parent="470" name="NROSESSAO">
+    <column id="571" parent="472" name="NROSESSAO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(5)|0</data-type>
     </column>
-    <column id="570" parent="470" name="NROZONA">
+    <column id="572" parent="472" name="NROZONA">
       <mandatory>1</mandatory>
       <data-type>NUMBER(6)|0</data-type>
     </column>
-    <column id="571" parent="470" name="NSERIAL">
+    <column id="573" parent="472" name="NSERIAL">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <index id="572" parent="470" name="PKSESSAO">
+    <index id="574" parent="472" name="PKSESSAO">
       <object-id>398807</object-id>
       <created-timestamp>2016-08-23.15:57:49</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
@@ -2056,7 +2062,7 @@ NROZONA</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="573" parent="470" name="PKSESSAO">
+    <key id="575" parent="472" name="PKSESSAO">
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
       <columns>NROSESSAO
 NROZONA</columns>
@@ -2064,7 +2070,7 @@ NROZONA</columns>
       <underlying-index>PKSESSAO</underlying-index>
       <primary>1</primary>
     </key>
-    <foreign-key id="574" parent="470" name="FKZONASESSAO">
+    <foreign-key id="576" parent="472" name="FKZONASESSAO">
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
       <columns>NROZONA</columns>
       <initially-deferred>1</initially-deferred>
@@ -2072,7 +2078,7 @@ NROZONA</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>delete</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="575" parent="470" name="FKURNASESSAO">
+    <foreign-key id="577" parent="472" name="FKURNASESSAO">
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
       <columns>NSERIAL</columns>
       <initially-deferred>1</initially-deferred>
@@ -2080,22 +2086,22 @@ NROZONA</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <trigger id="576" parent="470" name="T_SESSAO">
+    <trigger id="578" parent="472" name="T_SESSAO">
       <object-id>452176</object-id>
       <created-timestamp>2016-10-10.14:18:42</created-timestamp>
       <modified-timestamp>2016-10-10.14:18:42</modified-timestamp>
       <trig-events>IU</trig-events>
       <trig-turn>BEFORE_ROW</trig-turn>
     </trigger>
-    <column id="577" parent="471" name="SIGLA">
+    <column id="579" parent="473" name="SIGLA">
       <mandatory>1</mandatory>
       <data-type>CHAR(5)|0</data-type>
     </column>
-    <column id="578" parent="471" name="NOME">
+    <column id="580" parent="473" name="NOME">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <index id="579" parent="471" name="PKPARTIDO">
+    <index id="581" parent="473" name="PKPARTIDO">
       <object-id>398809</object-id>
       <created-timestamp>2016-08-23.15:57:49</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
@@ -2104,7 +2110,7 @@ NROZONA</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <index id="580" parent="471" name="UNNOMEPARTIDO">
+    <index id="582" parent="473" name="UNNOMEPARTIDO">
       <object-id>398810</object-id>
       <created-timestamp>2016-08-23.15:57:49</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
@@ -2113,51 +2119,51 @@ NROZONA</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="581" parent="471" name="PKPARTIDO">
+    <key id="583" parent="473" name="PKPARTIDO">
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
       <columns>SIGLA</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>PKPARTIDO</underlying-index>
       <primary>1</primary>
     </key>
-    <key id="582" parent="471" name="UNNOMEPARTIDO">
+    <key id="584" parent="473" name="UNNOMEPARTIDO">
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
       <columns>NOME</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>UNNOMEPARTIDO</underlying-index>
     </key>
-    <trigger id="583" parent="471" name="UPDATE_CASCADE_LE07">
+    <trigger id="585" parent="473" name="UPDATE_CASCADE_LE07">
       <object-id>452178</object-id>
       <created-timestamp>2016-10-10.14:27:48</created-timestamp>
       <modified-timestamp>2016-10-10.14:27:48</modified-timestamp>
       <trig-events>U</trig-events>
       <trig-turn>BEFORE_ROW</trig-turn>
     </trigger>
-    <column id="584" parent="472" name="NROCAND">
+    <column id="586" parent="474" name="NROCAND">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <column id="585" parent="472" name="TIPO">
+    <column id="587" parent="474" name="TIPO">
       <mandatory>1</mandatory>
       <data-type>CHAR(8)|0</data-type>
     </column>
-    <column id="586" parent="472" name="CPF">
+    <column id="588" parent="474" name="CPF">
       <data-type>NUMBER(11)|0</data-type>
     </column>
-    <column id="587" parent="472" name="NOME">
+    <column id="589" parent="474" name="NOME">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <column id="588" parent="472" name="IDADE">
+    <column id="590" parent="474" name="IDADE">
       <data-type>NUMBER(3)|0</data-type>
     </column>
-    <column id="589" parent="472" name="APELIDO">
+    <column id="591" parent="474" name="APELIDO">
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <column id="590" parent="472" name="SIGLAPARTIDO">
+    <column id="592" parent="474" name="SIGLAPARTIDO">
       <data-type>CHAR(5)|0</data-type>
     </column>
-    <index id="591" parent="472" name="PKCANDIDATO">
+    <index id="593" parent="474" name="PKCANDIDATO">
       <object-id>398812</object-id>
       <created-timestamp>2016-08-23.15:57:49</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
@@ -2166,7 +2172,7 @@ NROZONA</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <index id="592" parent="472" name="UNCPF">
+    <index id="594" parent="474" name="UNCPF">
       <object-id>398813</object-id>
       <created-timestamp>2016-08-23.15:57:49</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
@@ -2175,20 +2181,20 @@ NROZONA</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="593" parent="472" name="PKCANDIDATO">
+    <key id="595" parent="474" name="PKCANDIDATO">
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
       <columns>NROCAND</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>PKCANDIDATO</underlying-index>
       <primary>1</primary>
     </key>
-    <key id="594" parent="472" name="UNCPF">
+    <key id="596" parent="474" name="UNCPF">
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
       <columns>CPF</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>UNCPF</underlying-index>
     </key>
-    <foreign-key id="595" parent="472" name="FKPARTIDOCANDIDATO">
+    <foreign-key id="597" parent="474" name="FKPARTIDOCANDIDATO">
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
       <columns>SIGLAPARTIDO</columns>
       <initially-deferred>1</initially-deferred>
@@ -2196,7 +2202,7 @@ NROZONA</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <check id="596" parent="472" name="CKCANDIDATO">
+    <check id="598" parent="474" name="CKCANDIDATO">
       <modified-timestamp>2016-08-23.15:57:49</modified-timestamp>
       <columns>APELIDO
 CPF
@@ -2208,45 +2214,45 @@ TIPO</columns>
      OR
      Tipo = &apos;especial&apos; AND SiglaPartido IS NULL AND CPF IS NULL AND Idade IS NULL AND Apelido IS NULL</predicate>
     </check>
-    <column id="597" parent="473" name="CODCARGO">
+    <column id="599" parent="475" name="CODCARGO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <column id="598" parent="473" name="POSSUIVICE">
+    <column id="600" parent="475" name="POSSUIVICE">
       <mandatory>1</mandatory>
       <data-type>NUMBER(1)|0</data-type>
     </column>
-    <column id="599" parent="473" name="ANOBASE">
+    <column id="601" parent="475" name="ANOBASE">
       <mandatory>1</mandatory>
       <data-type>NUMBER(4)|0</data-type>
     </column>
-    <column id="600" parent="473" name="ANOSMANDATO">
+    <column id="602" parent="475" name="ANOSMANDATO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(1)|0</data-type>
       <default-expression>4</default-expression>
     </column>
-    <column id="601" parent="473" name="NOMEDESCRITIVO">
+    <column id="603" parent="475" name="NOMEDESCRITIVO">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <column id="602" parent="473" name="NRODECADEIRAS">
+    <column id="604" parent="475" name="NRODECADEIRAS">
       <mandatory>1</mandatory>
       <data-type>NUMBER(3)|0</data-type>
     </column>
-    <column id="603" parent="473" name="ESFERA">
+    <column id="605" parent="475" name="ESFERA">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(9)|0</data-type>
     </column>
-    <column id="604" parent="473" name="NOMECIDADE">
+    <column id="606" parent="475" name="NOMECIDADE">
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <column id="605" parent="473" name="SIGLAESTADO">
+    <column id="607" parent="475" name="SIGLAESTADO">
       <data-type>CHAR(2)|0</data-type>
     </column>
-    <column id="606" parent="473" name="SALARIO">
+    <column id="608" parent="475" name="SALARIO">
       <data-type>NUMBER(*)|0</data-type>
     </column>
-    <index id="607" parent="473" name="PKCARGO">
+    <index id="609" parent="475" name="PKCARGO">
       <object-id>398815</object-id>
       <created-timestamp>2016-08-23.15:57:50</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
@@ -2255,7 +2261,7 @@ TIPO</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <index id="608" parent="473" name="UNNOMECARGO">
+    <index id="610" parent="475" name="UNNOMECARGO">
       <object-id>398816</object-id>
       <created-timestamp>2016-08-23.15:57:50</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
@@ -2266,14 +2272,14 @@ SIGLAESTADO</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="609" parent="473" name="PKCARGO">
+    <key id="611" parent="475" name="PKCARGO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>CODCARGO</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>PKCARGO</underlying-index>
       <primary>1</primary>
     </key>
-    <key id="610" parent="473" name="UNNOMECARGO">
+    <key id="612" parent="475" name="UNNOMECARGO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>NOMEDESCRITIVO
 NOMECIDADE
@@ -2281,7 +2287,7 @@ SIGLAESTADO</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>UNNOMECARGO</underlying-index>
     </key>
-    <foreign-key id="611" parent="473" name="FKCIDADECARGO">
+    <foreign-key id="613" parent="475" name="FKCIDADECARGO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>NOMECIDADE
 SIGLAESTADO</columns>
@@ -2290,7 +2296,7 @@ SIGLAESTADO</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="612" parent="473" name="FKESTADOCARGO">
+    <foreign-key id="614" parent="475" name="FKESTADOCARGO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>SIGLAESTADO</columns>
       <initially-deferred>1</initially-deferred>
@@ -2298,27 +2304,27 @@ SIGLAESTADO</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <check id="613" parent="473" name="CKPOSSUIVICE">
+    <check id="615" parent="475" name="CKPOSSUIVICE">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>POSSUIVICE</columns>
       <predicate>PossuiVice IN (0,1)</predicate>
     </check>
-    <check id="614" parent="473" name="CKANOBASECARGO">
+    <check id="616" parent="475" name="CKANOBASECARGO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>ANOBASE</columns>
       <predicate>AnoBase BETWEEN 1985 AND 2100</predicate>
     </check>
-    <check id="615" parent="473" name="CKANOSMANDATOCARGO">
+    <check id="617" parent="475" name="CKANOSMANDATOCARGO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>ANOSMANDATO</columns>
       <predicate>AnosMandato &gt; 0</predicate>
     </check>
-    <check id="616" parent="473" name="CKCADEIRASCARGO">
+    <check id="618" parent="475" name="CKCADEIRASCARGO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>NRODECADEIRAS</columns>
       <predicate>NroDeCadeiras &gt; 0</predicate>
     </check>
-    <check id="617" parent="473" name="CKATRIBUTOSESFERACARGO">
+    <check id="619" parent="475" name="CKATRIBUTOSESFERACARGO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>ESFERA
 NOMECIDADE
@@ -2337,45 +2343,45 @@ SIGLAESTADO</columns>
         AND SiglaEstado IS NOT NULL)
 </predicate>
     </check>
-    <check id="618" parent="473" name="CKESFERACARGO">
+    <check id="620" parent="475" name="CKESFERACARGO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>ESFERA</columns>
       <predicate>Esfera IN (&apos;F&apos;,&apos;E&apos;,&apos;M&apos;)</predicate>
     </check>
-    <trigger id="619" parent="473" name="INSERIR_SALARIO">
+    <trigger id="621" parent="475" name="INSERIR_SALARIO">
       <object-id>452444</object-id>
       <created-timestamp>2016-10-11.16:05:57</created-timestamp>
       <modified-timestamp>2016-10-17.10:48:07</modified-timestamp>
       <trig-events>IU</trig-events>
       <trig-turn>BEFORE_ROW</trig-turn>
     </trigger>
-    <trigger id="620" parent="473" name="CAND_ESPECIAIS">
+    <trigger id="622" parent="475" name="CAND_ESPECIAIS">
       <object-id>452179</object-id>
       <created-timestamp>2016-10-10.14:28:54</created-timestamp>
       <modified-timestamp>2016-10-10.14:34:05</modified-timestamp>
       <trig-events>U</trig-events>
       <trig-turn>BEFORE_ROW</trig-turn>
     </trigger>
-    <column id="621" parent="474" name="REG">
+    <column id="623" parent="476" name="REG">
       <mandatory>1</mandatory>
       <data-type>NUMBER(3)|0</data-type>
     </column>
-    <column id="622" parent="474" name="CODCARGO">
+    <column id="624" parent="476" name="CODCARGO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <column id="623" parent="474" name="ANO">
+    <column id="625" parent="476" name="ANO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(4)|0</data-type>
     </column>
-    <column id="624" parent="474" name="NROCAND">
+    <column id="626" parent="476" name="NROCAND">
       <mandatory>1</mandatory>
       <data-type>NUMBER(11)|0</data-type>
     </column>
-    <column id="625" parent="474" name="NROVICE">
+    <column id="627" parent="476" name="NROVICE">
       <data-type>NUMBER(11)|0</data-type>
     </column>
-    <index id="626" parent="474" name="PKREGCANDIDATURA">
+    <index id="628" parent="476" name="PKREGCANDIDATURA">
       <object-id>398818</object-id>
       <created-timestamp>2016-08-23.15:57:50</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
@@ -2384,7 +2390,7 @@ SIGLAESTADO</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <index id="627" parent="474" name="UNCANDIDAT">
+    <index id="629" parent="476" name="UNCANDIDAT">
       <object-id>398819</object-id>
       <created-timestamp>2016-08-23.15:57:50</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
@@ -2395,14 +2401,14 @@ NROCAND</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="628" parent="474" name="PKREGCANDIDATURA">
+    <key id="630" parent="476" name="PKREGCANDIDATURA">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>REG</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>PKREGCANDIDATURA</underlying-index>
       <primary>1</primary>
     </key>
-    <key id="629" parent="474" name="UNCANDIDAT">
+    <key id="631" parent="476" name="UNCANDIDAT">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>CODCARGO
 ANO
@@ -2410,7 +2416,7 @@ NROCAND</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>UNCANDIDAT</underlying-index>
     </key>
-    <foreign-key id="630" parent="474" name="FKCARGOCANDIDATURA">
+    <foreign-key id="632" parent="476" name="FKCARGOCANDIDATURA">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>CODCARGO</columns>
       <initially-deferred>1</initially-deferred>
@@ -2418,7 +2424,7 @@ NROCAND</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="631" parent="474" name="FKCANDIDATOCANDIDATURA">
+    <foreign-key id="633" parent="476" name="FKCANDIDATOCANDIDATURA">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>NROCAND</columns>
       <initially-deferred>1</initially-deferred>
@@ -2426,7 +2432,7 @@ NROCAND</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="632" parent="474" name="FKVICECANDIDATO">
+    <foreign-key id="634" parent="476" name="FKVICECANDIDATO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>NROVICE</columns>
       <initially-deferred>1</initially-deferred>
@@ -2434,12 +2440,12 @@ NROCAND</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <check id="633" parent="474" name="CKANOCANDIDATURA">
+    <check id="635" parent="476" name="CKANOCANDIDATURA">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>ANO</columns>
       <predicate>Ano BETWEEN 1985 AND 2100</predicate>
     </check>
-    <trigger id="634" parent="474" name="T_VICE">
+    <trigger id="636" parent="476" name="T_VICE">
       <object-id>452177</object-id>
       <created-timestamp>2016-10-10.14:27:08</created-timestamp>
       <modified-timestamp>2016-10-10.14:57:12</modified-timestamp>
@@ -2447,32 +2453,32 @@ NROCAND</columns>
       <trig-turn>BEFORE_ROW</trig-turn>
       <invalid>1</invalid>
     </trigger>
-    <column id="635" parent="475" name="NROSESSAO">
+    <column id="637" parent="477" name="NROSESSAO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(5)|0</data-type>
     </column>
-    <column id="636" parent="475" name="NROZONA">
+    <column id="638" parent="477" name="NROZONA">
       <mandatory>1</mandatory>
       <data-type>NUMBER(6)|0</data-type>
     </column>
-    <column id="637" parent="475" name="CODCARGO">
+    <column id="639" parent="477" name="CODCARGO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <column id="638" parent="475" name="ANO">
+    <column id="640" parent="477" name="ANO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(4)|0</data-type>
     </column>
-    <column id="639" parent="475" name="NROCAND">
+    <column id="641" parent="477" name="NROCAND">
       <mandatory>1</mandatory>
       <data-type>NUMBER(11)|0</data-type>
     </column>
-    <column id="640" parent="475" name="TOTAL">
+    <column id="642" parent="477" name="TOTAL">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
       <default-expression>0</default-expression>
     </column>
-    <index id="641" parent="475" name="PKCOMPUTAVOTOS">
+    <index id="643" parent="477" name="PKCOMPUTAVOTOS">
       <object-id>398821</object-id>
       <created-timestamp>2016-08-23.15:57:50</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
@@ -2485,7 +2491,7 @@ NROCAND</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="642" parent="475" name="PKCOMPUTAVOTOS">
+    <key id="644" parent="477" name="PKCOMPUTAVOTOS">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>NROSESSAO
 NROZONA
@@ -2496,7 +2502,7 @@ NROCAND</columns>
       <underlying-index>PKCOMPUTAVOTOS</underlying-index>
       <primary>1</primary>
     </key>
-    <foreign-key id="643" parent="475" name="FKSESSAOCANDIDATURA">
+    <foreign-key id="645" parent="477" name="FKSESSAOCANDIDATURA">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>NROSESSAO
 NROZONA</columns>
@@ -2505,7 +2511,7 @@ NROZONA</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="644" parent="475" name="FKCANDIDATURASESSAO">
+    <foreign-key id="646" parent="477" name="FKCANDIDATURASESSAO">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>CODCARGO
 ANO
@@ -2515,23 +2521,23 @@ NROCAND</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <column id="645" parent="476" name="REGPESQUISA">
+    <column id="647" parent="478" name="REGPESQUISA">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <column id="646" parent="476" name="PERIODOINICIO">
+    <column id="648" parent="478" name="PERIODOINICIO">
       <mandatory>1</mandatory>
       <data-type>DATE|0</data-type>
     </column>
-    <column id="647" parent="476" name="PERIODOFIM">
+    <column id="649" parent="478" name="PERIODOFIM">
       <mandatory>1</mandatory>
       <data-type>DATE|0</data-type>
     </column>
-    <column id="648" parent="476" name="ORGAOPESQUISA">
+    <column id="650" parent="478" name="ORGAOPESQUISA">
       <data-type>VARCHAR2(100)|0</data-type>
       <default-expression>&apos;IBOPE&apos;</default-expression>
     </column>
-    <index id="649" parent="476" name="PKPESQUISA">
+    <index id="651" parent="478" name="PKPESQUISA">
       <object-id>398823</object-id>
       <created-timestamp>2016-08-23.15:57:50</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
@@ -2540,33 +2546,33 @@ NROCAND</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="650" parent="476" name="PKPESQUISA">
+    <key id="652" parent="478" name="PKPESQUISA">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>REGPESQUISA</columns>
       <initially-deferred>1</initially-deferred>
       <underlying-index>PKPESQUISA</underlying-index>
       <primary>1</primary>
     </key>
-    <check id="651" parent="476" name="CKPERIODOPESQUISA">
+    <check id="653" parent="478" name="CKPERIODOPESQUISA">
       <modified-timestamp>2016-08-23.15:57:50</modified-timestamp>
       <columns>PERIODOFIM
 PERIODOINICIO</columns>
       <predicate>PeriodoFim &gt; PeriodoInicio</predicate>
     </check>
-    <column id="652" parent="477" name="REGPESQUISA">
+    <column id="654" parent="479" name="REGPESQUISA">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <column id="653" parent="477" name="REGCANDID">
+    <column id="655" parent="479" name="REGCANDID">
       <mandatory>1</mandatory>
       <data-type>NUMBER(3)|0</data-type>
     </column>
-    <column id="654" parent="477" name="TOTAL">
+    <column id="656" parent="479" name="TOTAL">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
       <default-expression>0</default-expression>
     </column>
-    <index id="655" parent="477" name="PKCOMPINTENC">
+    <index id="657" parent="479" name="PKCOMPINTENC">
       <object-id>398825</object-id>
       <created-timestamp>2016-08-23.15:57:51</created-timestamp>
       <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
@@ -2576,7 +2582,7 @@ REGCANDID</columns>
       <unique>1</unique>
       <tablespace-name>USERS</tablespace-name>
     </index>
-    <key id="656" parent="477" name="PKCOMPINTENC">
+    <key id="658" parent="479" name="PKCOMPINTENC">
       <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
       <columns>REGPESQUISA
 REGCANDID</columns>
@@ -2584,7 +2590,7 @@ REGCANDID</columns>
       <underlying-index>PKCOMPINTENC</underlying-index>
       <primary>1</primary>
     </key>
-    <foreign-key id="657" parent="477" name="FKPESQUISACANDIDATURA">
+    <foreign-key id="659" parent="479" name="FKPESQUISACANDIDATURA">
       <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
       <columns>REGPESQUISA</columns>
       <initially-deferred>1</initially-deferred>
@@ -2592,7 +2598,7 @@ REGCANDID</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="658" parent="477" name="FKCANDIDATURAPESQUISA">
+    <foreign-key id="660" parent="479" name="FKCANDIDATURAPESQUISA">
       <modified-timestamp>2016-08-23.15:57:51</modified-timestamp>
       <columns>REGCANDID</columns>
       <initially-deferred>1</initially-deferred>
@@ -2600,258 +2606,258 @@ REGCANDID</columns>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <column id="659" parent="478" name="M_ROW$$">
+    <column id="661" parent="480" name="M_ROW$$">
       <data-type>VARCHAR2(255)|0</data-type>
     </column>
-    <column id="660" parent="478" name="SNAPTIME$$">
+    <column id="662" parent="480" name="SNAPTIME$$">
       <data-type>DATE|0</data-type>
     </column>
-    <column id="661" parent="478" name="DMLTYPE$$">
+    <column id="663" parent="480" name="DMLTYPE$$">
       <data-type>VARCHAR2(1)|0</data-type>
     </column>
-    <column id="662" parent="478" name="OLD_NEW$$">
+    <column id="664" parent="480" name="OLD_NEW$$">
       <data-type>VARCHAR2(1)|0</data-type>
     </column>
-    <column id="663" parent="478" name="CHANGE_VECTOR$$">
+    <column id="665" parent="480" name="CHANGE_VECTOR$$">
       <data-type>RAW(255)|0</data-type>
     </column>
-    <column id="664" parent="478" name="XID$$">
+    <column id="666" parent="480" name="XID$$">
       <data-type>NUMBER(*)|0</data-type>
     </column>
-    <column id="665" parent="479" name="M_ROW$$">
+    <column id="667" parent="481" name="M_ROW$$">
       <data-type>VARCHAR2(255)|0</data-type>
     </column>
-    <column id="666" parent="479" name="SNAPTIME$$">
+    <column id="668" parent="481" name="SNAPTIME$$">
       <data-type>DATE|0</data-type>
     </column>
-    <column id="667" parent="479" name="DMLTYPE$$">
+    <column id="669" parent="481" name="DMLTYPE$$">
       <data-type>VARCHAR2(1)|0</data-type>
     </column>
-    <column id="668" parent="479" name="OLD_NEW$$">
+    <column id="670" parent="481" name="OLD_NEW$$">
       <data-type>VARCHAR2(1)|0</data-type>
     </column>
-    <column id="669" parent="479" name="CHANGE_VECTOR$$">
+    <column id="671" parent="481" name="CHANGE_VECTOR$$">
       <data-type>RAW(255)|0</data-type>
     </column>
-    <column id="670" parent="479" name="XID$$">
+    <column id="672" parent="481" name="XID$$">
       <data-type>NUMBER(*)|0</data-type>
     </column>
-    <column id="671" parent="480" name="M_ROW$$">
+    <column id="673" parent="482" name="M_ROW$$">
       <data-type>VARCHAR2(255)|0</data-type>
     </column>
-    <column id="672" parent="480" name="SNAPTIME$$">
+    <column id="674" parent="482" name="SNAPTIME$$">
       <data-type>DATE|0</data-type>
     </column>
-    <column id="673" parent="480" name="DMLTYPE$$">
+    <column id="675" parent="482" name="DMLTYPE$$">
       <data-type>VARCHAR2(1)|0</data-type>
     </column>
-    <column id="674" parent="480" name="OLD_NEW$$">
+    <column id="676" parent="482" name="OLD_NEW$$">
       <data-type>VARCHAR2(1)|0</data-type>
     </column>
-    <column id="675" parent="480" name="CHANGE_VECTOR$$">
+    <column id="677" parent="482" name="CHANGE_VECTOR$$">
       <data-type>RAW(255)|0</data-type>
     </column>
-    <column id="676" parent="480" name="XID$$">
+    <column id="678" parent="482" name="XID$$">
       <data-type>NUMBER(*)|0</data-type>
     </column>
-    <column id="677" parent="481" name="M_ROW$$">
+    <column id="679" parent="483" name="M_ROW$$">
       <data-type>VARCHAR2(255)|0</data-type>
     </column>
-    <column id="678" parent="481" name="SNAPTIME$$">
+    <column id="680" parent="483" name="SNAPTIME$$">
       <data-type>DATE|0</data-type>
     </column>
-    <column id="679" parent="481" name="DMLTYPE$$">
+    <column id="681" parent="483" name="DMLTYPE$$">
       <data-type>VARCHAR2(1)|0</data-type>
     </column>
-    <column id="680" parent="481" name="OLD_NEW$$">
+    <column id="682" parent="483" name="OLD_NEW$$">
       <data-type>VARCHAR2(1)|0</data-type>
     </column>
-    <column id="681" parent="481" name="CHANGE_VECTOR$$">
+    <column id="683" parent="483" name="CHANGE_VECTOR$$">
       <data-type>RAW(255)|0</data-type>
     </column>
-    <column id="682" parent="481" name="XID$$">
+    <column id="684" parent="483" name="XID$$">
       <data-type>NUMBER(*)|0</data-type>
     </column>
-    <column id="683" parent="482" name="M_ROW$$">
+    <column id="685" parent="484" name="M_ROW$$">
       <data-type>VARCHAR2(255)|0</data-type>
     </column>
-    <column id="684" parent="482" name="SNAPTIME$$">
+    <column id="686" parent="484" name="SNAPTIME$$">
       <data-type>DATE|0</data-type>
     </column>
-    <column id="685" parent="482" name="DMLTYPE$$">
+    <column id="687" parent="484" name="DMLTYPE$$">
       <data-type>VARCHAR2(1)|0</data-type>
     </column>
-    <column id="686" parent="482" name="OLD_NEW$$">
+    <column id="688" parent="484" name="OLD_NEW$$">
       <data-type>VARCHAR2(1)|0</data-type>
     </column>
-    <column id="687" parent="482" name="CHANGE_VECTOR$$">
+    <column id="689" parent="484" name="CHANGE_VECTOR$$">
       <data-type>RAW(255)|0</data-type>
     </column>
-    <column id="688" parent="482" name="XID$$">
+    <column id="690" parent="484" name="XID$$">
       <data-type>NUMBER(*)|0</data-type>
     </column>
-    <column id="689" parent="483" name="CODCARGO">
+    <column id="691" parent="485" name="CODCARGO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <column id="690" parent="483" name="ANO">
+    <column id="692" parent="485" name="ANO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(4)|0</data-type>
     </column>
-    <column id="691" parent="483" name="NROCAND">
+    <column id="693" parent="485" name="NROCAND">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <column id="692" parent="483" name="VOTOS">
+    <column id="694" parent="485" name="VOTOS">
       <data-type>NUMBER(*)|0</data-type>
     </column>
-    <column id="693" parent="484" name="NOME">
+    <column id="695" parent="486" name="NOME">
       <mandatory>1</mandatory>
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <column id="694" parent="484" name="CPF">
+    <column id="696" parent="486" name="CPF">
       <data-type>NUMBER(11)|0</data-type>
     </column>
-    <column id="695" parent="484" name="APELIDO">
+    <column id="697" parent="486" name="APELIDO">
       <data-type>VARCHAR2(100)|0</data-type>
     </column>
-    <column id="696" parent="484" name="ANOS">
+    <column id="698" parent="486" name="ANOS">
       <data-type>NUMBER(*)|0</data-type>
     </column>
-    <column id="697" parent="485" name="CODCARGO">
+    <column id="699" parent="487" name="CODCARGO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(9)|0</data-type>
     </column>
-    <column id="698" parent="485" name="ANO">
+    <column id="700" parent="487" name="ANO">
       <mandatory>1</mandatory>
       <data-type>NUMBER(4)|0</data-type>
     </column>
-    <column id="699" parent="485" name="NROCAND">
+    <column id="701" parent="487" name="NROCAND">
       <mandatory>1</mandatory>
       <data-type>NUMBER(11)|0</data-type>
     </column>
-    <column id="700" parent="485" name="TOTAL">
+    <column id="702" parent="487" name="TOTAL">
       <data-type>NUMBER(*)|0</data-type>
     </column>
-    <argument id="701" parent="486">
+    <argument id="703" parent="488">
       <direction>RETURN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="702" parent="486" name="V_CAND_NUM">
+    <argument id="704" parent="488" name="V_CAND_NUM">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="703" parent="487">
+    <argument id="705" parent="489">
       <direction>RETURN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="704" parent="487" name="V_CAND_NUM">
+    <argument id="706" parent="489" name="V_CAND_NUM">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="705" parent="488">
+    <argument id="707" parent="490">
       <direction>RETURN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="706" parent="488" name="V_CAND_NUM">
+    <argument id="708" parent="490" name="V_CAND_NUM">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="707" parent="488" name="V_ANO">
+    <argument id="709" parent="490" name="V_ANO">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="708" parent="488" name="V_CARGO">
+    <argument id="710" parent="490" name="V_CARGO">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="709" parent="489">
+    <argument id="711" parent="491">
       <direction>RETURN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="710" parent="489" name="V_CAND_NUM">
+    <argument id="712" parent="491" name="V_CAND_NUM">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="711" parent="489" name="V_ANO">
+    <argument id="713" parent="491" name="V_ANO">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="712" parent="489" name="V_CARGO">
+    <argument id="714" parent="491" name="V_CARGO">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="713" parent="490">
+    <argument id="715" parent="492">
       <direction>RETURN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="714" parent="490" name="NRO_CAND">
+    <argument id="716" parent="492" name="NRO_CAND">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="715" parent="491" name="PANO">
+    <argument id="717" parent="493" name="PANO">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="716" parent="491" name="PCODC">
+    <argument id="718" parent="493" name="PCODC">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="717" parent="492">
+    <argument id="719" parent="494">
       <direction>RETURN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="718" parent="492" name="V_CAND_NUM">
+    <argument id="720" parent="494" name="V_CAND_NUM">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="719" parent="493">
+    <argument id="721" parent="495">
       <direction>RETURN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="720" parent="493" name="V_CAND_NUM">
+    <argument id="722" parent="495" name="V_CAND_NUM">
       <direction>IN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <body id="721" parent="498" name="PRATICA08">
+    <body id="723" parent="500" name="PRATICA08">
       <object-id>452427</object-id>
       <created-timestamp>2016-10-11.15:24:50</created-timestamp>
       <modified-timestamp>2016-10-17.10:47:56</modified-timestamp>
     </body>
-    <routine id="722" parent="498" name="SALARIO">
+    <routine id="724" parent="500" name="SALARIO">
       <routine-kind>FUNCTION</routine-kind>
     </routine>
-    <routine id="723" parent="498" name="TYPE_OF">
+    <routine id="725" parent="500" name="TYPE_OF">
       <routine-kind>FUNCTION</routine-kind>
     </routine>
-    <routine id="724" parent="498" name="INSERT_INTO">
+    <routine id="726" parent="500" name="INSERT_INTO">
       <routine-kind>PROCEDURE</routine-kind>
     </routine>
-    <argument id="725" parent="722">
+    <argument id="727" parent="724">
       <direction>RETURN</direction>
       <data-type>NUMBER|0</data-type>
     </argument>
-    <argument id="726" parent="722" name="CARGO">
+    <argument id="728" parent="724" name="CARGO">
       <direction>IN</direction>
       <data-type>VARCHAR2|0</data-type>
     </argument>
-    <argument id="727" parent="723">
+    <argument id="729" parent="725">
       <direction>RETURN</direction>
       <data-type>VARCHAR2|0</data-type>
     </argument>
-    <argument id="728" parent="723" name="NOMETABELA">
+    <argument id="730" parent="725" name="NOMETABELA">
       <direction>IN</direction>
       <data-type>VARCHAR2|0</data-type>
     </argument>
-    <argument id="729" parent="723" name="ATRIBUTO">
+    <argument id="731" parent="725" name="ATRIBUTO">
       <direction>IN</direction>
       <data-type>VARCHAR2|0</data-type>
     </argument>
-    <argument id="730" parent="724" name="TABELA">
+    <argument id="732" parent="726" name="TABELA">
       <direction>IN</direction>
       <data-type>VARCHAR2|0</data-type>
     </argument>
-    <argument id="731" parent="724" name="VALUEZ">
+    <argument id="733" parent="726" name="VALUEZ">
       <direction>IN</direction>
       <data-type>VALUES_ARRAY|0</data-type>
     </argument>

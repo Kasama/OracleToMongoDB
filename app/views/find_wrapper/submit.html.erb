@@ -1,4 +1,9 @@
 <pre id="result">
-<%= query %>
+  <p>Query gerada</p>
+db.<%=@table_name%>.find(<%= @query_hash %>);
+  <p>Resultado</p>
+<% @query.each_with_index do |item, i| %>
+resultado #<%=i%>: <%= item.to_s.gsub(/=>/, ' : ') %>
+  <% end %>
 </pre>
 
