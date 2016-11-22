@@ -53,6 +53,12 @@ class DoubleTableController < ApplicationController
         end
       end
     end
+
+    if params[:run]
+      MongoModel.drop table1
+      MongoModel.insert_many table1, tup_arr_t1
+    end
+
     @oracle = {table_name: table1, tuples: tup_arr_t1, back_path: double_table_path}
 
     render 'oracle/mongo_script'

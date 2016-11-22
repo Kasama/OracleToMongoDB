@@ -48,6 +48,11 @@
         <% end %>
     <% end %>
 
+    <%= f.form_group do %>
+      <%= check_box_tag(:run) %>
+      <%= f.label 'Criar coleção no MongoDB' %>
+    <% end %>
+
     <%= f.primary 'Gerar script MongoDB' %>
 
 

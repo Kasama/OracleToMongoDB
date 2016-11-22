@@ -57,7 +57,11 @@ class MongoModel
   def self.insert_many(collection, arr)
     col = self.collection collection
 
-    col.bulk_write arr
+    bulk = col.initialize_unordered_bulk_op
+    arr.each do |ins|
+      bulk.insert ins
+    end
+    bulk.execute
   end
 
   def self.drop(collection)

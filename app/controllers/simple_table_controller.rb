@@ -3,14 +3,20 @@ class SimpleTableController < ApplicationController
   def simple_table
     return redirect_to root_url, alert: 'failed to understand table' unless params[:table]
 
+    execute = params[:run] == '1'
+
     table = params[:table].upcase # normalize table name to upper case
 
     tup_arr = MongoModel.represent_table(table)
 
-    @oracle = {table_name: table, tuples: tup_arr}
+    if execute
+      MongoModel.drop table
+      MongoModel.insert_many table, tup_arr
+    end
+
+    @oracle = { table_name: table, tuples: tup_arr }
 
     render 'oracle/mongo_script'
-
   end
 
   # GET simple_table
