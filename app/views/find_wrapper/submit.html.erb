@@ -1,6 +1,6 @@
 <pre id="result">
   <p>Query gerada</p>
-db.<%=@table_name%>.find(<%= @query_hash %>);
+db.<%=@table_name%>.find(<%= @query_hash.to_json %>);
   <p>Resultado</p>
 <% @query.each_with_index do |item, i| %>
 resultado #<%=i%>: <%= item.to_s.gsub(/=>/, ' : ') %>
