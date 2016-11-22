@@ -17,7 +17,7 @@ class FindWrapperController < ApplicationController
 
 
     # list all operators
-    @operators = %w($eq $gt $gte $lt $lte $ne $in $nin $not $nor $exists $type)
+    @operators = %w($eq $gt $gte $lt $lte $ne $in $nin $not $exists $type)
   end
 
   # post
@@ -56,26 +56,23 @@ class FindWrapperController < ApplicationController
           new_operand = operand.map do |item| item.to_i end
           hash = {attr.to_sym=> {operator.to_sym => new_operand}}
           find_string.append(hash)
-          end
-      else
-          if /CHAR/i =~ type
-            hash = {attr.to_sym=> {operator.to_sym => operand}}
-            find_string.append(hash)
-          elsif type == 'NUMBER'
-            hash = {attr.to_sym=> {operator.to_sym => operand.to_i}}
-            find_string.append(hash)
-          end
+        end
+      elsif /CHAR/i =~ type
+        hash = { attr.to_sym => { operator.to_sym => operand } }
+        find_string.append(hash)
+      elsif type == 'NUMBER'
+        hash = { attr.to_sym => { operator.to_sym => operand.to_i } }
+        find_string.append(hash)
       end
-
-      end
+    end
     puts 'find_string: '
     puts find_string
 
-    if find_string.length == 1
-      @query_hash = find_string[0]
-    else
-      @query_hash = {"$#{mux}": find_string}
-    end
+    @query_hash = if find_string.length == 1
+                    find_string[0]
+                  else
+                    { "$#{mux}" => find_string }
+                  end
 
     puts @query_hash
     collection = MongoModel.collection @table_name
