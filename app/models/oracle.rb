@@ -43,4 +43,13 @@ class Oracle
   def self.get_uniques(table)
     self.get_constraint table, 'U'
   end
+
+  def self.get_types(table, attr)
+    sql = "SELECT DATA_TYPE FROM USER_TAB_COLUMNS WHERE TABLE_NAME = '#{table}' AND COLUMN_NAME = '#{attr}'"
+    type = []
+    Oracle.each_row_sql(sql) do |entry|
+      type.append entry['DATA_TYPE'].upcase
+    end
+    type
+  end
 end

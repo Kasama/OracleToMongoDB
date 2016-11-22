@@ -10,7 +10,7 @@
         url: "<%= oracle_attrs_path %>",
         type: "GET",
         dataType: "json",
-        data: {table: $('#table_selector').find('option:selected').text()},
+        data: {table: $('#table_selector').find('option:selected').text(), no_pk: true},
         complete: function () {
         },
         success: function (data, test_staus, xhr) {
@@ -37,7 +37,7 @@
       $(this).attr('data-counter', parseInt(i, 10) + 1);
       $('#partial_anchor').append(new_partial);
 
-    })
+    });
   })
 </script>
 

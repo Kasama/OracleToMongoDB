@@ -4,6 +4,9 @@ class OracleController < ApplicationController
 
   def get_attrs
     table = params[:table].upcase # normalize table name to upper case
+    pks = []
+    no_pk = false
+    no_pk ||= params[:no_pk]
     sql = "SELECT * FROM #{table}"
     attrs = []
     Oracle.transaction(sql) do |result|
@@ -11,7 +14,11 @@ class OracleController < ApplicationController
         attrs.append info.name
       end
     end
-   render json:{ :response => attrs }
+    if no_pk
+      pks = Oracle.get_pks(table)
+    end
+
+   render json:{ :response => attrs-pks }
   end
 
   def index
